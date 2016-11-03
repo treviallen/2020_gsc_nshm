@@ -42,7 +42,7 @@ except:
 # load param file
 lines = open(paramfile).readlines()
 sheeffolder = lines[0].split('=')[-1].strip()
-dec_flag    = bool(lines[1].split('=')[-1].strip()) # decluster flag
+dec_flag    = lines[1].split('=')[-1].strip() # decluster flag
 shpfile     = lines[2].split('=')[-1].strip()
 outfolder   = lines[3].split('=')[-1].strip()
 outsrcshp      = lines[4].split('=')[-1].strip()
@@ -51,7 +51,7 @@ bin_width   = float(lines[5].split('=')[-1].strip())
 # get export folder
 now = datetime.now()
 shpname = path.split(shpfile)
-if dec_flag == True:
+if dec_flag == 'True':
     outfolder = '_'.join((shpname[-1][0:-4], 'DEC', now.strftime('%Y-%m-%d')))
 else:
     outfolder = '_'.join((shpname[-1][0:-4], now.strftime('%Y-%m-%d')))
@@ -711,7 +711,7 @@ for i in srcidx:
         ###############################################################################
         
         # add plot sup title
-        plt.suptitle(src_name[i] + '(' + src_code[i] + ')', fontsize=20)
+        plt.suptitle(src_name[i] + '(' + src_code[i] + ')', fontsize=18)
         
         pngfile = '.'.join((src_code[i], 'mfd', 'png'))
         pngpath = path.join(srcfolder, pngfile)
@@ -790,7 +790,7 @@ for record, shape in zip(records, shapes):
     i += 1  
     
 # now save area shapefile
-w.save(outsrcshp)
+w.save(path.join(outfolder,outsrcshp))
 
 # write projection file
 prjfile = outshp.strip().split('.shp')[0]+'.prj'
