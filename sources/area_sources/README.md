@@ -1,10 +1,10 @@
 To run for ONE source zone:
 
-> run get_src_mfds.py <param file> <zone code>
+`run get_src_mfds.py <param file> <zone code>`
 
 To run for ALL source zones:
 
-> run get_src_mfds.py <param file>
+`run get_src_mfds.py <param file>`
 
 The parameter file (e.g. h_model.param) is of the following format:
 
