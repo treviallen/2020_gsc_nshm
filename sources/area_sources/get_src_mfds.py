@@ -184,7 +184,7 @@ for i in srcidx:
     elif src_sheef[i] == 'DEEP':
         sheef = deepsheef
     elif src_sheef[i] == 'CRUST':
-        sheef = crustalsheef
+        sheef = crustsheef
     
     # get max decimal year and round up!
     lr = sheef[-1]
@@ -646,10 +646,12 @@ for i in srcidx:
         ndays = timedelta2days_hours_minutes(td)[0]
         
         # get events M >= 3
+        dcut = 1900. # date cutoff for plotting - datetime cannot handle dates earlier than 1900???
         dates_ge_3 = []
         for ev in ev_dict:
-            if ev['prefmag'] >= 3.0:
-                dates_ge_3.append(ev['datetime'])
+            if ev['prefmag'] >= 3.0 and ev['datetime'].year >= dcut:
+                # get decimal years
+                dates_ge_3.append(ev['datetime'].year + float(ev['datetime'].strftime('%j'))/365.) # ignore leap years for now
         
         dates_ge_3 = array(dates_ge_3)        
         
