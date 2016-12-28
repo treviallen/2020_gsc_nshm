@@ -1,7 +1,7 @@
 from numpy import array, arange, argsort, sort, where, delete, hstack, sqrt, \
                   unique, mean, percentile, log10, zeros_like, ceil, floor, \
                   ones_like, isnan
-from os import path, sep, mkdir, getcwd, system
+from os import path, sep, mkdir, getcwd, system, walk, system
 from shapely.geometry import Point, Polygon
 from datetime import datetime
 from sys import argv
@@ -16,6 +16,8 @@ try:
     from mapping_tools import get_field_data, get_field_index, drawoneshapepoly
     from io_catalogues import parse_sheef, write_sheef, sheef2shp
     from misc_tools import listdir_extension
+    from make_2020nshm_oq_inputs import write_oq_sourcefile
+
 except:
     cwd = getcwd().split(sep)
     pythonpath = sep.join(pt[0:-3])+sep+'tools'
@@ -724,6 +726,10 @@ for i in srcidx:
         pngpath = path.join(srcfolder, pngfile)
         plt.savefig(pngpath, format='png', bbox_inches='tight')
         
+        pdffile = '.'.join((src_code[i], 'mfd', 'pdf'))
+        pdfpath = path.join(srcfolder, pdffile)
+        plt.savefig(pdfpath, format='pdf', bbox_inches='tight')
+        
         if single_src == True:
             plt.show()
     
@@ -797,7 +803,8 @@ for record, shape in zip(records, shapes):
     i += 1  
     
 # now save area shapefile
-w.save(path.join(outfolder,outsrcshp))
+newshp = path.join(outfolder,outsrcshp)
+w.save(newshp)
 
 # write projection file
 prjfile = outshp.strip().split('.shp')[0]+'.prj'
@@ -812,3 +819,50 @@ system('rm *failed*')
 #	    
 #    print '\nUsage: python get_src_mfds.py <outshp> <zone code - optional>\n'
 
+###############################################################################
+# merge all pdfs to single file
+###############################################################################
+
+from PyPDF2 import PdfFileMerger, PdfFileReader 
+
+# get input files
+pdffiles = []
+for root, dirnames, filenames in walk(outfolder):
+    #for filename in filter(filenames, '.pdf'):
+    for filename in filenames:
+        if filename.endswith('.pdf'):
+            print filename
+            pdffiles.append(path.join(root, filename))
+
+# now merge files
+merger = PdfFileMerger()                              
+for pdffile in pdffiles:                            
+    merger.append(PdfFileReader(file(pdffile, 'rb')))
+
+merger.write(newshp.strip().split('.shp')[0]+'.pdf')
+
+###############################################################################
+# make source dict for OQ input writer
+###############################################################################
+
+# read new shapefile
+sf = shapefile.Reader(newshp)
+records = sf.records()
+shapes  = sf.shapes()
+
+
+# loop thru recs and make dict
+model = []
+for rec, shape in zip(records, shapes):
+    m = {'src_name':rec[0], 'src_code':rec[1], 'src_reg':rec[2], 'src_reg_wt':rec[3], 'src_type':rec[4], 'src_weight':float(rec[5]), 
+         'src_dep':[float(rec[6]), float(rec[7]), float(rec[8])], 'min_mag':float(rec[9]), 'min_mag_reg':float(rec[10]), 
+         'max_mag':[float(rec[11]), float(rec[12]), float(rec[13])], 'src_N0':[float(rec[14]), float(rec[15]), float(rec[16])], 
+         'src_beta':[float(rec[17]), float(rec[18]), float(rec[19])], 'trt':rec[25], 'src_shape':array(shape.points)}
+    
+    model.append(m)
+
+# assume single source model for now
+multimods = 'False'
+
+# now write OQ file
+write_oq_sourcefile(model, outfolder, outfolder, multimods)
