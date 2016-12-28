@@ -659,17 +659,18 @@ for i in srcidx:
         
         # make cummulative plot
         didx = where(dates_ge_3 > dcut)[0]
-        plt.hist(dates_ge_3[didx], ndays, histtype='step', cumulative=True, color='k', lw=1.5)
-        plt.xlabel('Event Year')
-        plt.ylabel('Count | MW >= 3.0')
+        if ndays > 0:
+            plt.hist(dates_ge_3[didx], ndays, histtype='step', cumulative=True, color='k', lw=1.5)
+            plt.xlabel('Event Year')
+            plt.ylabel('Count | MW >= 3.0')
         
-        # set xlims
-        tlim = [int(round(x)) for x in tlim] # converting to ints
-        dttlim = [datetime.fromordinal(tlim[0]), datetime.fromordinal(tlim[1])] # converting from ordianl back to datetime
-        # now convert to decimal year - very ugly!
-        dttlim = [floor(dttlim[0].year), ceil(dttlim[1].year)]
-        
-        plt.xlim(dttlim)
+            # set xlims
+            tlim = [int(round(x)) for x in tlim] # converting to ints
+            dttlim = [datetime.fromordinal(tlim[0]), datetime.fromordinal(tlim[1])] # converting from ordianl back to datetime
+            # now convert to decimal year - very ugly!
+            dttlim = [floor(dttlim[0].year), ceil(dttlim[1].year)]
+            
+            plt.xlim(dttlim)
         
         ###############################################################################
         # make src folder
