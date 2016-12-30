@@ -524,7 +524,7 @@ for i in srcidx:
               + '\t'.join(('','','N0','Beta','bval','Mx')).expandtabs()
               
         leg = plt.legend([h1[0], h2[0], h3[0], h4[0], h5[0]], [up173_txt, up100_txt, best_txt, lo100_txt, lo173_txt], \
-                   fontsize=9, loc=1, title=title)
+                   fontsize=9, loc=3, title=title)
         plt.setp(leg.get_title(),fontsize=9)
         plt.grid(which='both', axis='both')
         
@@ -721,7 +721,7 @@ for i in srcidx:
         ###############################################################################
         
         # add plot sup title
-        plt.suptitle(src_name[i] + '(' + src_code[i] + ')', fontsize=18)
+        plt.suptitle(src_name[i] + ' (' + src_code[i] + ')', fontsize=18)
         
         pngfile = '.'.join((src_code[i], 'mfd', 'png'))
         pngpath = path.join(srcfolder, pngfile)
