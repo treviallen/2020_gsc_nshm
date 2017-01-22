@@ -398,24 +398,13 @@
                 <upperSeismoDepth>5.0</upperSeismoDepth>
                 <lowerSeismoDepth>15.0</lowerSeismoDepth>
             </areaGeometry>
-            <magScaleRel>WC1994</magScaleRel>
-            <ruptAspectRatio>2.0</ruptAspectRatio>
+            <magScaleRel>PointMSR</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
             <incrementalMFD minMag="4.85" binWidth="0.1">
                 <occurRates>3.77585e-03 3.13794e-03 2.61002e-03 2.17275e-03 1.81028e-03 1.50955e-03 1.25984e-03 1.05231e-03 8.79705e-04 7.36019e-04 6.16308e-04 5.16490e-04 4.33188e-04 3.63614e-04 3.05456e-04 2.56802e-04 2.16066e-04 1.81931e-04 1.53304e-04 1.29278e-04 1.09098e-04 6.44935e-05 7.78617e-06 6.58470e-06 5.57242e-06 4.71891e-06 3.99873e-06</occurRates>
             </incrementalMFD>
             <nodalPlaneDist>
-                <nodalPlane probability="0.125" strike="0.0" dip="90.0" rake="0.0" />
-                <nodalPlane probability="0.125" strike="45.0" dip="90.0" rake="0.0" />
-                <nodalPlane probability="0.125" strike="90.0" dip="90.0" rake="0.0" />
-                <nodalPlane probability="0.125" strike="135.0" dip="90.0" rake="0.0" />
-                <nodalPlane probability="0.0625" strike="0.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="45.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="90.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="135.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="180.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="225.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="270.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="315.0" dip="30.0" rake="90.0" />
+                <nodalPlane probability="1.0" strike="0.0" dip="90.0" rake="0.0" />
             </nodalPlaneDist>
             <hypoDepthDist>
                 <hypoDepth probability="0.50" depth="10.0"/>
@@ -1065,24 +1054,13 @@
                 <upperSeismoDepth>5.0</upperSeismoDepth>
                 <lowerSeismoDepth>20.0</lowerSeismoDepth>
             </areaGeometry>
-            <magScaleRel>WC1994</magScaleRel>
-            <ruptAspectRatio>2.0</ruptAspectRatio>
+            <magScaleRel>PointMSR</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
             <incrementalMFD minMag="4.85" binWidth="0.1">
                 <occurRates>5.34101e-03 4.38959e-03 3.60865e-03 2.96747e-03 2.44090e-03 2.00833e-03 1.65289e-03 1.36074e-03 1.12055e-03 9.23021e-04 7.60530e-04 6.26825e-04 5.16775e-04 4.26170e-04 3.51552e-04 2.90084e-04 2.39434e-04 1.97685e-04 1.63264e-04 1.34876e-04 7.80195e-05 6.44916e-05 7.61786e-06 6.30071e-06 5.07973e-19</occurRates>
             </incrementalMFD>
             <nodalPlaneDist>
-                <nodalPlane probability="0.125" strike="0.0" dip="90.0" rake="0.0" />
-                <nodalPlane probability="0.125" strike="45.0" dip="90.0" rake="0.0" />
-                <nodalPlane probability="0.125" strike="90.0" dip="90.0" rake="0.0" />
-                <nodalPlane probability="0.125" strike="135.0" dip="90.0" rake="0.0" />
-                <nodalPlane probability="0.0625" strike="0.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="45.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="90.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="135.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="180.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="225.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="270.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="315.0" dip="30.0" rake="90.0" />
+                <nodalPlane probability="1.0" strike="0.0" dip="90.0" rake="0.0" />
             </nodalPlaneDist>
             <hypoDepthDist>
                 <hypoDepth probability="0.50" depth="10.0"/>
@@ -1160,24 +1138,13 @@
                 <upperSeismoDepth>5.0</upperSeismoDepth>
                 <lowerSeismoDepth>20.0</lowerSeismoDepth>
             </areaGeometry>
-            <magScaleRel>WC1994</magScaleRel>
+            <magScaleRel>PointMSR</magScaleRel>
             <ruptAspectRatio>2.0</ruptAspectRatio>
             <incrementalMFD minMag="4.85" binWidth="0.1">
                 <occurRates>1.76580e-02 1.45125e-02 1.19306e-02 9.81084e-03 8.06994e-03 6.63983e-03 5.46469e-03 4.49882e-03 3.70471e-03 3.05165e-03 2.51443e-03 2.07238e-03 1.70854e-03 1.40899e-03 1.16229e-03 9.59070e-04 7.91612e-04 6.53584e-04 5.39781e-04 4.45926e-04 2.57948e-04 2.13223e-04 2.51863e-05 2.08315e-05 1.67947e-18</occurRates>
             </incrementalMFD>
             <nodalPlaneDist>
-                <nodalPlane probability="0.125" strike="0.0" dip="90.0" rake="0.0" />
-                <nodalPlane probability="0.125" strike="45.0" dip="90.0" rake="0.0" />
-                <nodalPlane probability="0.125" strike="90.0" dip="90.0" rake="0.0" />
-                <nodalPlane probability="0.125" strike="135.0" dip="90.0" rake="0.0" />
-                <nodalPlane probability="0.0625" strike="0.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="45.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="90.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="135.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="180.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="225.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="270.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="315.0" dip="30.0" rake="90.0" />
+                <nodalPlane probability="1.0" strike="0.0" dip="90.0" rake="0.0" />
             </nodalPlaneDist>
             <hypoDepthDist>
                 <hypoDepth probability="0.50" depth="10.0"/>
@@ -1205,24 +1172,13 @@
                 <upperSeismoDepth>5.0</upperSeismoDepth>
                 <lowerSeismoDepth>20.0</lowerSeismoDepth>
             </areaGeometry>
-            <magScaleRel>WC1994</magScaleRel>
+            <magScaleRel>PointMSR</magScaleRel>
             <ruptAspectRatio>2.0</ruptAspectRatio>
             <incrementalMFD minMag="4.85" binWidth="0.1">
                 <occurRates>1.05442e-03 9.28756e-04 8.19078e-04 7.23232e-04 6.39370e-04 5.65905e-04 5.01467e-04 4.44879e-04 3.95124e-04 3.51323e-04 3.12717e-04 2.78649e-04 2.48551e-04 2.21927e-04 1.98351e-04 1.77448e-04 1.58895e-04 1.42410e-04 1.27746e-04 1.14688e-04 7.21275e-05 6.48575e-05 8.33613e-06 7.50690e-06 6.31066e-19</occurRates>
             </incrementalMFD>
             <nodalPlaneDist>
-                <nodalPlane probability="0.125" strike="0.0" dip="90.0" rake="0.0" />
-                <nodalPlane probability="0.125" strike="45.0" dip="90.0" rake="0.0" />
-                <nodalPlane probability="0.125" strike="90.0" dip="90.0" rake="0.0" />
-                <nodalPlane probability="0.125" strike="135.0" dip="90.0" rake="0.0" />
-                <nodalPlane probability="0.0625" strike="0.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="45.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="90.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="135.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="180.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="225.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="270.0" dip="30.0" rake="90.0" />
-                <nodalPlane probability="0.0625" strike="315.0" dip="30.0" rake="90.0" />
+                <nodalPlane probability="1.0" strike="0.0" dip="90.0" rake="0.0" />
             </nodalPlaneDist>
             <hypoDepthDist>
                 <hypoDepth probability="0.50" depth="10.0"/>
