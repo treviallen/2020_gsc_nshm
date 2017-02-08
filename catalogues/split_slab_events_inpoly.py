@@ -7,7 +7,7 @@ located within the bounds of a given shapefile
 
 Use deep source zones:
     
-python split_slab_events_inpoly.py SHEEF2010Mw2.0.NWrev.MLfix.gmtdat U:\2015_Hazard_Model\Source_Zones\Shapefiles\20130523_WA_H_Model_v4_deep.shp
+run split_slab_events_inpoly.py 2010SHEEF/SHEEF2010Mw2.0.full.gmtdat ../sources/area_sources/2020_H_model_2016-12-30/2020_H_model.shp
 
 @author: tallen
 """
@@ -45,8 +45,8 @@ xcas, ycas, zcas = get_grd_extent(grdfile=casgrd)
 xalu, yalu, zalu = get_grd_extent(grdfile=alugrd)
 
 # set output files
-slabfile = sheeffile.strip('.gmtdat') + '_polyslab.gmtdat'
-crustfile = sheeffile.strip('.gmtdat') + '_polycrust.gmtdat'
+slabfile = sheeffile.strip('full.gmtdat') + '.slab.gmtdat'
+crustfile = sheeffile.strip('full.gmtdat') + '.crust.gmtdat'
 f = open(slabfile, 'wb')
 f.close()
 f = open(crustfile, 'wb')
