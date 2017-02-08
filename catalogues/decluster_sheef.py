@@ -2,8 +2,9 @@ from hmtk.parsers.catalogue.csv_catalogue_parser import CsvCatalogueParser, CsvC
 from hmtk.seismicity.declusterer.dec_gardner_knopoff import GardnerKnopoffType1
 from hmtk.seismicity.declusterer.distance_time_windows import GardnerKnopoffWindow, GruenthalWindow
 from io_catalogues import sheef2hmtk_csv
-from os import path
+from os import path, remove
 from copy import deepcopy
+from numpy import isnan
 
 '''
 got basics from here:
@@ -59,9 +60,59 @@ print 'Gardner-Knopoff\tbefore: ', catalogue.get_number_events(), " after: ", ca
 
 # setup the writer
 declustered_catalog_file = path.join('2010SHEEF','SHEEF2010Mw2_hmtk_declustered.csv')
+
+# if it exists, delete previous file
+remove(declustered_catalog_file)
+
+# set-up writer
 writer = CsvCatalogueWriter(declustered_catalog_file) 
 
 # write
 writer.write_file(catalogue_gk)
 #writer.write_file(catalogue_af)
 print 'Declustered catalogue: ok\n'
+
+#####################################################
+# write hmtk catalogue to SHEEF fmt
+#####################################################
+
+print 'Writing to SHEEF...'
+newsheef = ''
+cat = catalogue_gk.data #just shorten variable name
+for i in range(0, catalogue_gk.get_number_events()):
+    mag = str('%0.1f' % cat['magnitude'][i])
+    
+    lat = '  ' + str('%0.3f' % cat['latitude'][i])
+    
+    lon = str('%0.3f' % cat['longitude'][i])
+    if cat['longitude'][i] > -100.:
+        lon = ' ' + lon
+    
+    dep = str('%0.2f' % cat['depth'][i])
+    if isnan(cat['depth'][i]):
+        dep = '         '
+    elif cat['depth'][i] < 10.:
+        dep = '     ' + dep
+    elif cat['depth'][i] < 100.:
+        dep = '    ' + dep
+    else:
+        dep = '   ' + dep
+    
+    src = '  ' + cat['Agency'][i]
+    if len(src) == 3:
+        src += '  '
+    elif len(src) == 3:
+        src += ' '
+        
+    mtype = cat['magnitudeType'][i]
+    if len(mtype) == 2:
+        mtype += ' '
+        
+    mag2 = str('%0.2f' % cat['magnitude'][i])
+    
+    newsheef += ' '.join(('', str(cat['eventID'][i]), '', mag, '', lon, lat, src, dep, ' ', mtype, '', mag, 'UK    ', mag2)) + '\n'
+    
+newsheeffile = declustered_catalog_file.strip('_hmtk_declustered.csv') + '_declustered.gmtdat'
+f = open(newsheeffile, 'wb')
+f.write(newsheef)
+f.close()
