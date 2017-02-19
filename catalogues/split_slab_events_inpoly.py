@@ -150,7 +150,6 @@ for line in data:
                 fc = open(crustfile, 'a')
                 fc.write(line)
                 '''
-                
     else:
         try:
             fc.write(line)
