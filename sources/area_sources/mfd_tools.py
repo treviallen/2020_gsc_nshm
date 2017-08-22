@@ -16,10 +16,61 @@ import shapefile
 from os import path
 
 ###############################################################################
+# function to parse original HMTK catalogue with added fields
+###############################################################################
+
+def parse_orig_hmtk_cat(hmtk_csv):
+    
+    print 'parsing HMTK catalogue...'
+
+    # parse HMTK csv using modified version of HMTK parser
+    parser = CsvCatalogueParser(hmtk_csv)
+    hmtkcat = parser.read_file()
+    
+    # get number of earthquakes
+    neq = len(hmtkcat.data['magnitude'])
+    
+    # reformat HMTK dict to one expected for code below
+    cat = []
+    for i in range(0, neq):
+        # first make datestr
+        try:
+            if not isnan(hmtkcat.data['second'][i]):
+                datestr = str(hmtkcat.data['eventID'][i]) \
+                          + str('%2.2f' % hmtkcat.data['second'][i])
+            else:
+                datestr = str(hmtkcat.data['eventID'][i]) + '00.00'
+                
+            evdt = datetime.strptime(datestr, '%Y%m%d%H%M%S.%f')
+        
+        # if ID not date form, do it the hard way!
+        except:
+            if hmtkcat.data['day'][i] == 0:
+                hmtkcat.data['day'][i] = 1
+            
+            if hmtkcat.data['month'][i] == 0:
+                hmtkcat.data['month'][i] = 1
+                
+            datestr = ''.join((str(hmtkcat.data['year'][i]), str('%02d' % hmtkcat.data['month'][i]), 
+                               str('%02d' % hmtkcat.data['day'][i]), str('%02d' % hmtkcat.data['hour'][i]),
+                               str('%02d' % hmtkcat.data['minute'][i])))
+            evdt = datetime.strptime(datestr, '%Y%m%d%H%M')
+            
+        tdict = {'datetime':evdt, 'prefmag':hmtkcat.data['magnitude'][i], \
+                 'lon':hmtkcat.data['longitude'][i], 'lat':hmtkcat.data['latitude'][i], \
+                 'dep':hmtkcat.data['depth'][i], 'year':hmtkcat.data['year'][i], \
+                 'month':hmtkcat.data['month'][i], 'fixdep':0, 'prefmagtype':'MW', \
+                 'auth':hmtkcat.data['Agency'][i]}
+                 	
+        cat.append(tdict)
+    
+    return cat, neq
+
+###############################################################################
 # function to parse modified HMTK catalogue with added fields
 ###############################################################################
 
-def parse_hmtk_cat(hmtk_csv):
+def parse_mod_hmtk_cat(hmtk_csv):
     
     print 'parsing HMTK catalogue...'
 
@@ -89,7 +140,10 @@ def get_events_in_poly(cat, poly, depmin, depmax):
         pt = Point(ev['lon'], ev['lat'])
         if pt.within(poly) and ev['dep'] >= depmin and ev['dep'] <= depmax:
             mvect.append(ev['prefmag'])
-            mxvect.append(ev['mx_origML']) # original catalogue mag for Mc model
+            try:
+                mxvect.append(ev['mx_origML']) # original catalogue mag for Mc model
+            except:
+                mxvect.append(ev['prefmag']) # if no orig mag, use pref mag
             tvect.append(ev['datetime'])
             dec_tvect.append(toYearFraction(ev['datetime']))
             ev_dict.append(ev)
@@ -299,7 +353,7 @@ def get_mfds(mvect, mxvect, tvect, dec_tvect, ev_dict, mcomps, ycomps, ymax, mrn
         fn0 = 10**(log10(bc_lo100[0]) + beta2bval(beta)*bc_mrng[0])
 
     # do Aki ML first if N events less than 50
-    elif len(mvect) >= 50 and len(mvect) < 80:
+    elif len(mvect) > 0 and len(mvect) < 80:
             
         # do Aki max likelihood
         bval, sigb = aki_maximum_likelihood(mrng[midx]+bin_width/2, n_obs[midx], 0.) # assume completeness taken care of

@@ -10,9 +10,9 @@ import shapefile
 import matplotlib.pyplot as plt
 from matplotlib import colors, colorbar
 from mpl_toolkits.basemap import Basemap
-from hmtk.parsers.catalogue.csv_catalogue_parser import CsvCatalogueParser
+#from hmtk.parsers.catalogue.csv_catalogue_parser import CsvCatalogueParser
 from tools.nsha_tools import toYearFraction, get_shapely_centroid
-from mfd_tools import * # get_mfds, get_annualised_rates, fit_a_value, parse_hmtk_cat
+from mfd_tools import * # get_mfds, get_annualised_rates, fit_a_value, parse_orig_hmtk_cat
 
 # import non-standard functions
 try:
@@ -57,7 +57,7 @@ except:
 # load param file
 lines = open(paramfile).readlines()
 rootfolder  = lines[0].split('=')[-1].strip()
-hmtk_csv    = lines[1].split('=')[-1].strip()
+hmtk_path   = lines[1].split('=')[-1].strip()
 dec_flag    = lines[2].split('=')[-1].strip() # decluster flag
 shpfile     = lines[3].split('=')[-1].strip()
 outfolder   = path.join(rootfolder, lines[4].split('=')[-1].strip())
@@ -95,24 +95,24 @@ for poly in shapes:
 # get input arrays from shapefile
 src_code = get_field_data(sf, 'CODE', 'str')
 src_name = get_field_data(sf, 'SRC_NAME', 'str')
-src_class = get_field_data(sf, 'CLASS', 'str')
+src_class = get_field_data(sf, 'CODE', 'str') # tempory measure - no zones merged
 src_mmin = get_field_data(sf, 'MIN_MAG', 'float')
 src_mmin_reg = get_field_data(sf, 'MIN_RMAG', 'float')
 src_mmax = get_field_data(sf, 'MMAX_BEST', 'float')
 src_mmax_u = get_field_data(sf, 'MMAX_UPPER', 'float')
 src_mmax_l = get_field_data(sf, 'MMAX_LOWER', 'float')
-src_bval = get_field_data(sf, 'BVAL_BEST', 'float')
-src_bval_u = get_field_data(sf, 'BVAL_UPPER', 'float')
-src_bval_l = get_field_data(sf, 'BVAL_LOWER', 'float')
+src_bval = beta2bval(get_field_data(sf, 'BETA_BEST', 'float'))
+src_bval_u = beta2bval(get_field_data(sf, 'BETA_UPPER', 'float'))
+src_bval_l = beta2bval(get_field_data(sf, 'BETA_LOWER', 'float'))
 src_n0 = get_field_data(sf, 'N0_BEST', 'float')
 src_n0_u = get_field_data(sf, 'N0_UPPER', 'float')
 src_n0_l = get_field_data(sf, 'N0_LOWER', 'float')
-src_bval_fix = get_field_data(sf, 'BVAL_FIX', 'float')
-src_bval_fix_sd = get_field_data(sf, 'BVAL_FIX_S', 'float') # too many chars - does not recognise "D"
+src_bval_fix = beta2bval(get_field_data(sf, 'BETA_FIX', 'float'))
+src_bval_fix_sd = beta2bval(get_field_data(sf, 'BETA_FIX_S', 'float')) # too many chars - does not recognise "D"
 src_mcomp = get_field_data(sf, 'MCOMP', 'str')
 src_ycomp = get_field_data(sf, 'YCOMP', 'str')
 src_ymax = get_field_data(sf, 'YMAX', 'float')
-src_cat = get_field_data(sf, 'CAT_FILE', 'str')
+src_cat = get_field_data(sf, 'SHEEF_FILE', 'str')
 sortind = argsort(src_code)
 
 # initiate new arrays for writing new shpfile
@@ -124,8 +124,8 @@ new_n0_l = src_n0_l
 new_n0_u = src_n0_u
 
 # reset Mmin to 4.8
-print '!!!Setting Mmin = 4.5!!!'
-src_mmin = 4.5 * ones_like(src_mmin)
+#print '!!!Setting Mmin = 4.5!!!'
+#src_mmin = 4.5 * ones_like(src_mmin)
 #src_mmin_reg = 4. * ones_like(src_mmin_reg)
 
 # set all plausible depths
@@ -149,31 +149,42 @@ else:
     srcidx = range(len(src_code))
 
 ###############################################################################
-# parse catalogue
+# parse 3 catalogues catalogue
 ###############################################################################
 '''Used to parse GGCat csv - now parse HMTK csv'''
 
-ggcat, neq = parse_hmtk_cat(hmtk_csv)
+# check if using declustered catalogues
+if dec_flag == 'True':
+    # parse full catalogue
+    hmtk_csv = path.join(hmtk_path, 'SHEEF2010_full_hmtk_declustered.csv')
+    full_cat, full_neq = parse_orig_hmtk_cat(hmtk_csv)
+    
+    # parse crust catalogue
+    hmtk_csv = path.join(hmtk_path, 'SHEEF2010_crust_hmtk_declustered.csv')
+    crust_cat, crust_neq = parse_orig_hmtk_cat(hmtk_csv)
+    
+    # parse slab catalogue
+    hmtk_csv = path.join(hmtk_path, 'SHEEF2010_slab_hmtk_declustered.csv')
+    slab_cat, slab_neq = parse_orig_hmtk_cat(hmtk_csv)
+    
+# else get non-declusterd catalogue
+else:
+    # parse full catalogue
+    hmtk_csv = path.join(hmtk_path, 'SHEEF2010_full_hmtk.csv')
+    full_cat, full_neq = parse_orig_hmtk_cat(hmtk_csv)
+    
+    # parse crust catalogue
+    hmtk_csv = path.join(hmtk_path, 'SHEEF2010_crust_hmtk.csv')
+    crust_cat, crust_neq = parse_orig_hmtk_cat(hmtk_csv)
+    
+    # parse slab catalogue
+    hmtk_csv = path.join(hmtk_path, 'SHEEF2010_slab_hmtk.csv')
+    slab_cat, slab_neq = parse_orig_hmtk_cat(hmtk_csv)
     
 # get max decimal year and round up!
-lastRec = ggcat[-1]
+lastRec = full_cat[-1]
 year_max = lastRec['year'] + lastRec['month']/12.
 
-# apply Hadi's ML-MW conversion to mcomps
-def convert_mcomps(mcomps):
-    '''
-    a1 = 0.66199378
-    a2 = 1.2156352
-    a3 = 1.2156352
-    mx = 4.5
-    my = a1 * mx + a2
-    
-    idx = where(mcomps <= mx)[0]
-    mcomps[idx] = a1 * mcomps[idx] + a2
-    idx = where(mcomps > mx)[0]
-    mcomps[idx] = a3 * (mcomps[idx] - mx) + my
-    '''
-    return mcomps
 
 ###############################################################################
 # get unique zone classes and loop through to merge zones of similar class 
@@ -245,9 +256,17 @@ for uclass in unique_classes:
             ev_dict: event dictionary
             '''
             
+            # get appropriate catalogue
+            if src_cat[i] == 'FULL':
+                cat = full_cat
+            elif src_cat[i] == 'CRUST':
+                cat = crust_cat
+            elif src_cat[i] == 'DEEP':
+                cat = slab_cat
+                
             # get earthquakes within source zones
             mvect, mxvect, tvect, dec_tvect, ev_dict \
-                   = get_events_in_poly(ggcat, poly, depmin, depmax)
+                   = get_events_in_poly(cat, poly, depmin, depmax)
             
             # stack records into total arrays
             total_mvect = hstack((total_mvect, mvect))
@@ -306,73 +325,95 @@ for uclass in unique_classes:
     ###############################################################################
     # get b-values from joined zones
     ###############################################################################
-    
-    # keep original vectors for plotting
-    class_orig_mvect = total_mvect
-    class_orig_mxvect = total_mxvect
-    class_orig_tvect = total_tvect
-    class_orig_dec_tvect = dec_tvect
-    
-    # get bval for combined zones data - uses new MW estimates ("total_mvect") to do cleaning
-    bval, beta, sigb, sigbeta, fn0, cum_rates, ev_out, err_up, err_lo = \
-          get_mfds(total_mvect, total_mxvect, total_tvect, total_dec_tvect, total_ev_dict, \
-                   mcomps, ycomps, year_max, mrng, class_mmax, class_mmin_reg, \
-                   fixed_bval, fixed_bval_sig, bin_width, poly)
-    
-    # get a-value using fixed region class b-value if assigned - need to do this to fit the class rates!
-    if not fixed_bval == -99.0:
+    if len(total_mvect) > 0:
+        # keep original vectors for plotting
+        class_orig_mvect = total_mvect
+        class_orig_mxvect = total_mxvect
+        class_orig_tvect = total_tvect
+        class_orig_dec_tvect = dec_tvect
         
-        # remove incomplete events based on original preferred magnitudes (mxvect)
-        total_mvect, total_mxvect, total_tvect, total_dec_tvect, total_ev_dict, out_idx, ev_out = \
-             remove_incomplete_events(total_mvect, total_mxvect, total_tvect, total_dec_tvect, total_ev_dict, mcomps, ycomps, bin_width)        
+        # get bval for combined zones data - uses new MW estimates ("total_mvect") to do cleaning
+        bval, beta, sigb, sigbeta, fn0, cum_rates, ev_out, err_up, err_lo = \
+              get_mfds(total_mvect, total_mxvect, total_tvect, total_dec_tvect, total_ev_dict, \
+                       mcomps, ycomps, year_max, mrng, class_mmax, class_mmin_reg, \
+                       fixed_bval, fixed_bval_sig, bin_width, poly)
         
-        # get annualised rates based on preferred MW (mvect)
-        cum_rates, cum_num, bin_rates, n_obs, n_yrs = \
-            get_annualised_rates(mcomps, ycomps, total_mvect, mrng, bin_width, year_max)
+        # get a-value using fixed region class b-value if assigned - need to do this to fit the class rates!
+        if not fixed_bval == -99.0:
             
-        # get index of min reg mag and valid mag bins
-        diff_cum = abs(hstack((diff(cum_rates), 0.)))
-        midx = where((mrng >= class_mmin_reg-bin_width/2) & (diff_cum > 0.))[0]
+            # remove incomplete events based on original preferred magnitudes (mxvect)
+            total_mvect, total_mxvect, total_tvect, total_dec_tvect, total_ev_dict, out_idx, ev_out = \
+                 remove_incomplete_events(total_mvect, total_mxvect, total_tvect, total_dec_tvect, total_ev_dict, mcomps, ycomps, bin_width)        
+            
+            # get annualised rates based on preferred MW (mvect)
+            cum_rates, cum_num, bin_rates, n_obs, n_yrs = \
+                get_annualised_rates(mcomps, ycomps, total_mvect, mrng, bin_width, year_max)
+                
+            # get index of min reg mag and valid mag bins
+            diff_cum = abs(hstack((diff(cum_rates), 0.)))
+            midx = where((mrng >= class_mmin_reg-bin_width/2) & (diff_cum > 0.))[0]
+        
+            # check if length of midx = 0 and get highest non-zero mag
+            if len(midx) == 0:
+                midx = [where(isfinite(diff_cum))[0][-1]]
+            
+            # make sure there is at least 4 observations for a-value calculations
+            if len(midx) < 5:
+                idxstart = midx[0] - 1
+                
+                while idxstart >= 0 and len(midx) < 5:
+                    # if num observations greater than zero, add to midx
+                    if n_obs[idxstart] > 0:
+                        midx = hstack((idxstart, midx))
+                        print '    get lower mag M', midx
+                        
+                    idxstart -= 1
+            
+            # reset fn0 based on fixed b-value        
+            fn0 = fit_a_value(fixed_bval, mrng, cum_rates, class_mmax, bin_width, midx)
+            
+        # add to class arrays - used for plotting later
+        class_bval.append(bval)
+        class_bval_sig.append(sigb)
+        class_cum_rates.append(cum_rates)
+        class_mrng.append(mrng)
+        class_err_up.append(err_up)
+        class_err_lo.append(err_lo)
+        class_idxs.append(class_idx)
+        class_codes.append(class_code)
+        class_mvect.append(total_mvect)
+        class_fn0.append(fn0)
+        class_area.append(cum_area)
+        
+        # get event coords for plotting
+        for e in total_ev_dict:
+            lavect.append(e['lat'])
+            lovect.append(e['lon'])
+        
+        class_lavect.append(lavect)
+        class_lovect.append(lovect)
+        
+    else:
+        class_bval.append(nan)          
+        class_bval_sig.append(nan)      
+        class_cum_rates.append(nan)
+        class_mrng.append(nan)          
+        class_err_up.append(nan)      
+        class_err_lo.append(nan)      
+        class_idxs.append(class_idx)     
+        class_codes.append(class_code)   
+        class_mvect.append(total_mvect)  
+        class_fn0.append(nan)            
+        class_area.append(nan)      
+                                         
+        # get event coords for plotting  
+        for e in total_ev_dict:          
+            lavect.append(e['lat'])      
+            lovect.append(e['lon'])      
+                                         
+        class_lavect.append(lavect)      
+        class_lovect.append(lovect)      
 
-        # check if length of midx = 0 and get highest non-zero mag
-        if len(midx) == 0:
-            midx = [where(isfinite(diff_cum))[0][-1]]
-        
-        # make sure there is at least 4 observations for a-value calculations
-        if len(midx) < 5:
-            idxstart = midx[0] - 1
-            
-            while idxstart >= 0 and len(midx) < 5:
-                # if num observations greater than zero, add to midx
-                if n_obs[idxstart] > 0:
-                    midx = hstack((idxstart, midx))
-                    print '    get lower mag M', midx
-                    
-                idxstart -= 1
-        
-        # reset fn0 based on fixed b-value        
-        fn0 = fit_a_value(fixed_bval, mrng, cum_rates, class_mmax, bin_width, midx)
-        
-    # add to class arrays - used for plotting later
-    class_bval.append(bval)
-    class_bval_sig.append(sigb)
-    class_cum_rates.append(cum_rates)
-    class_mrng.append(mrng)
-    class_err_up.append(err_up)
-    class_err_lo.append(err_lo)
-    class_idxs.append(class_idx)
-    class_codes.append(class_code)
-    class_mvect.append(total_mvect)
-    class_fn0.append(fn0)
-    class_area.append(cum_area)
-    
-    # get event coords for plotting
-    for e in total_ev_dict:
-        lavect.append(e['lat'])
-        lovect.append(e['lon'])
-    
-    class_lavect.append(lavect)
-    class_lovect.append(lovect)
     
 ###############################################################################
 # loops through individual sources using class b-value
@@ -426,9 +467,18 @@ for i in srcidx:
     # get area (in km**2) of sources for normalisation
     src_area.append(get_WGS84_area(poly))
     
+    # get appropriate catalogue
+    if src_cat[i] == 'FULL':
+        cat = full_cat
+    elif src_cat[i] == 'CRUST':
+        cat = crust_cat
+    elif src_cat[i] == 'DEEP':
+        cat = slab_cat
+        
+    
     # now get events within zone of interest
     mvect, mxvect, tvect, dec_tvect, ev_dict \
-        = get_events_in_poly(ggcat, polygons[i], depmin, depmax)
+        = get_events_in_poly(cat, polygons[i], depmin, depmax)
         
     # skip zone if no events pass completeness
     if len(mvect) != 0:
@@ -730,7 +780,41 @@ for i in srcidx:
         # get map bounds- for single zone
         bnds = poly.bounds
         '''
+        res = 'i'
         
+        # get map bounds
+        bnds = poly.bounds
+        mbuff = 0.2 * (bnds[2] - bnds[0])
+        llcrnrlat = bnds[1] - mbuff/2.
+        urcrnrlat = bnds[3] + mbuff/2.
+        llcrnrlon = bnds[0] - mbuff
+        urcrnrlon = bnds[2] + mbuff
+        lon_0 = mean([llcrnrlon, urcrnrlon])
+        lat_1 = percentile([llcrnrlat, urcrnrlat], 25)
+        lat_2 = percentile([llcrnrlat, urcrnrlat], 75)
+        
+        if urcrnrlat > 90.0:
+            urcrnrlat = 90.0
+        
+        # get parallel/meridian spacing
+        if bnds[2] - bnds[0] < 0.5:
+            ll_space = 0.25
+        elif bnds[2] - bnds[0] < 1.0:
+            ll_space = 0.5
+        elif bnds[2] - bnds[0] < 4.0:
+            ll_space = 1.0
+        elif bnds[2] - bnds[0] < 10.0:
+            ll_space = 4.0
+        else:
+            ll_space = 6.0
+        
+        # set map projection
+        m = Basemap(llcrnrlon=llcrnrlon,llcrnrlat=llcrnrlat, \
+                    urcrnrlon=urcrnrlon,urcrnrlat=urcrnrlat,
+                    projection='lcc',lat_1=lat_1,lat_2=lat_2,lon_0=lon_0,
+                    resolution=res,area_thresh=1000.)
+        
+        """            
         # set national-scale basemap
         llcrnrlat = -44
         urcrnrlat = -6
@@ -764,6 +848,7 @@ for i in srcidx:
                     urcrnrlon=urcrnrlon,urcrnrlat=urcrnrlat,
                     projection='lcc',lat_1=lat_1,lat_2=lat_2,lon_0=lon_0,
                     resolution=res,area_thresh=10000.)
+        """
         
         # annotate
         m.drawcoastlines(linewidth=0.5,color='k')
@@ -921,7 +1006,7 @@ for i in srcidx:
         f.close()
                                  
         ###############################################################################
-        # export ggcat for source zone
+        # export cat for source zone
         ###############################################################################
         catfile = path.join(srcfolder, '_'.join((src_code[i], 'passed.dat')))
         ggcat2ascii(ev_dict, catfile)

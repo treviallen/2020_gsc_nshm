@@ -1,0 +1,7 @@
+ROOT FOLDER      = 2020_H_model//declustered
+CATALOGUE FOLDER = ..//../catalogues//2010SHEEF
+DECLUSTERED      = True
+SHAPEFILE INPUT  = shapefiles//2020_H_model_noBMC.shp
+OUTPUT FOLDER    = mfd
+SHAPEFILE OUTPUT = AUS6_NSHA18_MFD.shp
+MFD BIN WIDTH    = 0.1
