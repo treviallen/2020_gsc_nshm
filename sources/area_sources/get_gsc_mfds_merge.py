@@ -869,7 +869,7 @@ for i in srcidx:
         
         # map all earthquakes
         #x, y = m(eqlo, eqla)
-        #size = 2.5 * eqmw
+        #size = 1.75 * eqmw
         #m.scatter(x, y, marker='o', s=size, edgecolors='0.3', mfc='none', lw=0.5)
         
         '''
@@ -1101,17 +1101,25 @@ w.field('MMAX_UPPER','F', 8, 2)
 w.field('N0_BEST','F', 8, 5)
 w.field('N0_LOWER','F', 8, 5)
 w.field('N0_UPPER','F', 8, 5)
-w.field('BVAL_BEST','F', 8, 3)
-w.field('BVAL_LOWER','F', 8, 3)
-w.field('BVAL_UPPER','F', 8, 3)
-w.field('BVAL_FIX','F', 8, 3)
-w.field('BVAL_FIX_S','F', 8, 3)
+w.field('BETA_BEST','F', 8, 3)
+w.field('BETA_LOWER','F', 8, 3)
+w.field('BETA_UPPER','F', 8, 3)
+w.field('BETA_FIX','F', 8, 3)
+w.field('BETA_FIX_S','F', 8, 3)
 w.field('YCOMP','C','70')
 w.field('MCOMP','C','30')
 w.field('YMAX','F', 8, 0)
-w.field('TRT','C','100')
-w.field('DOMAIN','F', 2, 0)
-w.field('CAT_FILE','C','50')
+#w.field('TRT','C','100')
+#w.field('DOMAIN','F', 2, 0)
+w.field('SHEEF_FILE','C','50')
+
+print '\n!!! ADD TRT AND DOMAIN BACK IN !!!\n'
+
+# convert b-values to betas
+new_bval_b = bval2beta(new_bval_b)
+new_bval_l = bval2beta(new_bval_l)
+new_bval_u = bval2beta(new_bval_u)
+
 
 # make array of output field 
 fields = [x[0] for x in w.fields]
@@ -1141,14 +1149,14 @@ for record, shape in zip(records, shapes):
         w.record(newrec[0], newrec[1], newrec[2], newrec[3], newrec[4], newrec[5], newrec[6], \
                  newrec[7], newrec[8], newrec[9], newrec[10], newrec[11], \
                  new_n0_b[i], new_n0_l[i], new_n0_u[i], new_bval_b[i], new_bval_l[i], new_bval_u[i], \
-                 newrec[18], newrec[19], newrec[20], newrec[21], newrec[22], newrec[23], newrec[24], newrec[25])
+                 newrec[18], newrec[19], newrec[20], newrec[21], newrec[22], newrec[23]) #, newrec[24], newrec[25])
     
     # don't edit values
     else:
         w.record(newrec[0], newrec[1], newrec[2], newrec[3], newrec[4], newrec[5], newrec[6], \
                  newrec[7], newrec[8], newrec[9], newrec[10], newrec[11], \
                  newrec[12], newrec[13], newrec[14], newrec[15], newrec[16], newrec[17], \
-                 newrec[18], newrec[19], newrec[20], newrec[21], newrec[22], newrec[23], newrec[24], newrec[25])
+                 newrec[18], newrec[19], newrec[20], newrec[21], newrec[22], newrec[23]) # , newrec[24], newrec[25])
 
     i += 1  
     
@@ -1171,39 +1179,47 @@ plt.clf()
 fig = plt.figure(221, figsize=(13, 9))
 
 # set national-scale basemap
-llcrnrlat = -45
-urcrnrlat = -5
-llcrnrlon = 105
-urcrnrlon = 155
-lon_0 = mean([llcrnrlon, urcrnrlon])
-lat_1 = percentile([llcrnrlat, urcrnrlat], 25)
-lat_2 = percentile([llcrnrlat, urcrnrlat], 75)
+llcrnrlat = 35
+urcrnrlat = 83.5
+llcrnrlon = -160
+urcrnrlon = -51
+lon_0 = -91.87 #mean([llcrnrlon, urcrnrlon])
+lat_1 = 49 #percentile([llcrnrlat, urcrnrlat], 25)
+lat_2 = 77 #percentile([llcrnrlat, urcrnrlat], 75)     
+lat_0 = mean([lat_1, lat_2])
 
+'''
 m2 = Basemap(llcrnrlon=llcrnrlon,llcrnrlat=llcrnrlat, \
-            urcrnrlon=urcrnrlon,urcrnrlat=urcrnrlat,
-            projection='lcc',lat_1=lat_1,lat_2=lat_2,lon_0=lon_0,
+            urcrnrlon=urcrnrlon,urcrnrlat=urcrnrlat, \
+            projection='lcc',lat_1=lat_1,lat_2=lat_2,lon_0=lon_0,lat_0=lat_0 \
+            resolution='l',area_thresh=1000.)
+'''            
+m2 = Basemap(width=6500000,height=5000000,
+            rsphere=(6378137.00,6356752.3142),\
+            projection='lcc',\
+            lat_1=lat_1,lat_2=lat_2,lon_0=lon_0,lat_0=lat_0, \
             resolution='l',area_thresh=1000.)
 
 # annotate
-m2.drawcoastlines(linewidth=0.5,color='0.25')
-m2.drawcountries()
-m2.drawstates()
+m2.drawcoastlines(linewidth=0.3,color='0.5')
+m2.drawcountries(linewidth=0.3,color='0.5')
+m2.drawstates(linewidth=0.3,color='0.7')
 #m2.fillcontinents(color='0.8', lake_color='1.0')
     
 # draw parallels and meridians.
-ll_space = 6
+ll_space =  10
 m2.drawparallels(arange(-90.,90.,ll_space/2.0), labels=[1,0,0,0],fontsize=10, dashes=[2, 2], color='0.5', linewidth=0.5)
 m2.drawmeridians(arange(0.,360.,ll_space), labels=[0,0,0,1], fontsize=10, dashes=[2, 2], color='0.5', linewidth=0.5)
 
 # get colour index
 ncolours=12
-b_min = 0.7
-b_max = 1.3
+b_min = 0.6
+b_max = 1.2
 
 cindex = []
 
 # loop thru b values
-for b in new_bval_b:
+for b in beta2bval(new_bval_b):
     idx = interp(b, [b_min, b_max], [0, ncolours-1])
     cindex.append(int(round(idx)))
     
@@ -1249,15 +1265,18 @@ plt.clf()
 fig = plt.figure(222, figsize=(13, 9))
 
 # set national-scale basemap
-m2 = Basemap(llcrnrlon=llcrnrlon,llcrnrlat=llcrnrlat, \
-            urcrnrlon=urcrnrlon,urcrnrlat=urcrnrlat,
-            projection='lcc',lat_1=lat_1,lat_2=lat_2,lon_0=lon_0,
+#m2 = Basemap(llcrnrlon=llcrnrlon,llcrnrlat=llcrnrlat, \
+#            urcrnrlon=urcrnrlon,urcrnrlat=urcrnrlat,
+m2 = Basemap(width=6500000,height=5000000,
+            rsphere=(6378137.00,6356752.3142),\
+            projection='lcc',\
+            lat_1=lat_1,lat_2=lat_2,lon_0=lon_0,lat_0=lat_0, \
             resolution='l',area_thresh=1000.)
 
 # annotate
-m2.drawcoastlines(linewidth=0.5,color='0.25')
-m2.drawcountries()
-m2.drawstates()
+m2.drawcoastlines(linewidth=0.3,color='0.5')
+m2.drawcountries(linewidth=0.3,color='0.5')
+m2.drawstates(linewidth=0.3,color='0.7')
     
 # draw parallels and meridians.
 m2.drawparallels(arange(-90.,90.,ll_space/2.0), labels=[1,0,0,0],fontsize=10, dashes=[2, 2], color='0.5', linewidth=0.5)
@@ -1327,19 +1346,20 @@ plt.clf()
 fig = plt.figure(333, figsize=(13, 9))
 
 # set national-scale basemap
-m2 = Basemap(llcrnrlon=llcrnrlon,llcrnrlat=llcrnrlat, \
-            urcrnrlon=urcrnrlon,urcrnrlat=urcrnrlat,
-            projection='lcc',lat_1=lat_1,lat_2=lat_2,lon_0=lon_0,
+m2 = Basemap(width=6500000,height=5000000,
+            rsphere=(6378137.00,6356752.3142),\
+            projection='lcc',\
+            lat_1=lat_1,lat_2=lat_2,lon_0=lon_0,lat_0=lat_0, \
             resolution='l',area_thresh=1000.)
 
 # annotate
-m2.drawcoastlines(linewidth=0.5,color='0.25')
-m2.drawcountries()
-m2.drawstates()
+m2.drawcoastlines(linewidth=0.3,color='0.5')
+m2.drawcountries(linewidth=0.3,color='0.5')
+m2.drawstates(linewidth=0.3,color='0.7')
     
 # draw parallels and meridians.
-m2.drawparallels(arange(-90.,90.,ll_space/2.0), labels=[1,0,0,0],fontsize=10, dashes=[2, 2], color='0.5', linewidth=0.5)
-m2.drawmeridians(arange(0.,360.,ll_space), labels=[0,0,0,1], fontsize=10, dashes=[2, 2], color='0.5', linewidth=0.5)
+m2.drawparallels(arange(-90.,90.,ll_space/2.0), labels=[1,0,0,0],fontsize=10, dashes=[2, 2], color='0.7', linewidth=0.5)
+m2.drawmeridians(arange(0.,360.,ll_space), labels=[0,0,0,1], fontsize=10, dashes=[2, 2], color='0.7', linewidth=0.5)
 
 # get M6 rates
 new_beta = bval2beta(array(new_bval_b))
@@ -1405,7 +1425,7 @@ from PyPDF2 import PdfFileMerger, PdfFileReader
 pdffiles = []
 
 # make out file name
-pdfbase = path.split(newshp)[-1].strip('shp')+'MERGE.pdf'
+pdfbase = path.split(newshp)[-1].strip('shp')+'.MERGE.pdf'
 combined_pdf = path.join(rootfolder, pdfbase)
 
 for root, dirnames, filenames in walk(rootfolder):
@@ -1414,12 +1434,9 @@ for root, dirnames, filenames in walk(rootfolder):
         if filename.endswith('.pdf'):
             if filename.startswith(outsrcshp.split('.shp')[0]) == False:
                 # ignore results from single src file                
-                if not filename.endswith('_NSHA18_MFD.pdf'):
-                    if not filename.endswith('_NSHA18_MFD.MERGE.pdf'):
-                        if not filename.endswith('_NSHA18_MFD_M4.MERGE.pdf'):
-                            if not filename.endswith('_NSHA18_MFD_M4_GK.MERGE.pdf'):
-                                print 'Adding', filename
-                                pdffiles.append(path.join(root, filename))
+                if not filename.endswith('.MERGE.pdf'):
+                    print 'Adding', filename
+                    pdffiles.append(path.join(root, filename))
 
 # now merge files
 merger = PdfFileMerger()                              
