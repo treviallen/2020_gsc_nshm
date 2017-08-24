@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nrml xmlns:gml="http://www.opengis.net/gml"
+      xmlns="http://openquake.org/xmlns/nrml/0.4">
+    <sourceModel name="Austrlian Area Sources">
+        <areaSource id="1" name="Continent" tectonicRegion="Stable Continental Crust">
+            <areaGeometry>
+                <gml:Polygon>
+                    <gml:exterior>
+                        <gml:LinearRing>
+                            <gml:posList>
+                                -141.06425	90.00000
+                                -140.99443	75.51248
+                                -140.99361	75.34177
+                                -140.99361	75.34177
+                                -140.99361	75.34177
+                                -145.16587	75.17148
+                                -145.25102	59.67451
+                                -132.13820	46.64685
+                                -88.11661	46.73200
+                                -85.73246	44.68844
+                                -85.73246	39.83500
+                                -79.94239	39.57955
+                                -72.87509	42.90033
+                                -68.95828	42.64489
+                                -68.36224	41.96370
+                                -68.36224	39.83500
+                                -49.88509	39.66470
+                                -44.77620	44.77359
+                                -44.60591	49.96763
+                                -48.60787	60.01511
+                                -53.37617	64.86855
+                                -54.22765	66.06063
+                                -57.37813	69.72200
+                                -60.35832	72.27644
+                                -63.25335	74.14970
+                                -66.14839	75.59722
+                                -69.46917	76.87444
+                                -67.25532	78.06651
+                                -62.99791	79.76948
+                                -60.01772	80.45066
+                                -54.90883	81.81303
+                                -54.90883	84.87837
+                                -59.93097	84.86207
+                                -59.95621	89.91840
+                                -141.06425	90.00000                        
+                            </gml:posList>
+                        </gml:LinearRing>
+                    </gml:exterior>
+                </gml:Polygon>
+
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>30.0</lowerSeismoDepth>
+            </areaGeometry>
+
+            <magScaleRel>WC1994</magScaleRel>
+
+            <ruptAspectRatio>1.</ruptAspectRatio>
+
+            <truncGutenbergRichterMFD aValue="" bValue="" minMag="" maxMag="" />
+
+            <nodalPlaneDist>
+                <nodalPlane probability="0.5" strike="0" dip="30.0" rake="90.0" />
+                <nodalPlane probability="0.5" strike="180" dip="30.0" rake="90.0" />
+            </nodalPlaneDist>
+
+            <hypoDepthDist>
+                <hypoDepth probability="0.7" depth="5.0" />
+                <hypoDepth probability="0.3" depth="15.0" />
+            </hypoDepthDist>
+        </areaSource>
+    </sourceModel>
+</nrml>

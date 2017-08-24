@@ -881,7 +881,7 @@ for i in srcidx:
         '''
         # map all earthquakes in class    
         for la, lo, mag in zip(class_lavect[class_idx], class_lovect[class_idx], class_mvect[class_idx]):
-            if mag >= 3.0:
+            if mag >= 2.0:
                 ms = 1.75 * mag
                 x, y = m(lo, la)
                 m.plot(x, y, 'o', mec='k', mfc='none', mew=0.5, ms=ms)
@@ -1198,7 +1198,7 @@ m2 = Basemap(width=6500000,height=5000000,
             rsphere=(6378137.00,6356752.3142),\
             projection='lcc',\
             lat_1=lat_1,lat_2=lat_2,lon_0=lon_0,lat_0=lat_0, \
-            resolution='l',area_thresh=1000.)
+            resolution='l',area_thresh=5000.)
 
 # annotate
 m2.drawcoastlines(linewidth=0.3,color='0.5')
@@ -1212,16 +1212,19 @@ m2.drawparallels(arange(-90.,90.,ll_space/2.0), labels=[1,0,0,0],fontsize=10, da
 m2.drawmeridians(arange(0.,360.,ll_space), labels=[0,0,0,1], fontsize=10, dashes=[2, 2], color='0.5', linewidth=0.5)
 
 # get colour index
-ncolours=12
+ncolours=14
 b_min = 0.6
-b_max = 1.2
+b_max = 1.3
 
 cindex = []
 
 # loop thru b values
 for b in beta2bval(new_bval_b):
-    idx = interp(b, [b_min, b_max], [0, ncolours-1])
-    cindex.append(int(round(idx)))
+    if isnan(b):
+        cindex.append(b)
+    else:
+        idx = interp(b, [b_min, b_max], [0, ncolours-1])
+        cindex.append(int(round(idx)))
     
 # get cmap
 cmap = plt.get_cmap('YlOrRd', ncolours)
@@ -1271,7 +1274,7 @@ m2 = Basemap(width=6500000,height=5000000,
             rsphere=(6378137.00,6356752.3142),\
             projection='lcc',\
             lat_1=lat_1,lat_2=lat_2,lon_0=lon_0,lat_0=lat_0, \
-            resolution='l',area_thresh=1000.)
+            resolution='l',area_thresh=5000.)
 
 # annotate
 m2.drawcoastlines(linewidth=0.3,color='0.5')
@@ -1283,7 +1286,7 @@ m2.drawparallels(arange(-90.,90.,ll_space/2.0), labels=[1,0,0,0],fontsize=10, da
 m2.drawmeridians(arange(0.,360.,ll_space), labels=[0,0,0,1], fontsize=10, dashes=[2, 2], color='0.5', linewidth=0.5)
 
 # get M5 rates
-new_beta = bval2beta(array(new_bval_b))
+new_beta = array(new_bval_b) # this is already beta
 src_mmax = array(src_mmax)
 
 m5_rates = array(new_n0_b) * exp(-new_beta  * 5.0) * (1 - exp(-new_beta * (src_mmax - 5.0))) \
@@ -1305,8 +1308,11 @@ r_rng = arange(r_min, r_max+0.1, 0.5)
 cindex = []
 # loop thru rates and get c-index
 for r in lognorm_m5_rates:
-    idx = interp(r, [r_min, r_max], [0, ncolours-1])
-    cindex.append(int(round(idx)))
+    if isnan(r):
+        cindex.append(r)
+    else:
+        idx = interp(r, [r_min, r_max], [0, ncolours-1])
+        cindex.append(int(round(idx)))
     
 # get cmap
 cmap = plt.get_cmap('rainbow', ncolours)
@@ -1350,7 +1356,7 @@ m2 = Basemap(width=6500000,height=5000000,
             rsphere=(6378137.00,6356752.3142),\
             projection='lcc',\
             lat_1=lat_1,lat_2=lat_2,lon_0=lon_0,lat_0=lat_0, \
-            resolution='l',area_thresh=1000.)
+            resolution='l',area_thresh=5000.)
 
 # annotate
 m2.drawcoastlines(linewidth=0.3,color='0.5')
@@ -1358,11 +1364,11 @@ m2.drawcountries(linewidth=0.3,color='0.5')
 m2.drawstates(linewidth=0.3,color='0.7')
     
 # draw parallels and meridians.
-m2.drawparallels(arange(-90.,90.,ll_space/2.0), labels=[1,0,0,0],fontsize=10, dashes=[2, 2], color='0.7', linewidth=0.5)
-m2.drawmeridians(arange(0.,360.,ll_space), labels=[0,0,0,1], fontsize=10, dashes=[2, 2], color='0.7', linewidth=0.5)
+m2.drawparallels(arange(-90.,90.,ll_space/2.0), labels=[1,0,0,0],fontsize=10, dashes=[2, 2], color='0.5', linewidth=0.5)
+m2.drawmeridians(arange(0.,360.,ll_space), labels=[0,0,0,1], fontsize=10, dashes=[2, 2], color='0.5', linewidth=0.5)
 
 # get M6 rates
-new_beta = bval2beta(array(new_bval_b))
+new_beta = array(new_bval_b) # already beta
 src_mmax = array(src_mmax)
 
 m6_rates = array(new_n0_b) * exp(-new_beta  * 6.0) * (1 - exp(-new_beta * (src_mmax - 6.0))) \
@@ -1383,8 +1389,11 @@ r_rng = arange(r_min, r_max+0.1, 0.5)
 cindex = []
 # loop thru rates and get c-index
 for r in lognorm_m6_rates:
-    idx = interp(r, [r_min, r_max], [0, ncolours-1])
-    cindex.append(int(round(idx)))
+    if isnan(r):
+        cindex.append(r)
+    else:
+        idx = interp(r, [r_min, r_max], [0, ncolours-1])
+        cindex.append(int(round(idx)))
     
 # get cmap
 cmap = plt.get_cmap('rainbow', ncolours)

@@ -1,6 +1,0 @@
-SHEEF FOLDER     = ..//..//catalogues/2010SHEEF//
-DECLUSTERED      = False
-SHAPEFILE INPUT  = ..//shapefiles//2020_H_model.shp
-OUTPUT FOLDER    = TEST
-SHAPEFILE OUTPUT = 2020_H_model.shp
-MFD BIN WIDTH    = 0.1
