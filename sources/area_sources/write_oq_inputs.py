@@ -36,7 +36,8 @@ model = src_shape2dict(shpfile)
 splitpath = shpfile.split(sep)[:-2]
 
 # set beta wts - keep these consistent accross models and zones
-beta_wts   = [0.5, 0.2, 0.3] # best, lower (hi b), upper (lo b)
+beta_wts = [0.68, 0.16, 0.16] # best, lower (hi b), upper (lo b)
+mx_wts = [0.6, 0.1, 0.3] # best, upper, lower
 
 # set Mmax array and weights
 #print '\n!!!! temporary override to compare rate collapse method !!!!\n'
@@ -52,6 +53,7 @@ if path.isdir(modPath) == False:
         
 srcxmls = []
 
+"""
 ##############################################################################
 # build Mmax weights dictionary
 ##############################################################################
@@ -84,11 +86,12 @@ mxw = array(mxw)
 unq_trt = unique(trt)
 
 # now make list of dicts
-mx_dict = {}
+mx_wts = {}
 for ut in unq_trt:
     idx = where(trt == ut)[0]
     td = {'mx_vals':mxv[idx], 'mx_wts':mxw[idx]}    
-    mx_dict[ut] = td
+    mx_wts[ut] = td
+"""
 
 ##############################################################################
 # use best beta & Mmax
@@ -118,7 +121,7 @@ if outputType == '0':
         mkdir(meta['modelPath'])
     
     # now write source files
-    outxml = write_oq_sourcefile(model, meta, mx_dict)
+    outxml = write_oq_sourcefile(model, meta, mx_wts)
     srcxmls.append(outxml)
     
     # get branch weight
@@ -150,7 +153,7 @@ elif outputType == '1':
         mkdir(meta['modelPath'])
     
     # now write source files
-    outxml = write_oq_sourcefile(model, meta, mx_dict)
+    outxml = write_oq_sourcefile(model, meta, mx_wts)
     srcxmls.append(outxml)
     
     # get branch weight
@@ -179,7 +182,7 @@ elif outputType == '2':
         tmp_bwts[i] = 1.0
         
         # loop thru mmax - other end will get appropriate TRT
-        for j in range(0, len(mx_dict['Archean']['mx_vals'])):
+        for j in range(0, len(mx_wts['Archean']['mx_vals'])):
                     
             # get output filename
             xmlfile = '.'.join((path.split(shpfile)[-1].strip('.shp')[:-11],
@@ -195,7 +198,7 @@ elif outputType == '2':
                 mkdir(meta['modelPath'])
             
             # now write source files
-            outxml = write_oq_sourcefile(model, meta, mx_dict)
+            outxml = write_oq_sourcefile(model, meta, mx_wts)
             srcxmls.append(outxml)
             
             # get branch weight
@@ -226,7 +229,7 @@ elif outputType == '3':
         mkdir(meta['modelPath'])
     
     # now write source files
-    outxml = write_oq_sourcefile(model, meta, mx_dict)
+    outxml = write_oq_sourcefile(model, meta, mx_wts)
     srcxmls.append(outxml)
     
     # get branch weight
@@ -260,7 +263,7 @@ elif outputType == '4':
         mkdir(meta['modelPath'])
     
     # now write source files
-    outxml = write_oq_sourcefile(model, meta, mx_dict)
+    outxml = write_oq_sourcefile(model, meta, mx_wts)
     srcxmls.append(outxml)
     
     # get branch weight
@@ -276,5 +279,5 @@ make_logic_tree(srcxmls, branch_wts, meta)
 # plot curves for testing
 ##############################################################################
 
-#test_beta_curves(model[0], 0.1, meta, mx_dict)
+#test_beta_curves(model[0], 0.1, meta, mx_wts)
 

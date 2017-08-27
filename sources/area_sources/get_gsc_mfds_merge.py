@@ -154,6 +154,7 @@ else:
 '''Used to parse GGCat csv - now parse HMTK csv'''
 
 # check if using declustered catalogues
+print 'Declustering:', dec_flag, '\n'
 if dec_flag == 'True':
     # parse full catalogue
     hmtk_csv = path.join(hmtk_path, 'SHEEF2010_full_hmtk_declustered.csv')
@@ -1183,6 +1184,7 @@ llcrnrlat = 35
 urcrnrlat = 83.5
 llcrnrlon = -160
 urcrnrlon = -51
+
 lon_0 = -91.87 #mean([llcrnrlon, urcrnrlon])
 lat_1 = 49 #percentile([llcrnrlat, urcrnrlat], 25)
 lat_2 = 77 #percentile([llcrnrlat, urcrnrlat], 75)     
@@ -1212,9 +1214,9 @@ m2.drawparallels(arange(-90.,90.,ll_space/2.0), labels=[1,0,0,0],fontsize=10, da
 m2.drawmeridians(arange(0.,360.,ll_space), labels=[0,0,0,1], fontsize=10, dashes=[2, 2], color='0.5', linewidth=0.5)
 
 # get colour index
-ncolours=14
+ncolours=16
 b_min = 0.6
-b_max = 1.3
+b_max = 1.4
 
 cindex = []
 
@@ -1286,7 +1288,7 @@ m2.drawparallels(arange(-90.,90.,ll_space/2.0), labels=[1,0,0,0],fontsize=10, da
 m2.drawmeridians(arange(0.,360.,ll_space), labels=[0,0,0,1], fontsize=10, dashes=[2, 2], color='0.5', linewidth=0.5)
 
 # get M5 rates
-new_beta = array(new_bval_b) # this is already beta
+new_beta = array(new_bval_b) # new_bval_b is already beta!
 src_mmax = array(src_mmax)
 
 m5_rates = array(new_n0_b) * exp(-new_beta  * 5.0) * (1 - exp(-new_beta * (src_mmax - 5.0))) \
@@ -1300,9 +1302,9 @@ lognorm_m5_rates = log10(100**2 * m5_rates / src_area)
 #norm_m5_rates = m5_rates
     
 # get colour index
-ncolours=20
+ncolours=24
 r_min = -4.0
-r_max = -1.5
+r_max = -1.
 r_rng = arange(r_min, r_max+0.1, 0.5)
 
 cindex = []
@@ -1381,9 +1383,9 @@ src_area= array(src_area)
 lognorm_m6_rates = log10(100**2 * m6_rates / src_area)
     
 # get colour index
-ncolours=20
+ncolours=24
 r_min = -5.0
-r_max = -2.5
+r_max = -2.
 r_rng = arange(r_min, r_max+0.1, 0.5)
 
 cindex = []
@@ -1434,7 +1436,11 @@ from PyPDF2 import PdfFileMerger, PdfFileReader
 pdffiles = []
 
 # make out file name
-pdfbase = path.split(newshp)[-1].strip('shp')+'.MERGE.pdf'
+if dec_flag == 'True':
+    pdfbase = path.split(newshp)[-1].strip('shp')+'decl.MERGE.pdf'
+else:
+    pdfbase = path.split(newshp)[-1].strip('shp')+'full.MERGE.pdf'
+
 combined_pdf = path.join(rootfolder, pdfbase)
 
 for root, dirnames, filenames in walk(rootfolder):

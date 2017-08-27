@@ -118,41 +118,36 @@ catalogue_clean.get_decimal_time()
 catalogue_clean.data['longitude']
 
 
-# In[28]:
-
 catalogue_depth_clean = deepcopy(catalogue_clean)
 index = catalogue_depth_clean.data['depth']>=0.
 catalogue_depth_clean.purge_catalogue(index)
 
 
-# In[29]:
-
 catalogue_clean.get_number_events()
 
-
-# In[30]:
 
 #source_model_file = "../zones/2012_mw_ge_4.0/NSHA13_Background/input/best/NSHA13_BACKGROUND_best.xml"
 source_model_file = 'can_cont_testzone.xml'
 parser = nrmlSourceModelParser(source_model_file)
 
 # Parse the seismic sources and save them into a variable called "source_model"
-source_model = parser.read_file("Aus Source Model 1") # You need to supply a name for the source model
+source_model = parser.read_file("Canada Basic") # You need to supply a name for the source model
 
 
-# In[31]:
-
-#plot_magnitude_time_scatter(catalogue_clean, plot_error=False)
+plot_magnitude_time_scatter(catalogue_clean, plot_error=False)
 
 
 # In[32]:
 
 # Map configuration
-llon, ulon, llat, ulat = catalogue_clean.get_bounding_box()
-#map_config = {'min_lon': np.floor(llon), 'max_lon': np.ceil(ulon),
- #             'min_lat': np.floor(llat), 'max_lat': np.ceil(ulat), 'resolution':'c'}
-map_config = {'min_lon': np.floor(105), 'max_lon': np.ceil(155),
-              'min_lat': np.floor(-45), 'max_lat': np.ceil(-9), 'resolution':'c'}
+llcrnrlat = 35
+urcrnrlat = 83.5
+llcrnrlon = -160
+urcrnrlon = -51
+
+map_config = {'min_lon': np.floor(llcrnrlon), 'max_lon': np.ceil(urcrnrlon),
+              'min_lat': np.floor(llcrnrlat), 'max_lat': np.ceil(urcrnrlat), 'resolution':'c'}
+
 # Creating a basemap - input a cconfiguration and (if desired) a title
 #basemap1 = HMTKBaseMap(map_config, 'Earthquake Catalogue')
 
@@ -170,18 +165,11 @@ for source in source_model.sources:
     # Add on the catalogue
     #src_basemap.add_catalogue(source.catalogue, overlay=False)
 
-
-    
-
-
-# In[34]:
-
 # Map configuration
 llon, ulon, llat, ulat = catalogue_clean.get_bounding_box()
-#map_config = {'min_lon': np.floor(llon), 'max_lon': np.ceil(ulon),
-#              'min_lat': np.floor(llat), 'max_lat': np.ceil(ulat), 'resolution':'c'}
-map_config = {'min_lon': np.floor(100), 'max_lon': np.ceil(160),
-              'min_lat': np.floor(-45), 'max_lat': np.ceil(-4), 'resolution':'c'}
+map_config = {'min_lon': np.floor(llcrnrlon), 'max_lon': np.ceil(urcrnrlon),
+              'min_lat': np.floor(llcrnrlat), 'max_lat': np.ceil(urcrnrlat), 'resolution':'c'}
+
 # Creating a basemap - input a cconfiguration and (if desired) a title
 #basemap1 = HMTKBaseMap(map_config, 'Earthquake Catalogue')
 
@@ -193,33 +181,21 @@ map_config = {'min_lon': np.floor(100), 'max_lon': np.ceil(160),
 #basemap1.add_catalogue(catalogue_depth_clean, overlay=False)
 
 
-# In[35]:
-
 magnitude_bin_width = 0.1  # In magnitude units
 time_bin_width = 1.0 # In years
 #plot_magnitude_time_density(source.catalogue, magnitude_bin_width, time_bin_width)
 
 
-# In[36]:
-
 # Shows depth histogram every 5 km  
 #plot_depth_histogram(source.catalogue, 5., normalisation=True)
 
 
-# In[37]:
-
 completeness_table_a = np.array([[1990., 3.0],
                                  [1980., 3.5],
-                                 [1965., 4.0]])
-#completeness_table_a = np.array([[1978., 3.5],
-#                                 [1964., 4.0],
-#                                 [1900., 5.5]])
-#completeness_table_a = np.array([[1900., 5.0]])
-#plot_magnitude_time_density(source.catalogue, 0.1, 1.0,
-#                            completeness=completeness_table_a)
-
-
-# In[38]:
+                                 [1965., 4.0],
+                                 [1961., 5.0],
+                                 [1935., 6.0],
+                                 [1917., 6.8]])
 
 #from hmtk.seismicity.occurrence.weichert import Weichert
 
@@ -234,20 +210,16 @@ completeness_table_a = np.array([[1990., 3.0],
 #print "a = %.3f (+/- %.3f),  b = %.3f (+/-%.3f)" % (aval, sigma_a, bval, sigma_b)
 
 
-# In[39]:
-
 #from hmtk.plotting.seismicity.occurrence.recurrence_plot import plot_recurrence_model
 #from openquake.hazardlib.mfd import TruncatedGRMFD
 #mfd0 = TruncatedGRMFD(4.5, 7.2, 0.1, aval, bval)#
 #plot_recurrence_model(mfd0, source.catalogue, completeness_table_a, 0.1)
 
-
-# In[ ]:
-
 from hmtk.seismicity.smoothing.smoothed_seismicity import SmoothedSeismicity
 smoothing_config = {"BandWidth": 50.,
                     "Length_Limit": 3.,
                     "increment": 0.1}
+
 #bvalue = 0.819
 #bvalue = 0.835
 #upper
@@ -258,24 +230,23 @@ smoothing_config = {"BandWidth": 50.,
 #bvalue = 0.892
 #bvalue = 0.944
 #bvalue = 1.355
-smoother = SmoothedSeismicity([100.,160.,0.1,-45.,-5,0.1,0.,20., 20.], bvalue = bvalue)
+
+llcrnrlat = 35
+urcrnrlat = 83.5
+llcrnrlon = -160
+urcrnrlon = -51
+
+smoother = SmoothedSeismicity([llcrnrlon,urcrnrlon,0.1,llcrnrlat,urcrnrlat,0.1,0.,20., 20.], bvalue = bvalue)
 #smoothed_grid = smoother.run_analysis(source_model.sources[0].catalogue, smoothing_config, completeness_table=completeness_table_a)
+
 print 'Running smoothing'
 smoothed_grid = smoother.run_analysis(source.catalogue, smoothing_config, completeness_table=completeness_table_a)
 smoother_filename = 'smoothed_%i_%i_mmin_%.1f_%.3f_0.1.csv' % (smoothing_config["BandWidth"], smoothing_config["Length_Limit"],
                                                                completeness_table_a[0][-1], bvalue)
+
+print 'Writing to file'
 smoother.write_to_csv(smoother_filename)
 
-
-# In[ ]:
-
-#smoother_filename = 'smoothed_%i_%i_mmin_%.1f_0.1.csv' % \
-##                        (smoothing_config["BandWidth"], smoothing_config["Length_Limit"],
-  #                      completeness_table_a[0][-1])
-#smoother.write_to_csv(smoother_filename)
-
-
-# In[ ]:
 
 from openquake.hazardlib.nrml import SourceModelParser, write, NAMESPACE
 from openquake.baselib.node import Node
@@ -284,9 +255,11 @@ from openquake.hazardlib.sourcewriter import obj_to_node
 # Build nrml input file of point sources
 source_list = []
 #i=0
-min_mag = 4.5
+min_mag = 4.8
 max_mag = 7.8
 bval = bvalue # just define as 1 for time being
+
+print 'Fixing formatting errors'
 # Read in data again to solve number fomatting issue in smoother.data
 # For some reason it just returns 0 for all a values
 data = np.genfromtxt(smoother_filename, delimiter = ',', skip_header = 1)
@@ -294,7 +267,7 @@ data = np.genfromtxt(smoother_filename, delimiter = ',', skip_header = 1)
 #print data[:,4]
 #print len(data[:,4])
 tom = PoissonTOM(50) # Dummy temporal occurence model for building pt sources
-msr = Leonard2014_SCR()
+msr = WC1994()
 for j in range(len(data[:,4])):
 #    print smoother.data[j,:]
     identifier = 'FSS' + str(j)
@@ -305,6 +278,7 @@ for j in range(len(data[:,4])):
    # aval = rate # trying this based on some testing
 #    aval = np.log10(rate) #+ bval*completeness_table_a[0][1]
    # print aval
+
     mfd = TruncatedGRMFD(min_mag, max_mag, 0.1, aval, bval)
     hypo_depth_dist = PMF([(0.5, 10.0),
                           (0.25, 5.0),
