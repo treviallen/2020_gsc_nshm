@@ -60,6 +60,7 @@ from hmtk.seismicity.smoothing.kernels.isotropic_gaussian import IsotropicGaussi
 from hmtk.sources.source_model import mtkSourceModel
 from hmtk.sources.point_source import mtkPointSource
 from openquake.hazardlib.scalerel.leonard2014 import Leonard2014_SCR
+from openquake.hazardlib.scalerel.wc1994 import WC1994
 from openquake.hazardlib.source.point import PointSource
 from openquake.hazardlib.tom import PoissonTOM
 from openquake.hazardlib.sourcewriter import obj_to_node
@@ -246,7 +247,7 @@ smoother_filename = 'smoothed_%i_%i_mmin_%.1f_%.3f_0.1.csv' % (smoothing_config[
 
 print 'Writing to file'
 smoother.write_to_csv(smoother_filename)
-
+"""
 
 from openquake.hazardlib.nrml import SourceModelParser, write, NAMESPACE
 from openquake.baselib.node import Node
@@ -258,6 +259,8 @@ source_list = []
 min_mag = 4.8
 max_mag = 7.8
 bval = bvalue # just define as 1 for time being
+
+smoother_filename = 'smoothed_50_3_mmin_3.0_1.000_0.1.csv'
 
 print 'Fixing formatting errors'
 # Read in data again to solve number fomatting issue in smoother.data
