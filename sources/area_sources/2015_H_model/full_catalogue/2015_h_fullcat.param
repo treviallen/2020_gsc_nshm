@@ -1,0 +1,7 @@
+ROOT FOLDER      = 2015_H_model//full_catalogue
+CATALOGUE FOLDER = ..//../catalogues//2010SHEEF
+DECLUSTERED      = False
+SHAPEFILE INPUT  = 2015_H_model//shapefiles//2015_H_merge_mc.shp
+OUTPUT FOLDER    = mfd
+SHAPEFILE OUTPUT = 2015_H_model_MFD.shp
+MFD BIN WIDTH    = 0.1

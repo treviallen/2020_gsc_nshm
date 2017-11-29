@@ -4260,6 +4260,857 @@
                 <hypoDepth probability="0.25" depth="55.0"/>
             </hypoDepthDist>
         </areaSource>
+        
+                <complexFaultSource id="CIS-15" name="CASCADIA INTERFACE SOURCE" tectonicRegion="Subduction Interface">
+            <complexFaultGeometry>
+                <faultTopEdge>
+                    <gml:LineString>
+                        <gml:posList>
+                            -125.5676 40.4240 5.0
+                            -125.7781 41.0541 5.0
+                            -125.9569 42.0246 5.0
+                            -125.9891 42.9993 5.0
+                            -125.9428 43.9850 5.0
+                            -125.8578 44.7771 5.0
+                            -125.7950 45.3080 5.0
+                            -125.6721 45.9565 5.0
+                            -125.5708 46.3485 5.0
+                            -125.4138 46.9581 5.0
+                            -125.3876 47.2505 5.0
+                            -125.4845 47.5094 5.0
+                            -125.7429 47.6854 5.0
+                            -126.7479 48.1388 5.0
+                            -126.9958 48.2481 5.0
+                            -127.7339 48.5833 5.0
+                            -127.8211 48.6402 5.0
+                        </gml:posList>
+                    </gml:LineString>
+                </faultTopEdge>
+                <intermediateEdge>
+                    <gml:LineString>
+                        <gml:posList>
+                            -124.8004 40.5688 15.0
+                            -124.9926 41.1587 15.0
+                            -125.1497 42.0695 15.0
+                            -125.1673 42.9932 15.0
+                            -125.1090 43.9504 15.0
+                            -125.0143 44.7268 15.0
+                            -124.9464 45.2392 15.0
+                            -124.8183 45.8646 15.0
+                            -124.7150 46.2408 15.0
+                            -124.5428 46.8725 15.0
+                            -124.5045 47.2991 15.0
+                            -124.7008 47.7968 15.0
+                            -125.2011 48.1644 15.0
+                            -126.2362 48.6346 15.0
+                            -126.4803 48.7426 15.0
+                            -127.1967 49.0693 15.0
+                            -127.1773 49.0666 15.0
+                        </gml:posList>
+                    </gml:LineString>
+                </intermediateEdge>
+                <faultBottomEdge>
+                    <gml:LineString>
+                        <gml:posList>
+                            -124.1510 40.6882 27.0
+                            -124.3280 41.2434 27.0
+                            -124.4678 42.1028 27.0
+                            -124.4741 42.9832 27.0
+                            -124.4064 43.9164 27.0
+                            -124.3039 44.6796 27.0
+                            -124.2321 45.1764 27.0
+                            -124.1003 45.7821 27.0
+                            -123.9955 46.1452 27.0
+                            -123.8086 46.8021 27.0
+                            -123.7608 47.3548 27.0
+                            -124.0327 48.0349 27.0
+                            -124.7106 48.5531 27.0
+                            -125.7960 49.0508 27.0
+                            -126.0376 49.1582 27.0
+                            -126.7439 49.4816 27.0
+                            -127.3355 48.5703 27.0
+                        </gml:posList>
+                    </gml:LineString>
+                </faultBottomEdge>
+            </complexFaultGeometry>
+            <magScaleRel>GSCCascadia</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
+            <incrementalMFD minMag="8.55" binWidth="0.1">
+                <occurRates>9.49066e-05 1.39773e-04 2.06747e-04 3.07236e-04 4.58821e-04 4.62473e-04 1.07027e-04 1.52848e-05</occurRates>
+            </incrementalMFD>
+            <rake>90.0</rake>
+        </complexFaultSource>
+        
+                <simpleFaultSource id="EISO-22" name="EISO  - outboard estimate of rupture - 16 km depth" tectonicRegion="Subduction Interface">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                            -127.5200 49.1600
+                            -128.3800 49.7300
+                    </gml:posList>
+                </gml:LineString>
+                <dip>18.0</dip>
+                <upperSeismoDepth>5.0</upperSeismoDepth>
+                <lowerSeismoDepth>16.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>GSCEISO</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
+            <incrementalMFD minMag="7.55" binWidth="0.1">
+                <occurRates>6.59061e-04</occurRates>
+            </incrementalMFD>
+            <rake>90.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="EISB-22" name="EISB  - Best estimate landward extent of rupture - 22 km depth" tectonicRegion="Subduction Interface">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                            -127.5200 49.1600
+                            -128.3800 49.7300
+                    </gml:posList>
+                </gml:LineString>
+                <dip>18.0</dip>
+                <upperSeismoDepth>5.0</upperSeismoDepth>
+                <lowerSeismoDepth>22.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>GSCEISB</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
+            <incrementalMFD minMag="7.55" binWidth="0.1">
+                <occurRates>7.98754e-05 1.31692e-04 2.17124e-04 3.57977e-04 5.90204e-04</occurRates>
+            </incrementalMFD>
+            <rake>90.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="EISI-22" name="EISI  - inboard estimate of rupture - 28 km depth" tectonicRegion="Subduction Interface">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                            -127.5200 49.1600
+                            -128.3800 49.7300
+                    </gml:posList>
+                </gml:LineString>
+                <dip>18.0</dip>
+                <upperSeismoDepth>5.0</upperSeismoDepth>
+                <lowerSeismoDepth>28.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>GSCEISI</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
+            <incrementalMFD minMag="7.55" binWidth="0.1">
+                <occurRates>9.83486e-07 1.62149e-06 2.67339e-06 4.40768e-06 7.26703e-06 1.19813e-05 1.97538e-05 3.25686e-05 5.36965e-05 8.85306e-05</occurRates>
+            </incrementalMFD>
+            <rake>90.0</rake>
+        </simpleFaultSource>
+        
+        <simpleFaultSource id="EDF00" name="EDF - EASTERN DENALI b=0.0" tectonicRegion="Active Shallow Fault">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                            -135.3930 59.1470
+                            -135.4460 59.1740
+                            -135.6760 59.2680
+                            -135.9820 59.4570
+                            -136.8330 59.9590
+                            -137.0400 60.1270
+                            -137.3180 60.3550
+                            -137.6230 60.4950
+                            -137.8980 60.7350
+                            -138.1000 60.8770
+                            -139.8510 61.6930
+                            -140.4530 61.9600
+                            -141.3200 62.2320
+                    </gml:posList>
+                </gml:LineString>
+                <dip>90.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
+            <incrementalMFD minMag="6.55" binWidth="0.1">
+                <occurRates>6.67078e-05 6.67064e-05 6.67051e-05 6.67038e-05 6.67024e-05 6.67011e-05 6.66998e-05 6.66984e-05 6.66971e-05 6.66958e-05 6.66944e-05 6.66931e-05 6.66918e-05 6.05977e-05 4.63801e-05 1.44928e-05 4.56472e-06</occurRates>
+            </incrementalMFD>
+            <rake>0.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="EDF08" name="EDF - EASTERN DENALI b=0.8" tectonicRegion="Active Shallow Fault">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                            -135.3930 59.1470
+                            -135.4460 59.1740
+                            -135.6760 59.2680
+                            -135.9820 59.4570
+                            -136.8330 59.9590
+                            -137.0400 60.1270
+                            -137.3180 60.3550
+                            -137.6230 60.4950
+                            -137.8980 60.7350
+                            -138.1000 60.8770
+                            -139.8510 61.6930
+                            -140.4530 61.9600
+                            -141.3200 62.2320
+                    </gml:posList>
+                </gml:LineString>
+                <dip>90.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
+            <incrementalMFD minMag="6.55" binWidth="0.1">
+                <occurRates>5.19210e-04 4.31859e-04 3.59203e-04 2.98771e-04 2.48506e-04 2.06698e-04 1.71923e-04 1.42999e-04 1.18941e-04 9.89306e-05 8.22866e-05 6.84428e-05 5.69281e-05 4.33602e-05 2.75690e-05 7.50169e-06 1.95932e-06</occurRates>
+            </incrementalMFD>
+            <rake>0.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="CDT00" name="CDT - CENTRAL DENALI TOTSHUNDA b=0.0" tectonicRegion="Active Shallow Fault">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                            -141.3000 61.5100
+                            -141.5140 61.5950
+                            -141.6710 61.6780
+                            -141.7590 61.7460
+                            -141.9810 61.8550
+                            -142.1600 61.9760
+                            -142.5080 62.2590
+                            -142.7790 62.4870
+                            -143.2700 62.7310
+                            -143.4220 62.8560
+                            -144.6290 63.1620
+                            -144.9350 63.2280
+                            -146.1540 63.4680
+                            -146.6940 63.5000
+                            -147.0830 63.5270
+                            -147.2040 63.5280
+                            -147.3720 63.5240
+                            -147.6090 63.5100
+                            -147.9980 63.4890
+                    </gml:posList>
+                </gml:LineString>
+                <dip>90.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
+            <incrementalMFD minMag="6.55" binWidth="0.1">
+                <occurRates>2.13326e-04 2.13322e-04 2.13318e-04 2.13313e-04 2.13309e-04 2.13305e-04 2.13301e-04 2.13296e-04 2.13292e-04 2.13288e-04 2.13284e-04 2.13279e-04 2.13275e-04 1.67804e-04 1.22823e-04 2.08518e-05 6.25545e-06</occurRates>
+            </incrementalMFD>
+            <rake>0.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="CDT08" name="CDT - CENTRAL DENALI TOTSHUNDA b=0.8" tectonicRegion="Active Shallow Fault">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                            -141.3000 61.5100
+                            -141.5140 61.5950
+                            -141.6710 61.6780
+                            -141.7590 61.7460
+                            -141.9810 61.8550
+                            -142.1600 61.9760
+                            -142.5080 62.2590
+                            -142.7790 62.4870
+                            -143.2700 62.7310
+                            -143.4220 62.8560
+                            -144.6290 63.1620
+                            -144.9350 63.2280
+                            -146.1540 63.4680
+                            -146.6940 63.5000
+                            -147.0830 63.5270
+                            -147.2040 63.5280
+                            -147.3720 63.5240
+                            -147.6090 63.5100
+                            -147.9980 63.4890
+                    </gml:posList>
+                </gml:LineString>
+                <dip>90.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
+            <incrementalMFD minMag="6.55" binWidth="0.1">
+                <occurRates>1.48332e-03 1.23377e-03 1.02620e-03 8.53556e-04 7.09954e-04 5.90512e-04 4.91165e-04 4.08532e-04 3.39801e-04 2.82633e-04 2.35083e-04 1.95533e-04 1.62637e-04 1.07661e-04 6.62357e-05 9.35869e-06 2.48758e-06</occurRates>
+            </incrementalMFD>
+            <rake>0.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="WCD00" name="WCD - WESTERN-CENTRAL DENALI b=0.0" tectonicRegion="Active Shallow Fault">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                            -141.3200 62.2320
+                            -142.1300 62.4600
+                            -143.3950 62.8480
+                            -144.6610 63.1690
+                            -146.1490 63.4680
+                            -146.6940 63.5000
+                            -147.0820 63.5270
+                            -147.2090 63.5280
+                            -147.3820 63.5220
+                            -148.1720 63.4800
+                            -148.6670 63.4650
+                            -149.3190 63.4140
+                            -149.6940 63.3700
+                            -150.2370 63.2960
+                    </gml:posList>
+                </gml:LineString>
+                <dip>90.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
+            <incrementalMFD minMag="6.55" binWidth="0.1">
+                <occurRates>2.61150e-04 2.61145e-04 2.61139e-04 2.61134e-04 2.61129e-04 2.61124e-04 2.61118e-04 2.61113e-04 2.61108e-04 2.61103e-04 2.61098e-04 2.61092e-04 2.61087e-04 2.45181e-04 1.81572e-04 7.23417e-05 2.04235e-05</occurRates>
+            </incrementalMFD>
+            <rake>0.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="WCD08" name="WCD - WESTERN-CENTRAL DENALI b=0.8" tectonicRegion="Active Shallow Fault">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                            -141.3200 62.2320
+                            -142.1300 62.4600
+                            -143.3950 62.8480
+                            -144.6610 63.1690
+                            -146.1490 63.4680
+                            -146.6940 63.5000
+                            -147.0820 63.5270
+                            -147.2090 63.5280
+                            -147.3820 63.5220
+                            -148.1720 63.4800
+                            -148.6670 63.4650
+                            -149.3190 63.4140
+                            -149.6940 63.3700
+                            -150.2370 63.2960
+                    </gml:posList>
+                </gml:LineString>
+                <dip>90.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
+            <incrementalMFD minMag="6.55" binWidth="0.1">
+                <occurRates>2.00519e-03 1.66784e-03 1.38725e-03 1.15386e-03 9.59733e-04 7.98269e-04 6.63969e-04 5.52264e-04 4.59351e-04 3.82071e-04 3.17791e-04 2.64327e-04 2.19857e-04 1.72689e-04 1.06472e-04 3.69090e-05 8.57044e-06</occurRates>
+            </incrementalMFD>
+            <rake>0.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="DRF00" name="DRF - DUKE RIVER b=0.0" tectonicRegion="Active Shallow Fault">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                            -137.9410 60.7560
+                            -138.3170 60.9310
+                            -138.6240 60.9680
+                            -139.2350 61.2190
+                            -139.3910 61.2700
+                            -139.8510 61.3320
+                            -141.0090 61.4630
+                            -141.2720 61.4950
+                    </gml:posList>
+                </gml:LineString>
+                <dip>35.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
+            <incrementalMFD minMag="6.55" binWidth="0.1">
+                <occurRates>2.54277e-04 2.54272e-04 2.54267e-04 2.54262e-04 2.54256e-04 2.54251e-04 2.54246e-04 2.54241e-04 2.54236e-04 2.46443e-04 1.76349e-04 1.61176e-04 2.46428e-05 2.21781e-05</occurRates>
+            </incrementalMFD>
+            <rake>90.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="DRF08" name="DRF - DUKE RIVER b=0.8" tectonicRegion="Active Shallow Fault">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                            -137.9410 60.7560
+                            -138.3170 60.9310
+                            -138.6240 60.9680
+                            -139.2350 61.2190
+                            -139.3910 61.2700
+                            -139.8510 61.3320
+                            -141.0090 61.4630
+                            -141.2720 61.4950
+                    </gml:posList>
+                </gml:LineString>
+                <dip>35.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
+            <incrementalMFD minMag="6.55" binWidth="0.1">
+                <occurRates>1.15421e-03 9.60029e-04 7.98515e-04 6.64174e-04 5.52434e-04 4.59493e-04 3.82188e-04 3.17889e-04 2.64408e-04 2.13860e-04 1.28047e-04 9.81137e-05 1.26552e-05 9.55859e-06</occurRates>
+            </incrementalMFD>
+            <rake>90.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="CSF00" name="CSF - CHATHAM STRAIT b=0.0" tectonicRegion="Active Shallow Fault">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                            -134.9220 55.5780
+                            -134.7240 55.9230
+                            -134.6070 56.2220
+                            -134.5960 56.6690
+                            -134.6280 56.8200
+                            -134.7200 57.1250
+                            -134.7640 57.4260
+                            -134.8540 57.9300
+                            -134.8760 58.0050
+                            -134.9650 58.1510
+                            -135.0800 58.5220
+                            -135.2910 59.0270
+                            -135.3980 59.1440
+                    </gml:posList>
+                </gml:LineString>
+                <dip>90.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
+            <incrementalMFD minMag="6.55" binWidth="0.1">
+                <occurRates>6.65398e-05 6.65384e-05 6.65371e-05 6.65358e-05 6.65344e-05 6.65331e-05 6.65318e-05 6.65304e-05 6.65291e-05 6.65278e-05 6.65264e-05 6.65251e-05 6.65238e-05 4.62615e-05 2.63822e-05 6.50344e-06</occurRates>
+            </incrementalMFD>
+            <rake>0.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="CSF08" name="CSF - CHATHAM STRAIT b=0.8" tectonicRegion="Active Shallow Fault">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                            -134.9220 55.5780
+                            -134.7240 55.9230
+                            -134.6070 56.2220
+                            -134.5960 56.6690
+                            -134.6280 56.8200
+                            -134.7200 57.1250
+                            -134.7640 57.4260
+                            -134.8540 57.9300
+                            -134.8760 58.0050
+                            -134.9650 58.1510
+                            -135.0800 58.5220
+                            -135.2910 59.0270
+                            -135.3980 59.1440
+                    </gml:posList>
+                </gml:LineString>
+                <dip>90.0</dip>
+                <upperSeismoDepth>1.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
+            <incrementalMFD minMag="6.55" binWidth="0.1">
+                <occurRates>4.44757e-04 3.69931e-04 3.07695e-04 2.55928e-04 2.12871e-04 1.77058e-04 1.47270e-04 1.22493e-04 1.01885e-04 8.47442e-05 7.04870e-05 5.86283e-05 4.87648e-05 2.83924e-05 1.39605e-05 2.80609e-06</occurRates>
+            </incrementalMFD>
+            <rake>0.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="QCSS00" name="QCSS - QUEEN CHARLOTTE - STRIKE SLIP beta = 0" tectonicRegion="Active Shallow Fault">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                            -130.6740 51.4600
+                            -130.9600 51.6760
+                            -131.3570 51.9930
+                            -131.4720 52.0810
+                            -131.4980 52.1490
+                            -131.6060 52.2250
+                            -131.6160 52.2280
+                            -131.7310 52.3310
+                            -131.8860 52.4470
+                            -132.0360 52.5460
+                            -132.2820 52.7150
+                            -132.3770 52.7890
+                            -132.4440 52.8490
+                            -132.4880 52.8920
+                            -132.5600 52.9460
+                            -132.5630 52.9500
+                            -132.7450 53.1010
+                            -132.8640 53.2060
+                            -132.8960 53.2350
+                            -132.9120 53.2510
+                            -133.0270 53.3640
+                            -133.1090 53.4400
+                            -133.1210 53.4520
+                            -134.1600 54.4900
+                            -134.6130 55.0190
+                            -135.0610 55.5590
+                    </gml:posList>
+                </gml:LineString>
+                <dip>90.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>20.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994_QCSS</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
+            <incrementalMFD minMag="6.55" binWidth="0.1">
+                <occurRates>6.68470e-04 6.68457e-04 6.68443e-04 6.68430e-04 6.68417e-04 6.68403e-04 6.68390e-04 6.68377e-04 6.68363e-04 6.68350e-04 6.68337e-04 6.68323e-04 6.68310e-04 6.68296e-04 6.68283e-04 6.07240e-04 4.64825e-04 1.45268e-04 4.57656e-05</occurRates>
+            </incrementalMFD>
+            <rake>0.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="QCSS08" name="QCSS - QUEEN CHARLOTTE - STRIKE SLIP beta = 1.84" tectonicRegion="Active Shallow Fault">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                            -130.6740 51.4600
+                            -130.9600 51.6760
+                            -131.3570 51.9930
+                            -131.4720 52.0810
+                            -131.4980 52.1490
+                            -131.6060 52.2250
+                            -131.6160 52.2280
+                            -131.7310 52.3310
+                            -131.8860 52.4470
+                            -132.0360 52.5460
+                            -132.2820 52.7150
+                            -132.3770 52.7890
+                            -132.4440 52.8490
+                            -132.4880 52.8920
+                            -132.5600 52.9460
+                            -132.5630 52.9500
+                            -132.7450 53.1010
+                            -132.8640 53.2060
+                            -132.8960 53.2350
+                            -132.9120 53.2510
+                            -133.0270 53.3640
+                            -133.1090 53.4400
+                            -133.1210 53.4520
+                            -134.1600 54.4900
+                            -134.6130 55.0190
+                            -135.0610 55.5590
+                    </gml:posList>
+                </gml:LineString>
+                <dip>90.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>20.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994_QCSS</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
+            <incrementalMFD minMag="6.55" binWidth="0.1">
+                <occurRates>7.01158e-03 5.83196e-03 4.85080e-03 4.03471e-03 3.35591e-03 2.79132e-03 2.32171e-03 1.93111e-03 1.60622e-03 1.33599e-03 1.11123e-03 9.24274e-04 7.68775e-04 6.39437e-04 5.31859e-04 4.05099e-04 2.57568e-04 7.00857e-05 1.83053e-05</occurRates>
+            </incrementalMFD>
+            <rake>0.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="FWF00" name="FWF - FAIRWEATHER FAULT beta = 0" tectonicRegion="Active Shallow Fault">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                            -135.0620 55.5590
+                            -135.3310 55.8630
+                            -135.9580 56.8800
+                            -136.5390 57.6180
+                            -136.7560 57.9380
+                            -137.1700 58.4830
+                            -137.4950 58.6840
+                            -137.7820 58.9220
+                            -138.4860 59.4690
+                            -138.8510 59.7370
+                            -139.4250 60.0880
+                    </gml:posList>
+                </gml:LineString>
+                <dip>90.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>20.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994_QCSS</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
+            <incrementalMFD minMag="6.55" binWidth="0.1">
+                <occurRates>6.58448e-04 6.58434e-04 6.58421e-04 6.58408e-04 6.58395e-04 6.58382e-04 6.58369e-04 6.58355e-04 6.58342e-04 6.58329e-04 6.58316e-04 6.58303e-04 6.58290e-04 6.58276e-04 6.58263e-04 6.58250e-04 4.97947e-04 3.39829e-04 6.44074e-05 1.28813e-05</occurRates>
+            </incrementalMFD>
+            <rake>0.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="FWF08" name="FWF - FAIRWEATHER FAULT beta = 1.84" tectonicRegion="Active Shallow Fault">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                            -135.0620 55.5590
+                            -135.3310 55.8630
+                            -135.9580 56.8800
+                            -136.5390 57.6180
+                            -136.7560 57.9380
+                            -137.1700 58.4830
+                            -137.4950 58.6840
+                            -137.7820 58.9220
+                            -138.4860 59.4690
+                            -138.8510 59.7370
+                            -139.4250 60.0880
+                    </gml:posList>
+                </gml:LineString>
+                <dip>90.0</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>20.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994_QCSS</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
+            <incrementalMFD minMag="6.55" binWidth="0.1">
+                <occurRates>7.48857e-03 6.22870e-03 5.18079e-03 4.30918e-03 3.58421e-03 2.98121e-03 2.47965e-03 2.06248e-03 1.71549e-03 1.42688e-03 1.18682e-03 9.87151e-04 8.21074e-04 6.82937e-04 5.68041e-04 4.72474e-04 3.00438e-04 1.73717e-04 2.71878e-05 4.86199e-06</occurRates>
+            </incrementalMFD>
+            <rake>0.0</rake>
+        </simpleFaultSource>
+        
+                <simpleFaultSource id="LRFF" name="LEACH RIVER FAULT FULL" tectonicRegion="Active Shallow Fault">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                            -123.4120 48.4050
+                            -123.4529 48.4160
+                            -123.4953 48.4321
+                            -123.5536 48.4542
+                            -123.5816 48.4613
+                            -123.6251 48.4731
+                            -123.6613 48.4826
+                            -123.7054 48.4926
+                            -123.7404 48.4995
+                            -123.7644 48.5026
+                            -123.7906 48.5044
+                            -123.8188 48.5048
+                            -123.8570 48.5044
+                            -123.9039 48.5021
+                            -123.9642 48.4999
+                            -124.0151 48.4968
+                            -124.0909 48.4950
+                            -124.1539 48.4946
+                            -124.2041 48.4933
+                            -124.2620 48.4928
+                    </gml:posList>
+                </gml:LineString>
+                <dip>70</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
+            <incrementalMFD minMag="6.35" binWidth="0.1">
+                <occurRates>5.55348e-06 4.61919e-06 1.84911e-05 1.82770e-05 2.25292e-05 2.33647e-05 2.33647e-05 6.14638e-06 6.14638e-06</occurRates>
+            </incrementalMFD>
+            <rake>90.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="LRFM" name="LEACH RIVER FAULT MID" tectonicRegion="Active Shallow Fault">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                            -123.4120 48.4050
+                            -123.4529 48.4160
+                            -123.4953 48.4321
+                            -123.5536 48.4542
+                            -123.5816 48.4613
+                            -123.6251 48.4731
+                            -123.6613 48.4826
+                            -123.7054 48.4926
+                            -123.7404 48.4995
+                            -123.7644 48.5026
+                            -123.7906 48.5044
+                            -123.8188 48.5048
+                            -123.8570 48.5044
+                            -123.9170 48.5017
+                    </gml:posList>
+                </gml:LineString>
+                <dip>70</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
+            <incrementalMFD minMag="6.35" binWidth="0.1">
+                <occurRates>3.48241e-05 4.27015e-05 4.26371e-05 4.42472e-05 4.42472e-05 1.16398e-05</occurRates>
+            </incrementalMFD>
+            <rake>90.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="LRFS" name="LEACH RIVER FAULT SHORT" tectonicRegion="Active Shallow Fault">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                            -123.4120 48.4050
+                            -123.4529 48.4160
+                            -123.4953 48.4321
+                            -123.5536 48.4542
+                            -123.5816 48.4613
+                            -123.6251 48.4731
+                            -123.6613 48.4826
+                            -123.7054 48.4926
+                            -123.7404 48.4995
+                            -123.7644 48.5026
+                            -123.7847 48.5040
+                    </gml:posList>
+                </gml:LineString>
+                <dip>70</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
+            <incrementalMFD minMag="6.35" binWidth="0.1">
+                <occurRates>3.86355e-05 4.00575e-05 4.00575e-05 1.05376e-05 1.05376e-05</occurRates>
+            </incrementalMFD>
+            <rake>90.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="DMFF" name="DEVILS MOUNTAIN FAULT FULL" tectonicRegion="Active Shallow Fault">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                            -121.6388 48.2335
+                            -121.6957 48.2598
+                            -121.9082 48.2870
+                            -122.0007 48.3169
+                            -122.0362 48.3240
+                            -122.1461 48.3398
+                            -122.2433 48.3469
+                            -122.3150 48.3585
+                            -122.3578 48.3612
+                            -122.4763 48.3668
+                            -122.5589 48.3701
+                            -122.6661 48.3741
+                            -122.8055 48.3656
+                            -122.8531 48.3719
+                            -122.9208 48.3750
+                            -122.9395 48.3741
+                            -123.0595 48.3726
+                            -123.1841 48.3719
+                            -123.2365 48.3774
+                            -123.2853 48.3843
+                            -123.3195 48.3874
+                            -123.3450 48.3910
+                            -123.3658 48.3947
+                            -123.3868 48.3989
+                    </gml:posList>
+                </gml:LineString>
+                <dip>70</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
+            <incrementalMFD minMag="6.35" binWidth="0.1">
+                <occurRates>6.45552e-06 5.36947e-06 4.46613e-06 3.71477e-06 3.08981e-06 2.56999e-06 1.12715e-05 1.38317e-05 1.38111e-05 1.43342e-05 1.43342e-05 3.77078e-06</occurRates>
+            </incrementalMFD>
+            <rake>90.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="DMFM" name="DEVILS MOUNTAIN FAULT MID" tectonicRegion="Active Shallow Fault">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                            -122.3578 48.3612
+                            -122.4763 48.3668
+                            -122.5589 48.3701
+                            -122.6661 48.3741
+                            -122.8055 48.3656
+                            -122.8531 48.3719
+                            -122.9208 48.3750
+                            -122.9395 48.3741
+                            -123.0595 48.3726
+                            -123.1841 48.3719
+                            -123.2365 48.3774
+                            -123.2853 48.3843
+                            -123.3195 48.3874
+                            -123.3450 48.3910
+                            -123.3658 48.3947
+                            -123.3868 48.3989
+                    </gml:posList>
+                </gml:LineString>
+                <dip>70</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
+            <incrementalMFD minMag="6.35" binWidth="0.1">
+                <occurRates>7.65485e-06 6.36702e-06 5.29586e-06 2.19213e-05 2.68082e-05 2.67658e-05 2.77664e-05 2.77664e-05 7.30429e-06</occurRates>
+            </incrementalMFD>
+            <rake>90.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="DMFS" name="DEVILS MOUNTAIN FAULT SHORT" tectonicRegion="Active Shallow Fault">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                            -122.8531 48.3719
+                            -122.9208 48.3750
+                            -122.9395 48.3741
+                            -123.0595 48.3726
+                            -123.1841 48.3719
+                            -123.2365 48.3774
+                            -123.2853 48.3843
+                            -123.3195 48.3874
+                            -123.3450 48.3910
+                            -123.3658 48.3947
+                            -123.3868 48.3989
+                    </gml:posList>
+                </gml:LineString>
+                <dip>70</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
+            <incrementalMFD minMag="6.35" binWidth="0.1">
+                <occurRates>2.60250e-05 3.19032e-05 3.18549e-05 3.30566e-05 3.30566e-05 8.69595e-06</occurRates>
+            </incrementalMFD>
+            <rake>90.0</rake>
+        </simpleFaultSource>
+
+        <simpleFaultSource id="LDFC" name="LEACH RIVER AND DEVILS MOUNTAIN FAULTS COMBINED" tectonicRegion="Active Shallow Fault">
+            <simpleFaultGeometry>
+                <gml:LineString>
+                    <gml:posList>
+                            -122.8531 48.3719
+                            -122.9208 48.3750
+                            -122.9395 48.3741
+                            -123.0595 48.3726
+                            -123.1841 48.3719
+                            -123.2365 48.3774
+                            -123.2853 48.3843
+                            -123.3195 48.3874
+                            -123.3450 48.3910
+                            -123.3658 48.3947
+                            -123.3868 48.3989
+                            -123.4120 48.4050
+                            -123.4529 48.4160
+                            -123.4953 48.4321
+                            -123.5536 48.4542
+                            -123.5816 48.4613
+                            -123.6251 48.4731
+                            -123.6613 48.4826
+                            -123.7054 48.4926
+                            -123.7404 48.4995
+                            -123.7644 48.5026
+                            -123.7906 48.5044
+                            -123.8188 48.5048
+                            -123.8570 48.5044
+                            -123.9039 48.5021
+                            -123.9642 48.4999
+                            -124.0151 48.4968
+                            -124.0929 48.4950
+                            -124.1539 48.4946
+                    </gml:posList>
+                </gml:LineString>
+                <dip>70</dip>
+                <upperSeismoDepth>0.0</upperSeismoDepth>
+                <lowerSeismoDepth>15.0</lowerSeismoDepth>
+            </simpleFaultGeometry>
+            <magScaleRel>WC1994</magScaleRel>
+            <ruptAspectRatio>1.0</ruptAspectRatio>
+            <incrementalMFD minMag="6.35" binWidth="0.1">
+                <occurRates>4.47997e-06 3.72627e-06 3.09938e-06 2.57795e-06 1.02027e-05 1.00832e-05 1.24215e-05 1.28809e-05 1.28809e-05 3.38847e-06 3.38847e-06</occurRates>
+            </incrementalMFD>
+            <rake>90.0</rake>
+        </simpleFaultSource>
 
     </sourceModel>
 </nrml>

@@ -861,12 +861,16 @@ for i in srcidx:
         m.drawparallels(arange(-90.,90.,ll_space/2.0), labels=[1,0,0,0],fontsize=10, dashes=[2, 2], color='0.5', linewidth=0.5)
         m.drawmeridians(arange(0.,360.,ll_space), labels=[0,0,0,1], fontsize=10, dashes=[2, 2], color='0.5', linewidth=0.5)
         
-        # plt earthquakes boundaries for all zones in class
-        for code in class_codes[class_idx]:
-            drawoneshapepoly(m, plt, sf, 'CODE', code, lw=1.5, col='b')
-        
-        # plt current source zone boundary
-        drawoneshapepoly(m, plt, sf, 'CODE', src_code[i], lw=1.5, col='r')
+        try:
+        	# plt earthquakes boundaries for all zones in class
+            for code in class_codes[class_idx]:
+                drawoneshapepoly(m, plt, sf, 'CODE', code, lw=1.5, col='b')
+            
+            # plt current source zone boundary
+            drawoneshapepoly(m, plt, sf, 'CODE', src_code[i], lw=1.5, col='r')
+            
+        except:
+            print 'Not plotting polygons...'
         
         # map all earthquakes
         #x, y = m(eqlo, eqla)
