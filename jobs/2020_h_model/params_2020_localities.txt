@@ -6,6 +6,6 @@ sandpit_path = /short/w84/NSHA18/sandpit/
 model_rel_path = 2020_gsc_nshm/jobs/2020_h_model
 shared_rel_path = 2020_gsc_nshm/shared
 gsim_lt_filename = hdf_gmpe_logic_tree_nci.xml
-model_output_base = /short/w84/NSHA18/sandpit/tia547/2020_gsc_nshm/jobs
+model_output_base = /short/w84/NSHA18/sandpit/tia547/2020_gsc_nshm/jobs/out
 job_file = job_sites_nci.ini
 job_type = hazcurve
