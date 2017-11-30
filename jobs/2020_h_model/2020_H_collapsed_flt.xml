@@ -789,7 +789,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="ACM.4" name="ACM.4 - ARCTIC CONTINENTAL MARGIN - WESTERN ARCTIC (A0 values x0.4)" tectonicRegion="FULL">
+        <areaSource id="ACM4" name="ACM.4 - ARCTIC CONTINENTAL MARGIN - WESTERN ARCTIC (A0 values x0.4)" tectonicRegion="FULL">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
