@@ -112,6 +112,7 @@
             </logicTreeBranchSet>
         </logicTreeBranchingLevel>
         
+        <!--
         <logicTreeBranchingLevel branchingLevelID="bl5">
             <logicTreeBranchSet uncertaintyType="gmpeModel" branchSetID="bs5"
                                 applyToTectonicRegionType="Subduction IntraSlab50">
@@ -133,6 +134,8 @@
 
             </logicTreeBranchSet>
         </logicTreeBranchingLevel>
+        
+        -->
         
         <logicTreeBranchingLevel branchingLevelID="bl6">
             <logicTreeBranchSet uncertaintyType="gmpeModel" branchSetID="bs6"
@@ -170,6 +173,7 @@
                     <uncertaintyModel>AtkinsonBoore2006</uncertaintyModel>
                     <uncertaintyWeight>1.0</uncertaintyWeight>
                 </logicTreeBranch>
+                
             </logicTreeBranchSet>
         </logicTreeBranchingLevel>
 
