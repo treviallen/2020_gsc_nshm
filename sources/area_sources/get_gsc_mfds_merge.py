@@ -15,22 +15,23 @@ from tools.nsha_tools import toYearFraction, get_shapely_centroid
 from mfd_tools import * # get_mfds, get_annualised_rates, fit_a_value, parse_orig_hmtk_cat
 
 # import non-standard functions
-try:
-    from catalogue_tools import weichert_algorithm, aki_maximum_likelihood, bval2beta
-    from oq_tools import get_oq_incrementalMFD, beta2bval#, bval2beta
-    from mapping_tools import get_field_data, get_field_index, drawoneshapepoly, \
-                              drawshapepoly, labelpolygon, get_WGS84_area
-    #from catalogue.parsers import parse_ggcat
-    from catalogue.writers import ggcat2ascii
+#try:
+from catalogue_tools import weichert_algorithm, aki_maximum_likelihood, bval2beta
+from oq_tools import get_oq_incrementalMFD, beta2bval, bval2beta
+from mapping_tools import get_field_data, get_field_index, drawoneshapepoly, \
+                          drawshapepoly, labelpolygon, get_WGS84_area
+#from catalogue.parsers import parse_ggcat
+from catalogue.writers import ggcat2ascii
     
     
     #from misc_tools import listdir_extension
     #from make_nsha_oq_inputs import write_oq_sourcefile
+'''
 except:
     cwd = getcwd().split(sep)
     pythonpath = sep.join(pt[0:-3])+sep+'tools'
     print '\nSet environmental variables, e.g.:\n\nexport PYTHONPATH='+pythonpath+':$PYTHONPATH\n'
-
+'''
 def timedelta2days_hours_minutes(td):
     return td.days, td.seconds//3600, (td.seconds//60)%60
         
