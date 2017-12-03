@@ -42,7 +42,7 @@
                 
                 <logicTreeBranch branchID="b22">
                     <uncertaintyModel>ZhaoEtAl2006SInterCascadia</uncertaintyModel>
-                    <uncertaintyWeight>0.25</uncertaintyWeight>
+                    <uncertaintyWeight>0.125</uncertaintyWeight>
                 </logicTreeBranch>
                 
                 <logicTreeBranch branchID="b23">
@@ -52,7 +52,17 @@
                 
                 <logicTreeBranch branchID="b24">
                     <uncertaintyModel>GhofraniAtkinson2014Cascadia</uncertaintyModel>
-                    <uncertaintyWeight>0.25</uncertaintyWeight>
+                    <uncertaintyWeight>0.125</uncertaintyWeight>
+                </logicTreeBranch>
+                
+                <logicTreeBranch branchID="b25">
+                    <uncertaintyModel>ZhaoEtAl2006SInter</uncertaintyModel>
+                    <uncertaintyWeight>0.125</uncertaintyWeight>
+                </logicTreeBranch>
+                
+                <logicTreeBranch branchID="b26">
+                    <uncertaintyModel>GhofraniAtkinson2014</uncertaintyModel>
+                    <uncertaintyWeight>0.125</uncertaintyWeight>
                 </logicTreeBranch>
                 
             </logicTreeBranchSet>
@@ -96,7 +106,7 @@
                 
                 <logicTreeBranch branchID="b42">
                     <uncertaintyModel>ZhaoEtAl2006SSlabCascadia</uncertaintyModel>
-                    <uncertaintyWeight>0.25</uncertaintyWeight>
+                    <uncertaintyWeight>0.125</uncertaintyWeight>
                 </logicTreeBranch>
                 
                 <logicTreeBranch branchID="b43">
@@ -106,7 +116,17 @@
                 
                 <logicTreeBranch branchID="b44">
                     <uncertaintyModel>AtkinsonBoore2003SSlabCascadia</uncertaintyModel>
-                    <uncertaintyWeight>0.25</uncertaintyWeight>
+                    <uncertaintyWeight>0.125</uncertaintyWeight>
+                </logicTreeBranch>
+                
+                <logicTreeBranch branchID="b45">
+                    <uncertaintyModel>ZhaoEtAl2006SSlab</uncertaintyModel>
+                    <uncertaintyWeight>0.125</uncertaintyWeight>
+                </logicTreeBranch>
+                
+                <logicTreeBranch branchID="b46">
+                    <uncertaintyModel>AtkinsonBoore2003SSlab</uncertaintyModel>
+                    <uncertaintyWeight>0.125</uncertaintyWeight>
                 </logicTreeBranch>
 
             </logicTreeBranchSet>
@@ -134,7 +154,6 @@
 
             </logicTreeBranchSet>
         </logicTreeBranchingLevel>
-        
         -->
         
         <logicTreeBranchingLevel branchingLevelID="bl6">
@@ -173,7 +192,6 @@
                     <uncertaintyModel>AtkinsonBoore2006</uncertaintyModel>
                     <uncertaintyWeight>1.0</uncertaintyWeight>
                 </logicTreeBranch>
-                
             </logicTreeBranchSet>
         </logicTreeBranchingLevel>
 
