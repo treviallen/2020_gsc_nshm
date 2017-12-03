@@ -424,7 +424,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="GTP" name="GTP  -  GEORGIA STRAIT/PUGET SOUND (DEEP)" tectonicRegion="Subduction IntraSlab50">
+        <areaSource id="GTP" name="GTP  -  GEORGIA STRAIT/PUGET SOUND (DEEP)" tectonicRegion="Subduction IntraSlab">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -565,7 +565,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="JDFN" name="JDFN  -  JUAN DE FUCA PLATE BENDING, ONSHORE (DEEP)" tectonicRegion="Subduction IntraSlab30">
+        <areaSource id="JDFN" name="JDFN  -  JUAN DE FUCA PLATE BENDING, ONSHORE (DEEP)" tectonicRegion="Subduction IntraSlab">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
