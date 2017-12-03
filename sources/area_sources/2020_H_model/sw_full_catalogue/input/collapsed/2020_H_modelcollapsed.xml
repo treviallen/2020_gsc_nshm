@@ -26,7 +26,7 @@
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>1.5</ruptAspectRatio>
             <incrementalMFD minMag="4.85" binWidth="0.1">
-                <occurRates>8.49851e-06 5.34789e-06 3.36625e-06 2.11946e-06 1.33478e-06 8.40807e-07 5.29757e-07 3.33845e-07 2.10424e-07 1.32655e-07 8.36413e-08 5.27456e-08 3.32670e-08 2.09845e-08 1.32385e-08 8.35276e-09 5.27069e-09 3.32620e-09 2.09928e-09 1.32505e-09 8.36425e-10 5.28026e-10 3.33361e-10 2.10476e-10 1.32898e-10 8.39185e-11 5.29932e-11 3.34661e-11 2.11353e-11 1.33485e-11 7.58778e-12 4.79260e-12 1.00907e-12 6.37391e-13</occurRates>
+                <occurRates>8.52318e-06 5.36386e-06 3.37657e-06 2.12613e-06 1.33909e-06 8.43591e-07 5.31554e-07 3.35004e-07 2.11171e-07 1.33136e-07 8.39515e-08 5.29453e-08 3.33956e-08 2.10673e-08 1.32917e-08 8.38696e-09 5.29267e-09 3.34033e-09 2.10836e-09 1.33087e-09 8.40166e-10 5.30428e-10 3.34902e-10 2.11465e-10 1.33532e-10 8.43251e-11 5.32539e-11 3.36331e-11 2.12424e-11 1.34171e-11 7.62731e-12 4.81791e-12 1.01447e-12 6.40850e-13</occurRates>
             </incrementalMFD>
             <nodalPlaneDist>
                 <nodalPlane probability="0.3" strike="0.0" dip="30.0" rake="90.0" />
@@ -41,7 +41,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="AKC" name="AKC - ALASKA COASTAL" tectonicRegion="Active Shallow Crust">
+        <areaSource id="AKC" name="AKC - ALASKA COASTAL" tectonicRegion="Subduction Interface">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -65,7 +65,7 @@
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>1.5</ruptAspectRatio>
             <incrementalMFD minMag="7.05" binWidth="0.1">
-                <occurRates>3.23691e-09 2.13435e-09 1.40764e-09 9.28550e-10 6.12643e-10 4.04292e-10 2.66849e-10 1.76164e-10 1.16318e-10 7.68171e-11 5.07391e-11 3.35198e-11 2.21479e-11 1.46364e-11 9.67398e-12 6.39502e-12 4.22809e-12 2.79583e-12 1.84901e-12 1.22300e-12 8.09048e-13 5.35277e-13 3.54192e-13 7.03191e-14 4.65415e-14</occurRates>
+                <occurRates>3.22663e-09 2.12731e-09 1.40283e-09 9.25271e-10 6.10406e-10 4.02767e-10 2.65810e-10 1.75457e-10 1.15838e-10 7.64903e-11 5.05171e-11 3.33691e-11 2.20456e-11 1.45670e-11 9.62694e-12 6.36315e-12 4.20651e-12 2.78122e-12 1.83912e-12 1.21631e-12 8.04525e-13 5.32219e-13 3.52126e-13 6.99006e-14 4.62589e-14</occurRates>
             </incrementalMFD>
             <nodalPlaneDist>
                 <nodalPlane probability="0.3" strike="0.0" dip="30.0" rake="90.0" />
@@ -120,7 +120,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="AID" name="AID - ALASKA INLAND - DEEP" tectonicRegion="Active Shallow Crust">
+        <areaSource id="AID" name="AID - ALASKA INLAND - DEEP" tectonicRegion="Subduction Intraslab">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -138,13 +138,13 @@
                         </gml:LinearRing>
                     </gml:exterior>
                 </gml:Polygon>
-                <upperSeismoDepth>0.0</upperSeismoDepth>
-                <lowerSeismoDepth>20.0</lowerSeismoDepth>
+                <upperSeismoDepth>20.0</upperSeismoDepth>
+                <lowerSeismoDepth>40.0</lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>1.5</ruptAspectRatio>
             <incrementalMFD minMag="4.85" binWidth="0.1">
-                <occurRates>4.52759e-06 2.82790e-06 1.76668e-06 1.10395e-06 6.89980e-07 4.31339e-07 2.69709e-07 1.68681e-07 1.05519e-07 6.60215e-08 4.13175e-08 2.58626e-08 1.61921e-08 1.01396e-08 6.35082e-09 3.97856e-09 2.49292e-09 1.56235e-09 9.79337e-10 6.14004e-10 3.85029e-10 2.41490e-10 1.51491e-10 9.50505e-11 5.96489e-11 3.74394e-11 2.35036e-11 1.32818e-11 2.78032e-12 2.32685e-25</occurRates>
+                <occurRates>4.52447e-06 2.82583e-06 1.76530e-06 1.10304e-06 6.89375e-07 4.30939e-07 2.69445e-07 1.68507e-07 1.05405e-07 6.59467e-08 4.12684e-08 2.58305e-08 1.61711e-08 1.01259e-08 6.34184e-09 3.97270e-09 2.48910e-09 1.55986e-09 9.77719e-10 6.12952e-10 3.84345e-10 2.41046e-10 1.51203e-10 9.48635e-11 5.95277e-11 3.73609e-11 2.34527e-11 1.32522e-11 2.77394e-12 2.32127e-25</occurRates>
             </incrementalMFD>
             <nodalPlaneDist>
                 <nodalPlane probability="0.3" strike="0.0" dip="30.0" rake="90.0" />
@@ -153,9 +153,9 @@
                 <nodalPlane probability="0.2" strike="270.0" dip="30.0" rake="90.0" />
             </nodalPlaneDist>
             <hypoDepthDist>
-                <hypoDepth probability="0.50" depth="10.0"/>
-                <hypoDepth probability="0.25" depth="5.0"/>
-                <hypoDepth probability="0.25" depth="15.0"/>
+                <hypoDepth probability="0.50" depth="30.0"/>
+                <hypoDepth probability="0.25" depth="25.0"/>
+                <hypoDepth probability="0.25" depth="35.0"/>
             </hypoDepthDist>
         </areaSource>
 
@@ -1135,7 +1135,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="GTPC" name="GTPC  -  GEORGIA STRAIT/PUGET SOUND CENTRE (DEEP)" tectonicRegion="Active Shallow Crust">
+        <areaSource id="GTPC" name="GTPC  -  GEORGIA STRAIT/PUGET SOUND CENTRE (DEEP)" tectonicRegion="Subduction Intraslab">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1154,13 +1154,13 @@
                         </gml:LinearRing>
                     </gml:exterior>
                 </gml:Polygon>
-                <upperSeismoDepth>0.0</upperSeismoDepth>
-                <lowerSeismoDepth>20.0</lowerSeismoDepth>
+                <upperSeismoDepth>45.0</upperSeismoDepth>
+                <lowerSeismoDepth>65.0</lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>1.5</ruptAspectRatio>
             <incrementalMFD minMag="4.85" binWidth="0.1">
-                <occurRates>3.76024e-05 2.90786e-05 2.24931e-05 1.74033e-05 1.34683e-05 1.04252e-05 8.07117e-06 6.24978e-06 4.84019e-06 3.74907e-06 2.90431e-06 2.25016e-06 1.74355e-06 1.35113e-06 1.04714e-06 8.11606e-07 6.29102e-07 4.87672e-07 3.78061e-07 2.93105e-07 2.27251e-07 1.76203e-07 1.22965e-07 9.53505e-08 2.46468e-08 1.91133e-08 1.48226e-08</occurRates>
+                <occurRates>3.74848e-05 2.89856e-05 2.24195e-05 1.73451e-05 1.34223e-05 1.03888e-05 8.04243e-06 6.22708e-06 4.82227e-06 3.73492e-06 2.89313e-06 2.24135e-06 1.73659e-06 1.34565e-06 1.04281e-06 8.08194e-07 6.26412e-07 4.85552e-07 3.76391e-07 2.91789e-07 2.26215e-07 1.75386e-07 1.22386e-07 9.48954e-08 2.45274e-08 1.90194e-08 1.47487e-08</occurRates>
             </incrementalMFD>
             <nodalPlaneDist>
                 <nodalPlane probability="0.3" strike="0.0" dip="30.0" rake="90.0" />
@@ -1169,9 +1169,9 @@
                 <nodalPlane probability="0.2" strike="270.0" dip="30.0" rake="90.0" />
             </nodalPlaneDist>
             <hypoDepthDist>
-                <hypoDepth probability="0.50" depth="10.0"/>
-                <hypoDepth probability="0.25" depth="5.0"/>
-                <hypoDepth probability="0.25" depth="15.0"/>
+                <hypoDepth probability="0.50" depth="55.0"/>
+                <hypoDepth probability="0.25" depth="50.0"/>
+                <hypoDepth probability="0.25" depth="60.0"/>
             </hypoDepthDist>
         </areaSource>
 
@@ -1252,7 +1252,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="JDFN" name="JDFN  -  JUAN DE FUCA PLATE BENDING, ONSHORE (DEEP)" tectonicRegion="Active Shallow Crust">
+        <areaSource id="JDFN" name="JDFN  -  JUAN DE FUCA PLATE BENDING, ONSHORE (DEEP)" tectonicRegion="Subduction Intraslab">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1273,13 +1273,13 @@
                         </gml:LinearRing>
                     </gml:exterior>
                 </gml:Polygon>
-                <upperSeismoDepth>0.0</upperSeismoDepth>
-                <lowerSeismoDepth>20.0</lowerSeismoDepth>
+                <upperSeismoDepth>25.0</upperSeismoDepth>
+                <lowerSeismoDepth>45.0</lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>1.5</ruptAspectRatio>
             <incrementalMFD minMag="4.85" binWidth="0.1">
-                <occurRates>3.38340e-05 2.69269e-05 2.14405e-05 1.70798e-05 1.36120e-05 1.08527e-05 8.65603e-06 6.90648e-06 5.51242e-06 4.40113e-06 3.51491e-06 2.80792e-06 2.24371e-06 1.79331e-06 1.43364e-06 1.14635e-06 9.16814e-07 7.33371e-07 5.86733e-07 4.69490e-07 3.75731e-07 2.70664e-07 7.22233e-08 5.78225e-08 4.62983e-08</occurRates>
+                <occurRates>3.37854e-05 2.68870e-05 2.14078e-05 1.70530e-05 1.35900e-05 1.08347e-05 8.64132e-06 6.89446e-06 5.50258e-06 4.39309e-06 3.50834e-06 2.80256e-06 2.23933e-06 1.78974e-06 1.43073e-06 1.14397e-06 9.14873e-07 7.31789e-07 5.85444e-07 4.68440e-07 3.74876e-07 2.70037e-07 7.20530e-08 5.76839e-08 4.61855e-08</occurRates>
             </incrementalMFD>
             <nodalPlaneDist>
                 <nodalPlane probability="0.3" strike="0.0" dip="30.0" rake="90.0" />
@@ -1288,9 +1288,9 @@
                 <nodalPlane probability="0.2" strike="270.0" dip="30.0" rake="90.0" />
             </nodalPlaneDist>
             <hypoDepthDist>
-                <hypoDepth probability="0.50" depth="10.0"/>
-                <hypoDepth probability="0.25" depth="5.0"/>
-                <hypoDepth probability="0.25" depth="15.0"/>
+                <hypoDepth probability="0.50" depth="30.0"/>
+                <hypoDepth probability="0.25" depth="25.0"/>
+                <hypoDepth probability="0.25" depth="35.0"/>
             </hypoDepthDist>
         </areaSource>
 
@@ -1802,7 +1802,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="GTPE" name="GTPE  -  GEORGIA STRAIT/PUGET SOUND EAST EAST (DEEP)" tectonicRegion="Active Shallow Crust">
+        <areaSource id="GTPE" name="GTPE  -  GEORGIA STRAIT/PUGET SOUND EAST EAST (DEEP)" tectonicRegion="Subduction Intraslab">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1820,13 +1820,13 @@
                         </gml:LinearRing>
                     </gml:exterior>
                 </gml:Polygon>
-                <upperSeismoDepth>0.0</upperSeismoDepth>
-                <lowerSeismoDepth>20.0</lowerSeismoDepth>
+                <upperSeismoDepth>55.0</upperSeismoDepth>
+                <lowerSeismoDepth>75.0</lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>1.5</ruptAspectRatio>
             <incrementalMFD minMag="4.85" binWidth="0.1">
-                <occurRates>5.07914e-04 3.99225e-04 3.13795e-04 2.46645e-04 1.93866e-04 1.52380e-04 1.19772e-04 9.41421e-05 7.39965e-05 5.81620e-05 4.57159e-05 3.59331e-05 2.82437e-05 2.21998e-05 1.74493e-05 1.37153e-05 1.07804e-05 8.47346e-06 6.66022e-06 5.23499e-06 4.11475e-06 3.23423e-06 2.28792e-06 1.79833e-06 4.71168e-07 3.70342e-07 2.91093e-07</occurRates>
+                <occurRates>5.06480e-04 3.98073e-04 3.12869e-04 2.45902e-04 1.93269e-04 1.51901e-04 1.19388e-04 9.38344e-05 7.37500e-05 5.79645e-05 4.55577e-05 3.58065e-05 2.81425e-05 2.21188e-05 1.73845e-05 1.36635e-05 1.07390e-05 8.44038e-06 6.63379e-06 5.21389e-06 4.09791e-06 3.22079e-06 2.27827e-06 1.79062e-06 4.69119e-07 3.68709e-07 2.89790e-07</occurRates>
             </incrementalMFD>
             <nodalPlaneDist>
                 <nodalPlane probability="0.3" strike="0.0" dip="30.0" rake="90.0" />
@@ -1835,13 +1835,13 @@
                 <nodalPlane probability="0.2" strike="270.0" dip="30.0" rake="90.0" />
             </nodalPlaneDist>
             <hypoDepthDist>
-                <hypoDepth probability="0.50" depth="10.0"/>
-                <hypoDepth probability="0.25" depth="5.0"/>
-                <hypoDepth probability="0.25" depth="15.0"/>
+                <hypoDepth probability="0.50" depth="60.0"/>
+                <hypoDepth probability="0.25" depth="55.0"/>
+                <hypoDepth probability="0.25" depth="65.0"/>
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="GTPW" name="GTPW  -  GEORGIA STRAIT/PUGET SOUND WEST (DEEP)" tectonicRegion="Active Shallow Crust">
+        <areaSource id="GTPW" name="GTPW  -  GEORGIA STRAIT/PUGET SOUND WEST (DEEP)" tectonicRegion="Subduction Intraslab">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1861,13 +1861,13 @@
                         </gml:LinearRing>
                     </gml:exterior>
                 </gml:Polygon>
-                <upperSeismoDepth>0.0</upperSeismoDepth>
-                <lowerSeismoDepth>20.0</lowerSeismoDepth>
+                <upperSeismoDepth>40.0</upperSeismoDepth>
+                <lowerSeismoDepth>60.0</lowerSeismoDepth>
             </areaGeometry>
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>1.5</ruptAspectRatio>
             <incrementalMFD minMag="4.85" binWidth="0.1">
-                <occurRates>1.84117e-05 1.38196e-05 1.03748e-05 7.78995e-06 5.85001e-06 4.39379e-06 3.30046e-06 2.47948e-06 1.86290e-06 1.39978e-06 1.05188e-06 7.90506e-07 5.94120e-07 4.46549e-07 3.35652e-07 2.52308e-07 1.89667e-07 1.42584e-07 1.07193e-07 8.05893e-08 6.05900e-08 4.55550e-08 3.08265e-08 2.31782e-08 5.80929e-09 4.36813e-09 3.28454e-09</occurRates>
+                <occurRates>1.83248e-05 1.37529e-05 1.03236e-05 7.75067e-06 5.81989e-06 4.37069e-06 3.28276e-06 2.46591e-06 1.85251e-06 1.39182e-06 1.04579e-06 7.85844e-07 5.90553e-07 4.43821e-07 3.33566e-07 2.50713e-07 1.88448e-07 1.41653e-07 1.06481e-07 8.00457e-08 6.01748e-08 4.52380e-08 3.06088e-08 2.30121e-08 5.76703e-09 4.33589e-09 3.25996e-09</occurRates>
             </incrementalMFD>
             <nodalPlaneDist>
                 <nodalPlane probability="0.3" strike="0.0" dip="30.0" rake="90.0" />
@@ -1876,9 +1876,9 @@
                 <nodalPlane probability="0.2" strike="270.0" dip="30.0" rake="90.0" />
             </nodalPlaneDist>
             <hypoDepthDist>
-                <hypoDepth probability="0.50" depth="10.0"/>
-                <hypoDepth probability="0.25" depth="5.0"/>
-                <hypoDepth probability="0.25" depth="15.0"/>
+                <hypoDepth probability="0.50" depth="50.0"/>
+                <hypoDepth probability="0.25" depth="45.0"/>
+                <hypoDepth probability="0.25" depth="55.0"/>
             </hypoDepthDist>
         </areaSource>
 
