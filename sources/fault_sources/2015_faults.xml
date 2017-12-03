@@ -78,7 +78,7 @@
             <rake>90.0</rake>
         </complexFaultSource>
         
-                <simpleFaultSource id="EISO-22" name="EISO  - outboard estimate of rupture - 16 km depth" tectonicRegion="Subduction Interface">
+        <simpleFaultSource id="EISO-22" name="EISO  - outboard estimate of rupture - 16 km depth" tectonicRegion="Subduction Interface">
             <simpleFaultGeometry>
                 <gml:LineString>
                     <gml:posList>

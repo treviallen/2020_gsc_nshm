@@ -4,7 +4,7 @@
 
     <sourceModel name="collapsed_collapsed">
 
-        <areaSource id="INOH" name="INOH - INNUITIAN OROGEN" tectonicRegion="stable">
+        <areaSource id="INOH" name="INOH - INNUITIAN OROGEN" tectonicRegion="Stable Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -57,7 +57,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="AIS" name="AIS - ALASKA INLAND - SHALLOW" tectonicRegion="active">
+        <areaSource id="AIS" name="AIS - ALASKA INLAND - SHALLOW" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -94,7 +94,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="AKC" name="AKC - ALASKA COASTAL" tectonicRegion="interface">
+        <areaSource id="AKC" name="AKC - ALASKA COASTAL" tectonicRegion="Subduction Interface">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -133,7 +133,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="AKN" name="AKN - ALASKA NORTH" tectonicRegion="active">
+        <areaSource id="AKN" name="AKN - ALASKA NORTH" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -173,7 +173,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="BFT" name="BFT - BEAUFORT SEA" tectonicRegion="active">
+        <areaSource id="BFT" name="BFT - BEAUFORT SEA" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -210,7 +210,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="AID" name="AID - ALASKA INLAND - DEEP" tectonicRegion="intraslab">
+        <areaSource id="AID" name="AID - ALASKA INLAND - DEEP" tectonicRegion="Subduction Intraslab">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -249,7 +249,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="DCR" name="DCR - DENALI CENTRAL REGION" tectonicRegion="active">
+        <areaSource id="DCR" name="DCR - DENALI CENTRAL REGION" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -284,7 +284,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="DSR" name="DSR - DENALI SOUTH REGION" tectonicRegion="active">
+        <areaSource id="DSR" name="DSR - DENALI SOUTH REGION" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -325,7 +325,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="DCZ" name="DCZ - DAWSON COMPRESSION ZONE" tectonicRegion="active">
+        <areaSource id="DCZ" name="DCZ - DAWSON COMPRESSION ZONE" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -361,7 +361,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="DWR" name="DWR - DENALI WEST REGION" tectonicRegion="active">
+        <areaSource id="DWR" name="DWR - DENALI WEST REGION" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -397,7 +397,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="MRD" name="MRD - MACKENZIE RIVER DELTA REGION" tectonicRegion="active">
+        <areaSource id="MRD" name="MRD - MACKENZIE RIVER DELTA REGION" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -433,7 +433,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="GCB" name="GCB - GLACIER BAY" tectonicRegion="active">
+        <areaSource id="GCB" name="GCB - GLACIER BAY" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -469,7 +469,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="GOA" name="GOA - GULF OF ALASKA" tectonicRegion="active">
+        <areaSource id="GOA" name="GOA - GULF OF ALASKA" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -505,7 +505,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="MKM" name="MKM - MACKENZIE MOUNTAINS" tectonicRegion="active">
+        <areaSource id="MKM" name="MKM - MACKENZIE MOUNTAINS" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -546,7 +546,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="RMN" name="RMN - RICHARDSON MOUNTAINS NORTH" tectonicRegion="active">
+        <areaSource id="RMN" name="RMN - RICHARDSON MOUNTAINS NORTH" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -582,7 +582,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="RMS" name="RMS - RICHARDSON MOUNTAINS SOUTH" tectonicRegion="active">
+        <areaSource id="RMS" name="RMS - RICHARDSON MOUNTAINS SOUTH" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -618,7 +618,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="WMR" name="WMR - WRANGELL MOUNTAINS REGION" tectonicRegion="active">
+        <areaSource id="WMR" name="WMR - WRANGELL MOUNTAINS REGION" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -654,7 +654,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="WSE" name="WSE - WEST ST ELIAS MOUNTAINS" tectonicRegion="active">
+        <areaSource id="WSE" name="WSE - WEST ST ELIAS MOUNTAINS" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -689,7 +689,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="YAK" name="YAK - YAKUTAT COLLISION" tectonicRegion="active">
+        <areaSource id="YAK" name="YAK - YAKUTAT COLLISION" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -730,7 +730,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="YAR" name="YAR - YUKON-ALASKA REGION" tectonicRegion="active">
+        <areaSource id="YAR" name="YAR - YUKON-ALASKA REGION" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -766,7 +766,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="YUS" name="YUS - YUKON SOUTH" tectonicRegion="active">
+        <areaSource id="YUS" name="YUS - YUKON SOUTH" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -808,7 +808,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="SCCCT" name="SCCCT Geological Survey of Canada magnitude recurrence parameters" tectonicRegion="active">
+        <areaSource id="SCCCT" name="SCCCT Geological Survey of Canada magnitude recurrence parameters" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -848,7 +848,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="QCFA" name="QCFA - QUEEN CHARLOTTE FAULT - AREA" tectonicRegion="active">
+        <areaSource id="QCFA" name="QCFA - QUEEN CHARLOTTE FAULT - AREA" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -888,7 +888,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="FWFA" name="FWFA - FAIRWEATHER FAULT - AREA" tectonicRegion="active">
+        <areaSource id="FWFA" name="FWFA - FAIRWEATHER FAULT - AREA" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -933,7 +933,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="FTH" name="FTH  -  FOOTHILLS" tectonicRegion="active">
+        <areaSource id="FTH" name="FTH  -  FOOTHILLS" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -982,7 +982,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="NBC" name="NBC - NORTHERN BRITISH COLUMBIA" tectonicRegion="active">
+        <areaSource id="NBC" name="NBC - NORTHERN BRITISH COLUMBIA" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1025,7 +1025,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="ROCN" name="ROCN - ROCKY MOUNTAIN FOLD/THRUST BELT NORTH" tectonicRegion="active">
+        <areaSource id="ROCN" name="ROCN - ROCKY MOUNTAIN FOLD/THRUST BELT NORTH" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1066,7 +1066,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="CSTN" name="CSTN  -  COASTAL MOUNTAINS NARROW" tectonicRegion="active">
+        <areaSource id="CSTN" name="CSTN  -  COASTAL MOUNTAINS NARROW" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1111,7 +1111,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="BRO" name="BRO  -  BROOKS PENINSULA" tectonicRegion="active">
+        <areaSource id="BRO" name="BRO  -  BROOKS PENINSULA" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1146,7 +1146,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="CAS" name="CAS  -  CASCADE MOUNTAINS" tectonicRegion="active">
+        <areaSource id="CAS" name="CAS  -  CASCADE MOUNTAINS" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1184,7 +1184,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="EXP" name="EXP  -  EXPLORER PLATE BENDING" tectonicRegion="active">
+        <areaSource id="EXP" name="EXP  -  EXPLORER PLATE BENDING" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1223,7 +1223,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="FHL" name="FHL  -  FLATHEAD LAKE" tectonicRegion="active">
+        <areaSource id="FHL" name="FHL  -  FLATHEAD LAKE" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1260,7 +1260,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="GTPC" name="GTPC  -  GEORGIA STRAIT/PUGET SOUND CENTRE (DEEP)" tectonicRegion="intraslab">
+        <areaSource id="GTPC" name="GTPC  -  GEORGIA STRAIT/PUGET SOUND CENTRE (DEEP)" tectonicRegion="Subduction Intraslab">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1300,7 +1300,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="HEC" name="HEC  -  HECATE STRAIT" tectonicRegion="active">
+        <areaSource id="HEC" name="HEC  -  HECATE STRAIT" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1337,7 +1337,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="JDFF" name="JDFF  -  JUAN DE FUCA PLATE BENDING, OFFSHORE" tectonicRegion="active">
+        <areaSource id="JDFF" name="JDFF  -  JUAN DE FUCA PLATE BENDING, OFFSHORE" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1377,7 +1377,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="JDFN" name="JDFN  -  JUAN DE FUCA PLATE BENDING, ONSHORE (DEEP)" tectonicRegion="intraslab">
+        <areaSource id="JDFN" name="JDFN  -  JUAN DE FUCA PLATE BENDING, ONSHORE (DEEP)" tectonicRegion="Subduction Intraslab">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1419,7 +1419,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="NOFR" name="NOFR  -  NOOTKA FAULT" tectonicRegion="active">
+        <areaSource id="NOFR" name="NOFR  -  NOOTKA FAULT" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1455,7 +1455,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="OFS" name="OFS  -  OFFSHORE" tectonicRegion="active">
+        <areaSource id="OFS" name="OFS  -  OFFSHORE" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1493,7 +1493,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="OLM" name="OLM  -  OLYMPIC MOUNTAINS" tectonicRegion="active">
+        <areaSource id="OLM" name="OLM  -  OLYMPIC MOUNTAINS" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1531,7 +1531,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="PGT" name="PGT  -  PUGET SOUND shallow" tectonicRegion="active">
+        <areaSource id="PGT" name="PGT  -  PUGET SOUND shallow" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1568,7 +1568,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="ROCS" name="ROCS  -  ROCKY MOUNTAIN FOLD/THRUST BELT SOUTH" tectonicRegion="active">
+        <areaSource id="ROCS" name="ROCS  -  ROCKY MOUNTAIN FOLD/THRUST BELT SOUTH" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1611,7 +1611,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="SBC" name="SBC  -  SOUTHERN BRITISH COLUMBIA" tectonicRegion="active">
+        <areaSource id="SBC" name="SBC  -  SOUTHERN BRITISH COLUMBIA" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1654,7 +1654,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="VICM" name="VICM  -   VANCOUVER ISLAND COAST MOUNTAINS" tectonicRegion="active">
+        <areaSource id="VICM" name="VICM  -   VANCOUVER ISLAND COAST MOUNTAINS" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1694,7 +1694,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="SCCWCH" name="SCCWCH Geological Survey of Canada magnitude recurrence parameters" tectonicRegion="active">
+        <areaSource id="SCCWCH" name="SCCWCH Geological Survey of Canada magnitude recurrence parameters" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1754,7 +1754,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="RMTM" name="RMTN - ROCKY MOUNTAIN TRENCH MID" tectonicRegion="active">
+        <areaSource id="RMTM" name="RMTN - ROCKY MOUNTAIN TRENCH MID" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1796,7 +1796,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="RMTS" name="RMTS  -  ROCKY MOUNTAIN TRENCH SOUTH" tectonicRegion="active">
+        <areaSource id="RMTS" name="RMTS  -  ROCKY MOUNTAIN TRENCH SOUTH" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1840,7 +1840,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="RMTN" name="RMTN  -  ROCKY MOUNTAIN TRENCH NORTH" tectonicRegion="active">
+        <areaSource id="RMTN" name="RMTN  -  ROCKY MOUNTAIN TRENCH NORTH" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1888,7 +1888,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="CST" name="BCNC  -  BC NORTH COAST" tectonicRegion="active">
+        <areaSource id="CST" name="BCNC  -  BC NORTH COAST" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1943,7 +1943,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="ELR" name="ELR - ESKIMO LAKES REGION" tectonicRegion="active">
+        <areaSource id="ELR" name="ELR - ESKIMO LAKES REGION" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -1980,7 +1980,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="YUS2" name="YUS - YUKON SOUTH" tectonicRegion="active">
+        <areaSource id="YUS2" name="YUS - YUKON SOUTH" tectonicRegion="Active Shallow Crust">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -2023,7 +2023,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="GTPE" name="GTPE  -  GEORGIA STRAIT/PUGET SOUND EAST EAST (DEEP)" tectonicRegion="intraslab">
+        <areaSource id="GTPE" name="GTPE  -  GEORGIA STRAIT/PUGET SOUND EAST EAST (DEEP)" tectonicRegion="Subduction Intraslab">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
@@ -2062,7 +2062,7 @@
             </hypoDepthDist>
         </areaSource>
 
-        <areaSource id="GTPW" name="GTPW  -  GEORGIA STRAIT/PUGET SOUND WEST (DEEP)" tectonicRegion="intraslab">
+        <areaSource id="GTPW" name="GTPW  -  GEORGIA STRAIT/PUGET SOUND WEST (DEEP)" tectonicRegion="Subduction Intraslab">
             <areaGeometry>
                 <gml:Polygon>
                     <gml:exterior>
