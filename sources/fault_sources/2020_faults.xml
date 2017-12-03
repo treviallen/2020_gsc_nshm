@@ -73,7 +73,7 @@
             <magScaleRel>GSCCascadia</magScaleRel>
             <ruptAspectRatio>1.0</ruptAspectRatio>
             <incrementalMFD minMag="8.55" binWidth="0.1">
-                <occurRates>9.49066e-05 1.39773e-04 2.06747e-04 3.07236e-04 4.58821e-04 4.62473e-04 1.07027e-04 1.52848e-05</occurRates>
+                <occurRates>9.51178e-05 1.58876e-04 2.65682e-04 4.44852e-04 7.20844e-04 2.62829e-04 2.09025e-04</occurRates>
             </incrementalMFD>
             <rake>90.0</rake>
         </complexFaultSource>

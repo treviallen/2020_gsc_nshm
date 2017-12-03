@@ -112,6 +112,7 @@ src_bval_fix_sd = beta2bval(get_field_data(sf, 'BETA_FIX_S', 'float')) # too man
 src_mcomp = get_field_data(sf, 'MCOMP', 'str')
 src_ycomp = get_field_data(sf, 'YCOMP', 'str')
 src_ymax = get_field_data(sf, 'YMAX', 'float')
+src_trt = get_field_data(sf, 'TRT', 'str')
 src_cat = get_field_data(sf, 'SHEEF_FILE', 'str')
 sortind = argsort(src_code)
 
@@ -583,12 +584,12 @@ for i in srcidx:
     
         print 'Filling new values for', src_code[i]
         new_bval_b[i] = bval
-        #new_bval_l[i] = bval-sigb173
-        #new_bval_u[i] = bval+sigb173
+        new_bval_l[i] = bval-sigb173
+        new_bval_u[i] = bval+sigb173
         
         # Use +/- 1 sigma
-        new_bval_l[i] = bval+bval_sig # lower curve, so higher b
-        new_bval_u[i] = bval-bval_sig # upper curve, so lower b
+        #new_bval_l[i] = bval+bval_sig # lower curve, so higher b
+        #new_bval_u[i] = bval-bval_sig # upper curve, so lower b
         
         new_n0_b[i]   = fn0
         new_n0_l[i]   = N0_lo100
@@ -1114,7 +1115,7 @@ w.field('BETA_FIX_S','F', 8, 3)
 w.field('YCOMP','C','70')
 w.field('MCOMP','C','30')
 w.field('YMAX','F', 8, 0)
-#w.field('TRT','C','100')
+w.field('TRT','C','100')
 #w.field('DOMAIN','F', 2, 0)
 w.field('SHEEF_FILE','C','50')
 
@@ -1124,7 +1125,6 @@ print '\n!!! ADD TRT AND DOMAIN BACK IN !!!\n'
 new_bval_b = bval2beta(new_bval_b)
 new_bval_l = bval2beta(new_bval_l)
 new_bval_u = bval2beta(new_bval_u)
-
 
 # make array of output field 
 fields = [x[0] for x in w.fields]
@@ -1148,20 +1148,38 @@ for record, shape in zip(records, shapes):
         else:
             newrec.append(record[idx])
     
+    # fix depths
+    if record[-2] == 'active':
+        new_depb = 10.
+        new_depu = 5.
+        new_depl = 15.
+    elif record[-2] == 'stable':
+        new_depb = 10.
+        new_depu = 5.
+        new_depl = 20.
+    elif record[-2] == 'intraslab':
+        new_depb = 35.
+        new_depu = 30.
+        new_depl = 40.
+    elif record[-2] == 'interface':
+        new_depb = 10.
+        new_depu = 5.
+        new_depl = 20.
+    
     # write new records
     # update values   
     if src_n0[i] != new_n0_b[i]:
-        w.record(newrec[0], newrec[1], newrec[2], newrec[3], newrec[4], newrec[5], newrec[6], \
+        w.record(newrec[0], newrec[1], newrec[2], newrec[3], new_depb, new_depu, new_depl, \
                  newrec[7], newrec[8], newrec[9], newrec[10], newrec[11], \
                  new_n0_b[i], new_n0_l[i], new_n0_u[i], new_bval_b[i], new_bval_l[i], new_bval_u[i], \
-                 newrec[18], newrec[19], newrec[20], newrec[21], newrec[22], newrec[23]) #, newrec[24], newrec[25])
+                 newrec[18], newrec[19], newrec[20], newrec[21], newrec[22], newrec[23], newrec[24]) #, newrec[25])
     
     # don't edit values
     else:
-        w.record(newrec[0], newrec[1], newrec[2], newrec[3], newrec[4], newrec[5], newrec[6], \
+        w.record(newrec[0], newrec[1], newrec[2], newrec[3], new_depb, new_depu, new_depl, \
                  newrec[7], newrec[8], newrec[9], newrec[10], newrec[11], \
                  newrec[12], newrec[13], newrec[14], newrec[15], newrec[16], newrec[17], \
-                 newrec[18], newrec[19], newrec[20], newrec[21], newrec[22], newrec[23]) # , newrec[24], newrec[25])
+                 newrec[18], newrec[19], newrec[20], newrec[21], newrec[22], newrec[23], newrec[24]) #, newrec[25])
 
     i += 1  
     

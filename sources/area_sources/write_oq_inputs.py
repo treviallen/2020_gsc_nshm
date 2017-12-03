@@ -1,5 +1,5 @@
-from tools.make_nsha_oq_inputs import src_shape2dict, write_oq_sourcefile, \
-                                      make_logic_tree, test_beta_curves
+from make_gsc_oq_inputs import src_shape2dict, write_oq_sourcefile, \
+                               make_logic_tree, test_beta_curves
 from numpy import array, zeros_like, where, unique
 from sys import argv
 from os import path, mkdir, sep
@@ -38,6 +38,7 @@ splitpath = shpfile.split(sep)[:-2]
 # set beta wts - keep these consistent accross models and zones
 beta_wts = [0.68, 0.16, 0.16] # best, lower (hi b), upper (lo b)
 mx_wts = [0.6, 0.1, 0.3] # best, upper, lower
+mx_dict = {'mx_wts':mx_wts}
 
 # set Mmax array and weights
 #print '\n!!!! temporary override to compare rate collapse method !!!!\n'
@@ -121,7 +122,7 @@ if outputType == '0':
         mkdir(meta['modelPath'])
     
     # now write source files
-    outxml = write_oq_sourcefile(model, meta, mx_wts)
+    outxml = write_oq_sourcefile(model, meta, mx_dict)
     srcxmls.append(outxml)
     
     # get branch weight
@@ -153,7 +154,7 @@ elif outputType == '1':
         mkdir(meta['modelPath'])
     
     # now write source files
-    outxml = write_oq_sourcefile(model, meta, mx_wts)
+    outxml = write_oq_sourcefile(model, meta, mx_dict)
     srcxmls.append(outxml)
     
     # get branch weight
@@ -198,7 +199,7 @@ elif outputType == '2':
                 mkdir(meta['modelPath'])
             
             # now write source files
-            outxml = write_oq_sourcefile(model, meta, mx_wts)
+            outxml = write_oq_sourcefile(model, meta, mx_dict)
             srcxmls.append(outxml)
             
             # get branch weight
@@ -229,7 +230,7 @@ elif outputType == '3':
         mkdir(meta['modelPath'])
     
     # now write source files
-    outxml = write_oq_sourcefile(model, meta, mx_wts)
+    outxml = write_oq_sourcefile(model, meta, mx_dict)
     srcxmls.append(outxml)
     
     # get branch weight
@@ -263,7 +264,7 @@ elif outputType == '4':
         mkdir(meta['modelPath'])
     
     # now write source files
-    outxml = write_oq_sourcefile(model, meta, mx_wts)
+    outxml = write_oq_sourcefile(model, meta, mx_dict)
     srcxmls.append(outxml)
     
     # get branch weight
