@@ -87,7 +87,7 @@
         
         <logicTreeBranchingLevel branchingLevelID="bl4">
             <logicTreeBranchSet uncertaintyType="gmpeModel" branchSetID="bs4"
-                                applyToTectonicRegionType="Subduction IntraSlab">
+                                applyToTectonicRegionType="Subduction Intraslab">
                 
                 <logicTreeBranch branchID="b41">
                     <uncertaintyModel>AbrahamsonEtAl2015SSlab</uncertaintyModel>
