@@ -108,8 +108,8 @@ src_bval_l = beta2bval(get_field_data(sf, 'BETA_LOWER', 'float'))
 src_n0 = get_field_data(sf, 'N0_BEST', 'float')
 src_n0_u = get_field_data(sf, 'N0_UPPER', 'float')
 src_n0_l = get_field_data(sf, 'N0_LOWER', 'float')
-src_bval_fix = beta2bval(get_field_data(sf, 'BETA_FIX', 'float'))
-src_bval_fix_sd = beta2bval(get_field_data(sf, 'BETA_FIX_S', 'float')) # too many chars - does not recognise "D"
+src_bval_fix = beta2bval(get_field_data(sf, 'BVAL_FIX', 'float')) # note values are in Beta
+src_bval_fix_sd = beta2bval(get_field_data(sf, 'BVAL_FIX_S', 'float')) # too many chars - does not recognise "D"
 src_mcomp = get_field_data(sf, 'MCOMP', 'str')
 src_ycomp = get_field_data(sf, 'YCOMP', 'str')
 src_ymax = get_field_data(sf, 'YMAX', 'float')
@@ -1170,14 +1170,15 @@ for record, shape in zip(records, shapes):
     # write new records
     # update values   
     if src_n0[i] != new_n0_b[i]:
-        w.record(newrec[0], newrec[1], newrec[2], newrec[3], new_depb, new_depu, new_depl, \
+        w.record(newrec[0], newrec[1], newrec[2], newrec[3], newrec[4], newrec[5], newrec[6], \
                  newrec[7], newrec[8], newrec[9], newrec[10], newrec[11], \
                  new_n0_b[i], new_n0_l[i], new_n0_u[i], new_bval_b[i], new_bval_l[i], new_bval_u[i], \
                  newrec[18], newrec[19], newrec[20], newrec[21], newrec[22], newrec[23], newrec[24]) #, newrec[25])
     
     # don't edit values
+    # new_depb, new_depu, new_depl,
     else:
-        w.record(newrec[0], newrec[1], newrec[2], newrec[3], new_depb, new_depu, new_depl, \
+        w.record(newrec[0], newrec[1], newrec[2], newrec[3], newrec[4], newrec[5], newrec[6], \
                  newrec[7], newrec[8], newrec[9], newrec[10], newrec[11], \
                  newrec[12], newrec[13], newrec[14], newrec[15], newrec[16], newrec[17], \
                  newrec[18], newrec[19], newrec[20], newrec[21], newrec[22], newrec[23], newrec[24]) #, newrec[25])
