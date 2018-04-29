@@ -69,7 +69,7 @@ mu = 3.3E10 # Pa
 bin_width = 0.01
 
 # now loop thru the fault sources
-mmin = 6.3
+mmin = 6.0
 legend_txt = []
 figure = plt.figure(1,figsize=(16,8))
 for j, fault in enumerate(fname):
@@ -121,6 +121,10 @@ plt.grid(which='major', color='gray', linestyle='-', linewidth=0.5)
 plt.grid(which='minor', color='gray', linestyle='--', linewidth=0.5)
 plt.xlim([6.0, 7.5])
 plt.ylim([10**-6, 10**-3])
+
+# plot morell rates
+paleoRate = 2./15000.
+plt.plot(6.0, paleoRate, 'ro')
 
 plt.subplot(122)
 plt.title('Weighted Rates (Best Slip & Mmax)', fontsize=18)

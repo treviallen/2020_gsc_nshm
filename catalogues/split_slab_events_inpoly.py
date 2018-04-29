@@ -31,7 +31,7 @@ import shapefile
 from gmt_tools import get_grd_extent
 
 sheeffile = argv[1]
-shpfile = argv[2]
+shpfile = argv[2] # i think this is supposed to be "2020_H_model_slab.shp"
 
 # now parse sheef
 print 'Reading SHEEF...'

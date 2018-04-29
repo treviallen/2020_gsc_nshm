@@ -8,7 +8,7 @@ from numpy import arange, mean, percentile, array, unique, where, argsort, floor
 from netCDF4 import Dataset as NetCDFFile
 from gmt_tools import cpt2colormap
 from os import path, walk, system
-from obspy.imaging.beachball import Beach
+#from obspy.imaging.beachball import Beach
 from hmtk.parsers.catalogue.csv_catalogue_parser import CsvCatalogueParser, CsvCatalogueWriter
 from misc_tools import remove_last_cmap_colour
 from mapping_tools import drawshapepoly
@@ -89,7 +89,7 @@ print 'Making map...'
 ls = LightSource(azdeg = 180, altdeg = 45)
 norm = mpl.colors.Normalize(vmin=-8000/zscale, vmax=5000/zscale)#myb
 rgb = ls.shade(topodat, cmap=cmap, norm=norm)
-im = m.imshow(rgb, alpha=0.7)
+im = m.imshow(rgb, alpha=0.6)
 
 
 ##########################################################################################
@@ -139,11 +139,14 @@ l.set_zorder(len(cat.data['magnitude'])+5)
 # add source zones
 ##########################################################################################
 import shapefile
-shpfile = '../sources/area_sources/2020_H_model_modified/shapefiles/2020_H_model_slab.shp'
-#shpfile = '../sources/area_sources/2015_H_model/shapefiles/2015_H_merged_slab.shp'
+shpfile = '../sources/area_sources/2020_H_model/shapefiles/2020_H_model_slab.shp'
 sf = shapefile.Reader(shpfile)
 
 drawshapepoly(m, plt, sf, lw=2.)
+
+shpfile = '../sources/area_sources/2015_H_model/shapefiles/2015_H_merged_slab.shp'
+sf = shapefile.Reader(shpfile)
+drawshapepoly(m, plt, sf, lw=2., col='r', ls='--')
 
 '''
 ##########################################################################################

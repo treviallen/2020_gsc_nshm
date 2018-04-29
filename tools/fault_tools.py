@@ -164,6 +164,26 @@ def mag2maxs_WC94(mw, ftype):
         b = 0.89
         sig = 0.38
     return 10**(a + b * mw), sig # in m
+    
+def mag2disp_WC94(mw, ftype):
+    if ftype == 'all':
+        a = -4.80
+        b = 0.69
+        sig = 0.36
+    elif ftype == 'ss':
+        a = -6.32
+        b = 0.90
+        sig = 0.28
+    elif ftype == 'rs':
+        a = -0.74
+        b = 0.08
+        sig = 0.38
+        print '\nNote: WC94 poorly constrained for reverse faulting events\n'
+    elif ftype == 'ns':
+        a = -4.45
+        b = 0.63
+        sig = 0.33
+    return 10**(a + b * mw), sig # in m
 
 # srl is in km
 def srl2mag_WC94(srl, ftype):
@@ -324,7 +344,7 @@ def mag2area_So15inter(mag):
     
     m0 = mw2m0(mag) # in N-m
     a = 1.72E-09
-    b = 4.17
+    b = log10(4.17)
     sig = 1.481
     
     return 10**(log10(a) + b * log10(m0)), sig # in km^2
@@ -474,7 +494,7 @@ def area2avs_L10(area, ftype):
     from numpy import log10
     # assume ss == all
     a = 0.5
-    if ftype == 'rs':
+    if ftype == 'ds':
         # first get subsurface L
         b = -4.42
     elif ftype == 'all' or ftype == 'ss':
@@ -486,7 +506,7 @@ def area2avs_L10(area, ftype):
 def area2mag_L10(area, ftype): # in km**2
     from numpy import log10
     a = 1.0
-    if ftype == 'rs':
+    if ftype == 'ds':
         b = 4.00
     elif ftype == 'ss':
         b = 3.99
@@ -497,7 +517,7 @@ def area2mag_L10(area, ftype): # in km**2
 def len2mag_L10(length, ftype): # in km
     from numpy import log10
     a = 1.67
-    if ftype == 'rs':
+    if ftype == 'ds':
         b = 4.24
     elif ftype == 'ss':
         b = 4.17
@@ -508,7 +528,7 @@ def len2mag_L10(length, ftype): # in km
 def mag2area_L10(mw, ftype): # in MW
     from numpy import log10
     a = 1.0
-    if ftype == 'rs':
+    if ftype == 'ds':
         b = 4.00
     elif ftype == 'ss':
         b = 3.99
@@ -519,7 +539,7 @@ def mag2area_L10(mw, ftype): # in MW
 def mag2len_L10(mw, ftype): # in MW
     from numpy import log10
     a = 1.67
-    if ftype == 'rs':
+    if ftype == 'ds':
         b = 4.24
     elif ftype == 'ss':
         b = 4.17
@@ -631,6 +651,39 @@ def mag2len_J94_SCR_lin(mw):
 def len2mag_J94_SCR_quad(flen):
     from numpy import log10
     return 5.22 + 0.38 * log10(flen) + 0.37 * log10(flen)**2
+    
+''' do Allen & Hayes 2017 intraslab '''
+
+# get mag 2 len in km**2
+def mag2len_AH17_other(mw, rtype):
+    b = 0.63
+    if rtype == 'intra':
+        a = -3.03
+        sig = 0.14
+    elif rtype == 'outer':
+        a = -2.87
+        sig = 0.08
+    elif rtype == 'ss':
+        a = -2.81
+        sig = 0.15
+        
+    return 10**(a + b * mw), sig
+    
+# get mag 2 area in km**2
+def mag2area_AH17_other(mw, rtype):
+    b = 0.96
+    if rtype == 'intra':
+        a = -3.89
+        sig = 0.19
+    elif rtype == 'outer':
+        a = -3.89
+        sig = 0.11
+    elif rtype == 'ss':
+        a = -4.04
+        sig = 0.20
+        
+    return 10**(a + b * mw), sig
+    
 
 ''' STOP SCALING RELATIONS '''
 
@@ -643,7 +696,7 @@ def mag2disp(mw, **kwargs):
     if model == 'WC94':
         disp = mag2disp_WC94(mw, ftype)
     elif model == 'L10AC':
-        disp = mag2disp_L10AC(mw, ftype)
+        disp = mag2disp_L10(mw, ftype)
 
     return disp
 
@@ -686,7 +739,7 @@ def return_area2mag_for_ss(area):
     # do Shaw 2009
     Sh09 = area2mag_Sh09(area)
     # do Leonard 2010
-    L10mw = area2mag_L10AC(area, ftype)
+    L10mw = area2mag_L10(area, ftype)
 
     Mest = [WC94mw, HB02mw, E03mw, Sh09, L10mw]
 
@@ -699,7 +752,7 @@ def return_area2mag_for_rs(area):
     # do Wells & Coppersmith 1994
     WC94mw, WC94sig = area2mag_WC94(area, ftype)
     # do Leonard 2010
-    L10mw = area2mag_L10AC(area, ftype)
+    L10mw = area2mag_L10(area, ftype)
 
     Mest = [WC94mw, L10mw]
 
@@ -968,8 +1021,8 @@ def get_cummulative_stats(A0, bval, mc, curvetype, mrange, n_char_mag, name, **k
         if  mw >= mmin and mw <= mx:
             if model == 'WC94':
                 slip_per_mag.append(mag2disp_WC94(mw, 'ss') * 1000 * mrate[k])
-            elif model == 'L10AC':
-                slip_per_mag.append(mag2disp_L10AC(mw, 'ss') * 1000 * mrate[k])
+            elif model == 'L10':
+                slip_per_mag.append(mag2disp_L10(mw, 'ss') * 1000 * mrate[k])
         k += 1
 
     #print name, curvetype, str(sum(slip_per_mag)), 'mm/yr'
@@ -989,7 +1042,7 @@ def get_betaplt_frisk(beta, N0, mmin, mmax):
 def get_oq_incrementalMFD(beta, N0, mmin, mmax, binwid):
     from numpy import arange, exp
 
-    mrange = arange(mmin, mmax, binwid)
+    mrange = arange(mmin+0.5*binwid, mmax, binwid)
 
     betacurve = N0 * exp(-beta  *mrange) * (1 - exp(-beta * (mmax - mrange))) \
                 / (1 - exp(-beta * mmax))
