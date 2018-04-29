@@ -5,19 +5,16 @@ Various updates are made to the models in the process:
 	- extrapolation of long-period accelerations to 10s
 	- addition of PGV for models with no PGV parameterisation
 	- application of SS14/AB06 amplification factors for models with no Vs30 parameterisation
+	- depth-specific tables produced
 	
 '''
-
 
 from calc_oq_gmpes import gsim2table # from https://github.com/treviallen/my_codes/blob/master/calc_oq_gmpes.py
 from numpy import logspace, arange, array
 
-#gmmPy = 'garcia_2005'
-#gmmClass = 'GarciaEtAl2005SSlab'
 mags = arange(4.75, 8.1, 0.25)
 dists = logspace(0,3, 31)
 vs30rng = [115, 250, 450, 760., 1100, 1600] # in m/s
-#vs30rng = [1600] # in m/s
 extrapPeriod = [5., 10.]
 folder = 'gmm_txt_tables' # output folder
 
