@@ -9,20 +9,13 @@ from misc_tools import listdir_extension
 from os import system, path, remove
 from sys import argv
 
-'''
-# first remove hdf5 files
-hdf5files = listdir_extension('hdf5', 'hdf5')
-if len(hdf5files) > 0:
-    for hf in hdf5files:
-        remove(hf)
-'''
-# get xls gmm files
-#tabin = argv[1] #'tables' #path.join('2015-08_Electronic Appendices','AppendixA_AdjustedGMMs')
-#dist = argv[2]
+# get txt gmm files
+infolder = argv[1]
+outfolder = argv[2]
 
-folder = 'gmm_txt_tables'
+#folder = 'gmm_txt_tables'
 extension = 'txt'
-gmpetables = listdir_extension(folder, extension)
+gmpetables = listdir_extension(infolder, extension)
 
 '''
 usage: gmpe_table_builder.py [-h] --input-file INPUT_FILE --output-file
@@ -31,7 +24,6 @@ usage: gmpe_table_builder.py [-h] --input-file INPUT_FILE --output-file
                              [--accel-units ACCEL_UNITS]
                              [--sigma-row SIGMA_ROW]
 '''
-#gmpetables = ['A.10_2CCSP_adjusted_spec.txt']
 
 for tab in gmpetables:
 
@@ -48,9 +40,9 @@ for tab in gmpetables:
         dist = 'Rrup' # for NGA-E
     '''
         
-    tabin  = path.join(folder, tab)
+    tabin  = path.join(infolder, tab)
     
-    hdf5out = path.join('gmm_hdf5_tables', path.split(tab)[-1].strip('txt')+'hdf5')
+    hdf5out = path.join(outfolder, path.split(tab)[-1].strip('txt')+'hdf5')
     
     try:
         remove(hdf5out)
