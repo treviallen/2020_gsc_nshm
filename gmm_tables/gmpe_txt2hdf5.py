@@ -20,7 +20,7 @@ if len(hdf5files) > 0:
 #tabin = argv[1] #'tables' #path.join('2015-08_Electronic Appendices','AppendixA_AdjustedGMMs')
 #dist = argv[2]
 
-
+folder = 'gmm_txt_tables'
 extension = 'txt'
 gmpetables = listdir_extension(folder, extension)
 
@@ -55,12 +55,12 @@ for tab in gmpetables:
     try:
         remove(hdf5out)
     except:
-        print 'Continue: hdf5 file does not exist'
+        print '\nContinue: hdf5 file does not exist'
     
     # read in table and get diatance metric
-    lines = open(tab).readlines()
+    lines = open(tabin).readlines()
     distType = lines[0].split('.')[0].split()[-1].capitalize()
-    print distType
+    print '\n' + distType
     
     system(''.join(('python /Users/tallen/Documents/Code/my_codes/gmpe_table_builder.py --input-file=', \
                     tabin, ' --output-file=', hdf5out, ' --distance-key=', distType, ' --is-log True')))

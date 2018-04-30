@@ -3,17 +3,20 @@ from numpy import logspace, sqrt, array, exp
 import matplotlib.pyplot as plt
 from os import path, getcwd
 from scipy.constants import g
+import matplotlib as mpl
+mpl.style.use('classic')
+
 
 mag  = 6.0
-depths = [30., 50.]
-ztor = 7. # guess
+depths = [50., 60.]
+ztor = 50. # guess
 rake = 90. # USGS CMT
 dip  = 30.
 
 # set site details
 vs30 = 1100.
 rjb = logspace(1,2.7,10)
-rjb = array([19.95, 19.95])
+rjb = array([55, 65])
 rrup = rjb #sqrt(rjb**2 + dep**2) # assume point source; i.e. repi = rjb
 rhypo = rjb
 
@@ -24,12 +27,13 @@ for i, dep in enumerate(depths):
 
     # get ground motion estimates from GMPEs
     #for i in range(0, len(rrup)):
-    Yea97imt, AB03imt, AB03CISimt, Gea05imt, Zea06imt, Zea06CISimt, MP10imt, AA13imt, Aea15imt, Zea16imt \
+    #Yea97imt, AB03imt, AB03CISimt, Gea05imt, Zea06imt, Zea06CISimt, MP10imt, AA13imt, Aea15imt, Zea16imt \
+    Yea97imt, AB03imt, AB03CISimt, Gea05imt, Zea06imt, Zea06CISimt, MP10imt \
         = inslab_gsims(mag, dep, ztor, dip, rake, rrup[1], rjb[1], vs30)
     
     # plot Garcia
     plt.subplot(1,2,i+1)    
-    hdf5file = path.join(wdir, 'hdf5', 'GarciaEtAl2005SSlab.vs1100.hdf5')
+    hdf5file = path.join(wdir, 'gmm_hdf5_tables', 'GarciaEtAl2005SSlab.vs1100.h50.hdf5')
     Geahdf5imt = hdf5_gsim(mag, dep, ztor, dip, rake, rrup[1], rjb[1], rhypo[1], vs30, hdf5file)
     # M6
     
@@ -37,11 +41,12 @@ for i, dep in enumerate(depths):
     plt.loglog(array(Gea05imt['per']), exp(Gea05imt['sa']), 'b-', lw=2, label='Parametric')
     
     # plot from table
+    '''
     if i == 1:
        tabPer = Geahdf5imt['per'][::-1]
        tabSA = array([2.477, 2.541, 2.633, 2.667, 2.503, 2.348, 2.159, 2.019, 1.748, 1.560, 1.262, 1.030, 0.697, 0.445, 0.250, -0.294])
        plt.loglog(tabPer, (10**tabSA)/(g*100.), 'g--', lw=2, label='ASCII Table')
-    
+    '''
     plt.legend()
     
     plt.xlabel('Period (sec)')
