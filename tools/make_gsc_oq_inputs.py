@@ -291,6 +291,7 @@ def write_oq_sourcefile(model, meta, mx_dict):
             # rename source code if "." exists
             m['src_code'].replace('.', '')
             src_code = m['src_code']
+            print src_code
             
             if isinf(log10(m['src_N0'][0])) == False:
                 ###################################################################
@@ -305,7 +306,7 @@ def write_oq_sourcefile(model, meta, mx_dict):
                     idsub = idsub.replace(".", "")
                     
                     newxml += '        <complexFaultSource id="'+src_code+idsub+'" name="'+\
-                               m['src_name']+'" tectonicRegion="'+m['trt']+'">\n'
+                                        m['src_name']+'" tectonicRegion="'+trt+'">\n'
                     newxml += '            <complexFaultGeometry>\n'
                     newxml += '                <faultTopEdge>\n'
                     newxml += '                    <gml:LineString>\n'

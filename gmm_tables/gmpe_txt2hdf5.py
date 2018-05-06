@@ -51,7 +51,7 @@ for tab in gmpetables:
     
     # read in table and get diatance metric
     lines = open(tabin).readlines()
-    distType = lines[0].split('.')[0].split()[-1].capitalize()
+    distType = lines[0].split('. Log10')[0].split()[-1].capitalize()
     print '\n' + distType
     
     system(''.join(('python /Users/tallen/Documents/Code/my_codes/gmpe_table_builder.py --input-file=', \
