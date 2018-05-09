@@ -38,7 +38,7 @@ def make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeri
             tabtxt = gsim2table(gmmClass, gmmName, mags, dists, depth, vs30, vs30refPass, extrapPeriod, interpPeriods, rtype, folder)
 
 
-'''
+
 from openquake.hazardlib.gsim.garcia_2005 import GarciaEtAl2005SSlab
 gmmClass = GarciaEtAl2005SSlab()
 gmmName = 'GarciaEtAl2005SSlab'
@@ -46,8 +46,8 @@ rtype = 'rhypo'
 modVs30 = False
 vs30ref = 1100.
 depths = [30., 50., 55., 60.]
-#depths = [50.]
-make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref)
+interpPeriods = False
+make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeriods)
 
 from openquake.hazardlib.gsim.atkinson_macias_2009 import AtkinsonMacias2009
 gmmClass = AtkinsonMacias2009()
@@ -56,8 +56,9 @@ rtype = 'rrup'
 modVs30 = True
 vs30ref = 760.
 depths = [15., 30.]
-make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref)
-'''
+interpPeriods = False
+make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeriods)
+
 from openquake.hazardlib.gsim.ghofrani_atkinson_2014 import GhofraniAtkinson2014, GhofraniAtkinson2014Cascadia
 gmmClass = GhofraniAtkinson2014Cascadia()
 gmmName = 'GhofraniAtkinson2014Cascadia'
@@ -67,7 +68,7 @@ rtype = 'rrup'
 depths = [15., 30.]
 interpPeriods = True
 make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeriods)
-'''
+
 from openquake.hazardlib.gsim.atkinson_boore_2003 import AtkinsonBoore2003SSlabCascadia
 gmmClass = AtkinsonBoore2003SSlabCascadia()
 gmmName = 'AtkinsonBoore2003SSlabCascadia'
@@ -75,7 +76,8 @@ modVs30 = True
 vs30ref = 760.
 rtype = 'rrup'
 depths = [30., 50., 55., 60.]
-make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref)
+interpPeriods = False
+make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeriods)
 
 from openquake.hazardlib.gsim.zhao_2006 import ZhaoEtAl2006SSlabCascadia
 gmmClass = ZhaoEtAl2006SSlabCascadia()
@@ -84,7 +86,8 @@ modVs30 = True
 vs30ref = 760.
 depths = [30., 50., 55., 60.]
 rtype = 'rrup'
-make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref)
+interpPeriods = False
+make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeriods)
 
 from openquake.hazardlib.gsim.zhao_2006 import ZhaoEtAl2006SInterCascadia
 gmmClass = ZhaoEtAl2006SInterCascadia()
@@ -93,7 +96,8 @@ modVs30 = True
 vs30ref = 760.
 depths = [15., 30.]
 rtype = 'rrup'
-make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref)
+interpPeriods = False
+make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeriods)
 
 from openquake.hazardlib.gsim.abrahamson_2015 import AbrahamsonEtAl2015SInter
 gmmClass = AbrahamsonEtAl2015SInter()
@@ -102,7 +106,8 @@ modVs30 = True
 vs30ref = 1000.
 depths = [15., 30.]
 rtype = 'rrup'
-make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref)
+interpPeriods = False
+make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeriods)
 
 from openquake.hazardlib.gsim.abrahamson_2015 import AbrahamsonEtAl2015SSlab
 gmmClass = AbrahamsonEtAl2015SSlab()
@@ -111,5 +116,5 @@ modVs30 = True
 vs30ref = 1000.
 depths = [30., 50., 55., 60.]
 rtype = 'rhypo'
-make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref)
-'''
+interpPeriods = False
+make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeriods)
