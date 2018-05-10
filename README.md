@@ -1,1 +1,4 @@
-# 2020_gsc_nshm
+GSC National Seismic Hazard Model
+=================================
+
+This respository contains research code and input data for the 2020 revision of Canada's 6th Generation National Seismic Hazard Model (NSHM6G). The Geological Survey of Canada has tried to make the information in this repository as accurate as possible. However, it does not guarantee that the information is totally accurate or complete. Information and data within this repository is likely to change frequently and without notice whilst we are actively developing the NSHM6G. Therefore, care should be taken if relying on this information to make commercial decisions.
