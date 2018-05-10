@@ -800,7 +800,7 @@
             <magScaleRel>WC1994</magScaleRel>
             <ruptAspectRatio>2.0</ruptAspectRatio>
             <!-- minMag reduced by 0.5 units to account for magnitude offset for offshore region -->
-            <incrementalMFD minMag="4.35" binWidth="0.1">
+            <incrementalMFD minMag="4.85" binWidth="0.1">
                 <occurRates>8.61956e-01 6.85676e-01 5.45475e-01 4.33963e-01 3.45264e-01 2.74709e-01 2.18583e-01 1.73932e-01 1.38410e-01 1.10148e-01 8.76607e-02 6.97681e-02 5.55303e-02 4.42003e-02 3.51838e-02 2.80080e-02 2.22968e-02 1.77511e-02 1.41328e-02 1.12527e-02 8.95989e-03 4.99425e-03 5.68151e-04 4.52457e-04 3.60340e-04</occurRates>
             </incrementalMFD>
             <nodalPlaneDist>
