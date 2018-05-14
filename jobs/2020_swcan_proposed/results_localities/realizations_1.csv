@@ -1,0 +1,257 @@
+ordinal,uid,model,gsim,weight
+0,b1~b11_b21_b31_b41_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Abrah,0.00390625
+1,b1~b11_b21_b31_b42_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Abr,0.00390625
+2,b1~b11_b21_b31_b43_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Abrahamso,0.00390625
+3,b1~b11_b21_b31_b44_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia(,0.00390625
+4,b1~b11_b21_b32_b41_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AbrahamsonEtAl2015SSlab() Abrahamson,0.00390625
+5,b1~b11_b21_b32_b42_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Abrahams,0.00390625
+6,b1~b11_b21_b32_b43_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl,0.00390625
+7,b1~b11_b21_b32_b44_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Abr,0.00390625
+8,b1~b11_b21_b33_b41_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Ab,0.00390625
+9,b1~b11_b21_b33_b42_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() ,0.00390625
+10,b1~b11_b21_b33_b43_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Abraha,0.00390625
+11,b1~b11_b21_b33_b44_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascad,0.00390625
+12,b1~b11_b21_b34_b41_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Abrahams,0.00390625
+13,b1~b11_b21_b34_b42_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Abraha,0.00390625
+14,b1~b11_b21_b34_b43_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() GarciaEtAl2005SSlab() AbrahamsonEt,0.00390625
+15,b1~b11_b21_b34_b44_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() A,0.00390625
+16,b1~b11_b22_b31_b41_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Abr,0.00390625
+17,b1~b11_b22_b31_b42_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() A,0.00390625
+18,b1~b11_b22_b31_b43_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Abraham,0.00390625
+19,b1~b11_b22_b31_b44_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadi,0.00390625
+20,b1~b11_b22_b32_b41_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() Abrahams,0.00390625
+21,b1~b11_b22_b32_b42_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Abraha,0.00390625
+22,b1~b11_b22_b32_b43_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEt,0.00390625
+23,b1~b11_b22_b32_b44_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() A,0.00390625
+24,b1~b11_b22_b33_b41_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() ,0.00390625
+25,b1~b11_b22_b33_b42_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia(,0.00390625
+26,b1~b11_b22_b33_b43_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Abra,0.00390625
+27,b1~b11_b22_b33_b44_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCasc,0.00390625
+28,b1~b11_b22_b34_b41_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Abraha,0.00390625
+29,b1~b11_b22_b34_b42_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Abra,0.00390625
+30,b1~b11_b22_b34_b43_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() Abrahamson,0.00390625
+31,b1~b11_b22_b34_b44_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia(),0.00390625
+32,b1~b11_b23_b31_b41_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() AbrahamsonE,0.00390625
+33,b1~b11_b23_b31_b42_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Abrahamso,0.00390625
+34,b1~b11_b23_b31_b43_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2,0.00390625
+35,b1~b11_b23_b31_b44_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() Abra,0.00390625
+36,b1~b11_b23_b32_b41_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() BooreEtAl2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtAl20,0.00390625
+37,b1~b11_b23_b32_b42_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonEtAl,0.00390625
+38,b1~b11_b23_b32_b43_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2014(),0.00390625
+39,b1~b11_b23_b32_b44_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Abrahamso,0.00390625
+40,b1~b11_b23_b33_b41_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Abrahams,0.00390625
+41,b1~b11_b23_b33_b42_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() Abraha,0.00390625
+42,b1~b11_b23_b33_b43_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() GarciaEtAl2005SSlab() AbrahamsonEt,0.00390625
+43,b1~b11_b23_b33_b44_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia() A,0.00390625
+44,b1~b11_b23_b34_b41_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtAl,0.00390625
+45,b1~b11_b23_b34_b42_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonEt,0.00390625
+46,b1~b11_b23_b34_b43_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2014,0.00390625
+47,b1~b11_b23_b34_b44_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Abraham,0.00390625
+48,b1~b11_b24_b31_b41_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() A,0.00390625
+49,b1~b11_b24_b31_b42_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia(),0.00390625
+50,b1~b11_b24_b31_b43_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Abrah,0.00390625
+51,b1~b11_b24_b31_b44_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCasca,0.00390625
+52,b1~b11_b24_b32_b41_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() Abraha,0.00390625
+53,b1~b11_b24_b32_b42_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Abra,0.00390625
+54,b1~b11_b24_b32_b43_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() GarciaEtAl2005SSlab() Abrahamson,0.00390625
+55,b1~b11_b24_b32_b44_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia(),0.00390625
+56,b1~b11_b24_b33_b41_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab(,0.00390625
+57,b1~b11_b24_b33_b42_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadi,0.00390625
+58,b1~b11_b24_b33_b43_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Ab,0.00390625
+59,b1~b11_b24_b33_b44_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCa,0.00390625
+60,b1~b11_b24_b34_b41_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Abra,0.00390625
+61,b1~b11_b24_b34_b42_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Ab,0.00390625
+62,b1~b11_b24_b34_b43_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() Abrahams,0.00390625
+63,b1~b11_b24_b34_b44_@_@,2020_H_modelcollapsed_faults.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia,0.00390625
+64,b1~b12_b21_b31_b41_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Abrahamson,0.00390625
+65,b1~b12_b21_b31_b42_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Abrahams,0.00390625
+66,b1~b12_b21_b31_b43_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl,0.00390625
+67,b1~b12_b21_b31_b44_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() Abr,0.00390625
+68,b1~b12_b21_b32_b41_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtAl2,0.00390625
+69,b1~b12_b21_b32_b42_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonEtA,0.00390625
+70,b1~b12_b21_b32_b43_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2014(,0.00390625
+71,b1~b12_b21_b32_b44_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Abrahams,0.00390625
+72,b1~b12_b21_b33_b41_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Abraham,0.00390625
+73,b1~b12_b21_b33_b42_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() Abrah,0.00390625
+74,b1~b12_b21_b33_b43_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() GarciaEtAl2005SSlab() AbrahamsonE,0.00390625
+75,b1~b12_b21_b33_b44_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia() ,0.00390625
+76,b1~b12_b21_b34_b41_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtA,0.00390625
+77,b1~b12_b21_b34_b42_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonE,0.00390625
+78,b1~b12_b21_b34_b43_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() GarciaEtAl2005SSlab() AbrahamsonEtAl201,0.00390625
+79,b1~b12_b21_b34_b44_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Abraha,0.00390625
+80,b1~b12_b22_b31_b41_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Abrahams,0.00390625
+81,b1~b12_b22_b31_b42_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Abraha,0.00390625
+82,b1~b12_b22_b31_b43_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEt,0.00390625
+83,b1~b12_b22_b31_b44_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() A,0.00390625
+84,b1~b12_b22_b32_b41_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtA,0.00390625
+85,b1~b12_b22_b32_b42_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonE,0.00390625
+86,b1~b12_b22_b32_b43_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl201,0.00390625
+87,b1~b12_b22_b32_b44_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Abraha,0.00390625
+88,b1~b12_b22_b33_b41_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Abrah,0.00390625
+89,b1~b12_b22_b33_b42_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() Abr,0.00390625
+90,b1~b12_b22_b33_b43_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Abrahamso,0.00390625
+91,b1~b12_b22_b33_b44_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia(,0.00390625
+92,b1~b12_b22_b34_b41_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() AbrahamsonE,0.00390625
+93,b1~b12_b22_b34_b42_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Abrahamso,0.00390625
+94,b1~b12_b22_b34_b43_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2,0.00390625
+95,b1~b12_b22_b34_b44_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Abra,0.00390625
+96,b1~b12_b23_b31_b41_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtAl20,0.00390625
+97,b1~b12_b23_b31_b42_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonEtAl,0.00390625
+98,b1~b12_b23_b31_b43_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2014(),0.00390625
+99,b1~b12_b23_b31_b44_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() Abrahamso,0.00390625
+100,b1~b12_b23_b32_b41_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AtkinsonMacias2009() BooreEtAl2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtAl2014() ,0.00390625
+101,b1~b12_b23_b32_b42_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AtkinsonMacias2009() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonEtAl2014(,0.00390625
+102,b1~b12_b23_b32_b43_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AtkinsonMacias2009() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2014() Atki,0.00390625
+103,b1~b12_b23_b32_b44_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AtkinsonMacias2009() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() AbrahamsonEtAl,0.00390625
+104,b1~b12_b23_b33_b41_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtA,0.00390625
+105,b1~b12_b23_b33_b42_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonE,0.00390625
+106,b1~b12_b23_b33_b43_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() GarciaEtAl2005SSlab() AbrahamsonEtAl201,0.00390625
+107,b1~b12_b23_b33_b44_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia() Abraha,0.00390625
+108,b1~b12_b23_b34_b41_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtAl2014(,0.00390625
+109,b1~b12_b23_b34_b42_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonEtAl201,0.00390625
+110,b1~b12_b23_b34_b43_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2014() At,0.00390625
+111,b1~b12_b23_b34_b44_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() AbrahamsonEt,0.00390625
+112,b1~b12_b24_b31_b41_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Abraha,0.00390625
+113,b1~b12_b24_b31_b42_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Abra,0.00390625
+114,b1~b12_b24_b31_b43_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Abrahamson,0.00390625
+115,b1~b12_b24_b31_b44_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia(),0.00390625
+116,b1~b12_b24_b32_b41_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() AbrahamsonE,0.00390625
+117,b1~b12_b24_b32_b42_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Abrahamso,0.00390625
+118,b1~b12_b24_b32_b43_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2,0.00390625
+119,b1~b12_b24_b32_b44_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Abra,0.00390625
+120,b1~b12_b24_b33_b41_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Abr,0.00390625
+121,b1~b12_b24_b33_b42_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() A,0.00390625
+122,b1~b12_b24_b33_b43_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Abraham,0.00390625
+123,b1~b12_b24_b33_b44_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadi,0.00390625
+124,b1~b12_b24_b34_b41_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Abrahamso,0.00390625
+125,b1~b12_b24_b34_b42_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Abraham,0.00390625
+126,b1~b12_b24_b34_b43_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() AbrahamsonEtA,0.00390625
+127,b1~b12_b24_b34_b44_@_@,2020_H_modelcollapsed_faults.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Ab,0.00390625
+128,b1~b13_b21_b31_b41_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Ab,0.00390625
+129,b1~b13_b21_b31_b42_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() ,0.00390625
+130,b1~b13_b21_b31_b43_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Abraha,0.00390625
+131,b1~b13_b21_b31_b44_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascad,0.00390625
+132,b1~b13_b21_b32_b41_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AbrahamsonEtAl2015SSlab() Abraham,0.00390625
+133,b1~b13_b21_b32_b42_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Abrah,0.00390625
+134,b1~b13_b21_b32_b43_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonE,0.00390625
+135,b1~b13_b21_b32_b44_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() ,0.00390625
+136,b1~b13_b21_b33_b41_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab(),0.00390625
+137,b1~b13_b21_b33_b42_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia,0.00390625
+138,b1~b13_b21_b33_b43_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Abr,0.00390625
+139,b1~b13_b21_b33_b44_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCas,0.00390625
+140,b1~b13_b21_b34_b41_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Abrah,0.00390625
+141,b1~b13_b21_b34_b42_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Abr,0.00390625
+142,b1~b13_b21_b34_b43_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() GarciaEtAl2005SSlab() Abrahamso,0.00390625
+143,b1~b13_b21_b34_b44_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia(,0.00390625
+144,b1~b13_b22_b31_b41_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() ,0.00390625
+145,b1~b13_b22_b31_b42_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia(,0.00390625
+146,b1~b13_b22_b31_b43_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Abra,0.00390625
+147,b1~b13_b22_b31_b44_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCasc,0.00390625
+148,b1~b13_b22_b32_b41_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() Abrah,0.00390625
+149,b1~b13_b22_b32_b42_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Abr,0.00390625
+150,b1~b13_b22_b32_b43_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() GarciaEtAl2005SSlab() Abrahamso,0.00390625
+151,b1~b13_b22_b32_b44_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia(,0.00390625
+152,b1~b13_b22_b33_b41_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab,0.00390625
+153,b1~b13_b22_b33_b42_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascad,0.00390625
+154,b1~b13_b22_b33_b43_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() A,0.00390625
+155,b1~b13_b22_b33_b44_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabC,0.00390625
+156,b1~b13_b22_b34_b41_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Abr,0.00390625
+157,b1~b13_b22_b34_b42_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() A,0.00390625
+158,b1~b13_b22_b34_b43_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() Abraham,0.00390625
+159,b1~b13_b22_b34_b44_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadi,0.00390625
+160,b1~b13_b23_b31_b41_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Abrahams,0.00390625
+161,b1~b13_b23_b31_b42_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AtkinsonMacias2009() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Abraha,0.00390625
+162,b1~b13_b23_b31_b43_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AtkinsonMacias2009() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEt,0.00390625
+163,b1~b13_b23_b31_b44_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() A,0.00390625
+164,b1~b13_b23_b32_b41_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AtkinsonMacias2009() BooreEtAl2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtA,0.00390625
+165,b1~b13_b23_b32_b42_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AtkinsonMacias2009() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonE,0.00390625
+166,b1~b13_b23_b32_b43_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AtkinsonMacias2009() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl201,0.00390625
+167,b1~b13_b23_b32_b44_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AtkinsonMacias2009() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Abraha,0.00390625
+168,b1~b13_b23_b33_b41_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AtkinsonMacias2009() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Abrah,0.00390625
+169,b1~b13_b23_b33_b42_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AtkinsonMacias2009() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() Abr,0.00390625
+170,b1~b13_b23_b33_b43_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AtkinsonMacias2009() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Abrahamso,0.00390625
+171,b1~b13_b23_b33_b44_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AtkinsonMacias2009() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia(,0.00390625
+172,b1~b13_b23_b34_b41_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AtkinsonMacias2009() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() AbrahamsonE,0.00390625
+173,b1~b13_b23_b34_b42_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AtkinsonMacias2009() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Abrahamso,0.00390625
+174,b1~b13_b23_b34_b43_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AtkinsonMacias2009() ChiouYoungs2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2,0.00390625
+175,b1~b13_b23_b34_b44_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() AtkinsonMacias2009() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Abra,0.00390625
+176,b1~b13_b24_b31_b41_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab(,0.00390625
+177,b1~b13_b24_b31_b42_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadi,0.00390625
+178,b1~b13_b24_b31_b43_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Ab,0.00390625
+179,b1~b13_b24_b31_b44_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCa,0.00390625
+180,b1~b13_b24_b32_b41_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() Abr,0.00390625
+181,b1~b13_b24_b32_b42_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() A,0.00390625
+182,b1~b13_b24_b32_b43_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() GarciaEtAl2005SSlab() Abraham,0.00390625
+183,b1~b13_b24_b32_b44_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadi,0.00390625
+184,b1~b13_b24_b33_b41_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSl,0.00390625
+185,b1~b13_b24_b33_b42_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCasc,0.00390625
+186,b1~b13_b24_b33_b43_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab(),0.00390625
+187,b1~b13_b24_b33_b44_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSla,0.00390625
+188,b1~b13_b24_b34_b41_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() A,0.00390625
+189,b1~b13_b24_b34_b42_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia(),0.00390625
+190,b1~b13_b24_b34_b43_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() Abrah,0.00390625
+191,b1~b13_b24_b34_b44_@_@,2020_H_modelcollapsed_faults.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCasca,0.00390625
+192,b1~b14_b21_b31_b41_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Abrahams,0.00390625
+193,b1~b14_b21_b31_b42_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Abraha,0.00390625
+194,b1~b14_b21_b31_b43_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEt,0.00390625
+195,b1~b14_b21_b31_b44_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() A,0.00390625
+196,b1~b14_b21_b32_b41_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtA,0.00390625
+197,b1~b14_b21_b32_b42_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonE,0.00390625
+198,b1~b14_b21_b32_b43_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl201,0.00390625
+199,b1~b14_b21_b32_b44_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Abraha,0.00390625
+200,b1~b14_b21_b33_b41_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Abrah,0.00390625
+201,b1~b14_b21_b33_b42_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() Abr,0.00390625
+202,b1~b14_b21_b33_b43_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Abrahamso,0.00390625
+203,b1~b14_b21_b33_b44_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia(,0.00390625
+204,b1~b14_b21_b34_b41_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() AbrahamsonE,0.00390625
+205,b1~b14_b21_b34_b42_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Abrahamso,0.00390625
+206,b1~b14_b21_b34_b43_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2,0.00390625
+207,b1~b14_b21_b34_b44_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Abra,0.00390625
+208,b1~b14_b22_b31_b41_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Abraha,0.00390625
+209,b1~b14_b22_b31_b42_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Abra,0.00390625
+210,b1~b14_b22_b31_b43_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Abrahamson,0.00390625
+211,b1~b14_b22_b31_b44_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia(),0.00390625
+212,b1~b14_b22_b32_b41_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() AbrahamsonE,0.00390625
+213,b1~b14_b22_b32_b42_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Abrahamso,0.00390625
+214,b1~b14_b22_b32_b43_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2,0.00390625
+215,b1~b14_b22_b32_b44_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Abra,0.00390625
+216,b1~b14_b22_b33_b41_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Abr,0.00390625
+217,b1~b14_b22_b33_b42_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() A,0.00390625
+218,b1~b14_b22_b33_b43_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Abraham,0.00390625
+219,b1~b14_b22_b33_b44_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadi,0.00390625
+220,b1~b14_b22_b34_b41_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Abrahamso,0.00390625
+221,b1~b14_b22_b34_b42_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Abraham,0.00390625
+222,b1~b14_b22_b34_b43_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() AbrahamsonEtA,0.00390625
+223,b1~b14_b22_b34_b44_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Ab,0.00390625
+224,b1~b14_b23_b31_b41_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtAl,0.00390625
+225,b1~b14_b23_b31_b42_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AtkinsonMacias2009() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonEt,0.00390625
+226,b1~b14_b23_b31_b43_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AtkinsonMacias2009() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2014,0.00390625
+227,b1~b14_b23_b31_b44_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() Abraham,0.00390625
+228,b1~b14_b23_b32_b41_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AtkinsonMacias2009() BooreEtAl2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtAl2014(,0.00390625
+229,b1~b14_b23_b32_b42_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AtkinsonMacias2009() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonEtAl201,0.00390625
+230,b1~b14_b23_b32_b43_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AtkinsonMacias2009() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2014() At,0.00390625
+231,b1~b14_b23_b32_b44_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AtkinsonMacias2009() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() AbrahamsonEt,0.00390625
+232,b1~b14_b23_b33_b41_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AtkinsonMacias2009() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() AbrahamsonE,0.00390625
+233,b1~b14_b23_b33_b42_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AtkinsonMacias2009() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() Abrahamso,0.00390625
+234,b1~b14_b23_b33_b43_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AtkinsonMacias2009() CampbellBozorgnia2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2,0.00390625
+235,b1~b14_b23_b33_b44_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AtkinsonMacias2009() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia() Abra,0.00390625
+236,b1~b14_b23_b34_b41_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AtkinsonMacias2009() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtAl201,0.00390625
+237,b1~b14_b23_b34_b42_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AtkinsonMacias2009() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonEtAl2,0.00390625
+238,b1~b14_b23_b34_b43_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AtkinsonMacias2009() ChiouYoungs2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2014() ,0.00390625
+239,b1~b14_b23_b34_b44_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() AtkinsonMacias2009() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Abrahamson,0.00390625
+240,b1~b14_b24_b31_b41_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Abra,0.00390625
+241,b1~b14_b24_b31_b42_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Ab,0.00390625
+242,b1~b14_b24_b31_b43_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Abrahams,0.00390625
+243,b1~b14_b24_b31_b44_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia,0.00390625
+244,b1~b14_b24_b32_b41_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() Abrahamso,0.00390625
+245,b1~b14_b24_b32_b42_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Abraham,0.00390625
+246,b1~b14_b24_b32_b43_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtA,0.00390625
+247,b1~b14_b24_b32_b44_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Ab,0.00390625
+248,b1~b14_b24_b33_b41_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() A,0.00390625
+249,b1~b14_b24_b33_b42_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia(),0.00390625
+250,b1~b14_b24_b33_b43_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Abrah,0.00390625
+251,b1~b14_b24_b33_b44_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCasca,0.00390625
+252,b1~b14_b24_b34_b41_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Abraham,0.00390625
+253,b1~b14_b24_b34_b42_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Abrah,0.00390625
+254,b1~b14_b24_b34_b43_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() AbrahamsonE,0.00390625
+255,b1~b14_b24_b34_b44_@_@,2020_H_modelcollapsed_faults.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() ,0.00390625

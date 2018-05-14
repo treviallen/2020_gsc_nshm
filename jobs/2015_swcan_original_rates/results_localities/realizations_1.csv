@@ -1,0 +1,1025 @@
+ordinal,uid,model,gsim,weight
+0,b1~b11_b21_b31_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Abrah,0.000976562
+1,b1~b11_b21_b31_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Boore,0.000976562
+2,b1~b11_b21_b31_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Campb,0.000976562
+3,b1~b11_b21_b31_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Chiou,0.000976562
+4,b1~b11_b21_b31_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Abr,0.000976562
+5,b1~b11_b21_b31_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Boo,0.000976562
+6,b1~b11_b21_b31_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Cam,0.000976562
+7,b1~b11_b21_b31_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Chi,0.000976562
+8,b1~b11_b21_b31_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Abrahamso,0.000976562
+9,b1~b11_b21_b31_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() BooreEtAl,0.000976562
+10,b1~b11_b21_b31_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() CampbellB,0.000976562
+11,b1~b11_b21_b31_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() ChiouYoun,0.000976562
+12,b1~b11_b21_b31_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia(,0.000976562
+13,b1~b11_b21_b31_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia(,0.000976562
+14,b1~b11_b21_b31_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia(,0.000976562
+15,b1~b11_b21_b31_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia(,0.000976562
+16,b1~b11_b21_b32_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AbrahamsonEtAl2015SSlab() Abrahamson,0.000976562
+17,b1~b11_b21_b32_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AbrahamsonEtAl2015SSlab() BooreEtAl2,0.000976562
+18,b1~b11_b21_b32_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AbrahamsonEtAl2015SSlab() CampbellBo,0.000976562
+19,b1~b11_b21_b32_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AbrahamsonEtAl2015SSlab() ChiouYoung,0.000976562
+20,b1~b11_b21_b32_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Abrahams,0.000976562
+21,b1~b11_b21_b32_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() BooreEtA,0.000976562
+22,b1~b11_b21_b32_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Campbell,0.000976562
+23,b1~b11_b21_b32_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() ChiouYou,0.000976562
+24,b1~b11_b21_b32_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl,0.000976562
+25,b1~b11_b21_b32_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() GarciaEtAl2005SSlab() BooreEtAl2014(,0.000976562
+26,b1~b11_b21_b32_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() GarciaEtAl2005SSlab() CampbellBozorg,0.000976562
+27,b1~b11_b21_b32_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() GarciaEtAl2005SSlab() ChiouYoungs201,0.000976562
+28,b1~b11_b21_b32_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Abr,0.000976562
+29,b1~b11_b21_b32_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Boo,0.000976562
+30,b1~b11_b21_b32_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Cam,0.000976562
+31,b1~b11_b21_b32_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Chi,0.000976562
+32,b1~b11_b21_b33_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Ab,0.000976562
+33,b1~b11_b21_b33_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Bo,0.000976562
+34,b1~b11_b21_b33_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Ca,0.000976562
+35,b1~b11_b21_b33_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Ch,0.000976562
+36,b1~b11_b21_b33_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() ,0.000976562
+37,b1~b11_b21_b33_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() ,0.000976562
+38,b1~b11_b21_b33_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() ,0.000976562
+39,b1~b11_b21_b33_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() ,0.000976562
+40,b1~b11_b21_b33_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Abraha,0.000976562
+41,b1~b11_b21_b33_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() GarciaEtAl2005SSlab() BooreE,0.000976562
+42,b1~b11_b21_b33_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Campbe,0.000976562
+43,b1~b11_b21_b33_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() GarciaEtAl2005SSlab() ChiouY,0.000976562
+44,b1~b11_b21_b33_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascad,0.000976562
+45,b1~b11_b21_b33_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascad,0.000976562
+46,b1~b11_b21_b33_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascad,0.000976562
+47,b1~b11_b21_b33_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascad,0.000976562
+48,b1~b11_b21_b34_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Abrahams,0.000976562
+49,b1~b11_b21_b34_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() BooreEtA,0.000976562
+50,b1~b11_b21_b34_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Campbell,0.000976562
+51,b1~b11_b21_b34_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() ChiouYou,0.000976562
+52,b1~b11_b21_b34_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Abraha,0.000976562
+53,b1~b11_b21_b34_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() BooreE,0.000976562
+54,b1~b11_b21_b34_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Campbe,0.000976562
+55,b1~b11_b21_b34_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() ChiouY,0.000976562
+56,b1~b11_b21_b34_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() GarciaEtAl2005SSlab() AbrahamsonEt,0.000976562
+57,b1~b11_b21_b34_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() GarciaEtAl2005SSlab() BooreEtAl201,0.000976562
+58,b1~b11_b21_b34_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() GarciaEtAl2005SSlab() CampbellBozo,0.000976562
+59,b1~b11_b21_b34_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() GarciaEtAl2005SSlab() ChiouYoungs2,0.000976562
+60,b1~b11_b21_b34_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() A,0.000976562
+61,b1~b11_b21_b34_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() B,0.000976562
+62,b1~b11_b21_b34_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() C,0.000976562
+63,b1~b11_b21_b34_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() C,0.000976562
+64,b1~b11_b22_b31_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Abr,0.000976562
+65,b1~b11_b22_b31_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Boo,0.000976562
+66,b1~b11_b22_b31_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Cam,0.000976562
+67,b1~b11_b22_b31_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Chi,0.000976562
+68,b1~b11_b22_b31_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() A,0.000976562
+69,b1~b11_b22_b31_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() B,0.000976562
+70,b1~b11_b22_b31_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() C,0.000976562
+71,b1~b11_b22_b31_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() C,0.000976562
+72,b1~b11_b22_b31_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Abraham,0.000976562
+73,b1~b11_b22_b31_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() BooreEt,0.000976562
+74,b1~b11_b22_b31_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Campbel,0.000976562
+75,b1~b11_b22_b31_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() ChiouYo,0.000976562
+76,b1~b11_b22_b31_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadi,0.000976562
+77,b1~b11_b22_b31_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadi,0.000976562
+78,b1~b11_b22_b31_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadi,0.000976562
+79,b1~b11_b22_b31_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadi,0.000976562
+80,b1~b11_b22_b32_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() Abrahams,0.000976562
+81,b1~b11_b22_b32_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() BooreEtA,0.000976562
+82,b1~b11_b22_b32_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() Campbell,0.000976562
+83,b1~b11_b22_b32_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() ChiouYou,0.000976562
+84,b1~b11_b22_b32_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Abraha,0.000976562
+85,b1~b11_b22_b32_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() BooreE,0.000976562
+86,b1~b11_b22_b32_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Campbe,0.000976562
+87,b1~b11_b22_b32_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() ChiouY,0.000976562
+88,b1~b11_b22_b32_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEt,0.000976562
+89,b1~b11_b22_b32_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() GarciaEtAl2005SSlab() BooreEtAl201,0.000976562
+90,b1~b11_b22_b32_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() GarciaEtAl2005SSlab() CampbellBozo,0.000976562
+91,b1~b11_b22_b32_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() GarciaEtAl2005SSlab() ChiouYoungs2,0.000976562
+92,b1~b11_b22_b32_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() A,0.000976562
+93,b1~b11_b22_b32_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() B,0.000976562
+94,b1~b11_b22_b32_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() C,0.000976562
+95,b1~b11_b22_b32_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() C,0.000976562
+96,b1~b11_b22_b33_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() ,0.000976562
+97,b1~b11_b22_b33_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() ,0.000976562
+98,b1~b11_b22_b33_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() ,0.000976562
+99,b1~b11_b22_b33_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() ,0.000976562
+100,b1~b11_b22_b33_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia(,0.000976562
+101,b1~b11_b22_b33_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia(,0.000976562
+102,b1~b11_b22_b33_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia(,0.000976562
+103,b1~b11_b22_b33_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia(,0.000976562
+104,b1~b11_b22_b33_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Abra,0.000976562
+105,b1~b11_b22_b33_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Boor,0.000976562
+106,b1~b11_b22_b33_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Camp,0.000976562
+107,b1~b11_b22_b33_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Chio,0.000976562
+108,b1~b11_b22_b33_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCasc,0.000976562
+109,b1~b11_b22_b33_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCasc,0.000976562
+110,b1~b11_b22_b33_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCasc,0.000976562
+111,b1~b11_b22_b33_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCasc,0.000976562
+112,b1~b11_b22_b34_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Abraha,0.000976562
+113,b1~b11_b22_b34_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() BooreE,0.000976562
+114,b1~b11_b22_b34_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Campbe,0.000976562
+115,b1~b11_b22_b34_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() ChiouY,0.000976562
+116,b1~b11_b22_b34_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Abra,0.000976562
+117,b1~b11_b22_b34_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Boor,0.000976562
+118,b1~b11_b22_b34_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Camp,0.000976562
+119,b1~b11_b22_b34_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Chio,0.000976562
+120,b1~b11_b22_b34_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() Abrahamson,0.000976562
+121,b1~b11_b22_b34_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() BooreEtAl2,0.000976562
+122,b1~b11_b22_b34_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() CampbellBo,0.000976562
+123,b1~b11_b22_b34_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() ChiouYoung,0.000976562
+124,b1~b11_b22_b34_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia(),0.000976562
+125,b1~b11_b22_b34_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia(),0.000976562
+126,b1~b11_b22_b34_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia(),0.000976562
+127,b1~b11_b22_b34_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia(),0.000976562
+128,b1~b11_b23_b31_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() AbrahamsonE,0.000976562
+129,b1~b11_b23_b31_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() BooreEtAl20,0.000976562
+130,b1~b11_b23_b31_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() CampbellBoz,0.000976562
+131,b1~b11_b23_b31_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() ChiouYoungs,0.000976562
+132,b1~b11_b23_b31_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Abrahamso,0.000976562
+133,b1~b11_b23_b31_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() BooreEtAl,0.000976562
+134,b1~b11_b23_b31_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() CampbellB,0.000976562
+135,b1~b11_b23_b31_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() ChiouYoun,0.000976562
+136,b1~b11_b23_b31_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2,0.000976562
+137,b1~b11_b23_b31_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() BooreEtAl2014(),0.000976562
+138,b1~b11_b23_b31_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() CampbellBozorgn,0.000976562
+139,b1~b11_b23_b31_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() ChiouYoungs2014,0.000976562
+140,b1~b11_b23_b31_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() Abra,0.000976562
+141,b1~b11_b23_b31_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() Boor,0.000976562
+142,b1~b11_b23_b31_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() Camp,0.000976562
+143,b1~b11_b23_b31_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() Chio,0.000976562
+144,b1~b11_b23_b32_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() BooreEtAl2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtAl20,0.000976562
+145,b1~b11_b23_b32_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() BooreEtAl2014() AbrahamsonEtAl2015SSlab() BooreEtAl2014() ,0.000976562
+146,b1~b11_b23_b32_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() BooreEtAl2014() AbrahamsonEtAl2015SSlab() CampbellBozorgni,0.000976562
+147,b1~b11_b23_b32_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() BooreEtAl2014() AbrahamsonEtAl2015SSlab() ChiouYoungs2014(,0.000976562
+148,b1~b11_b23_b32_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonEtAl,0.000976562
+149,b1~b11_b23_b32_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() BooreEtAl2014(,0.000976562
+150,b1~b11_b23_b32_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() CampbellBozorg,0.000976562
+151,b1~b11_b23_b32_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() ChiouYoungs201,0.000976562
+152,b1~b11_b23_b32_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2014(),0.000976562
+153,b1~b11_b23_b32_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() BooreEtAl2014() GarciaEtAl2005SSlab() BooreEtAl2014() Atki,0.000976562
+154,b1~b11_b23_b32_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() BooreEtAl2014() GarciaEtAl2005SSlab() CampbellBozorgnia201,0.000976562
+155,b1~b11_b23_b32_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() BooreEtAl2014() GarciaEtAl2005SSlab() ChiouYoungs2014() At,0.000976562
+156,b1~b11_b23_b32_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Abrahamso,0.000976562
+157,b1~b11_b23_b32_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() BooreEtAl,0.000976562
+158,b1~b11_b23_b32_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() CampbellB,0.000976562
+159,b1~b11_b23_b32_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() ChiouYoun,0.000976562
+160,b1~b11_b23_b33_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Abrahams,0.000976562
+161,b1~b11_b23_b33_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() BooreEtA,0.000976562
+162,b1~b11_b23_b33_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Campbell,0.000976562
+163,b1~b11_b23_b33_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() ChiouYou,0.000976562
+164,b1~b11_b23_b33_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() Abraha,0.000976562
+165,b1~b11_b23_b33_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() BooreE,0.000976562
+166,b1~b11_b23_b33_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() Campbe,0.000976562
+167,b1~b11_b23_b33_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() ChiouY,0.000976562
+168,b1~b11_b23_b33_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() GarciaEtAl2005SSlab() AbrahamsonEt,0.000976562
+169,b1~b11_b23_b33_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() GarciaEtAl2005SSlab() BooreEtAl201,0.000976562
+170,b1~b11_b23_b33_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() GarciaEtAl2005SSlab() CampbellBozo,0.000976562
+171,b1~b11_b23_b33_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() GarciaEtAl2005SSlab() ChiouYoungs2,0.000976562
+172,b1~b11_b23_b33_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia() A,0.000976562
+173,b1~b11_b23_b33_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia() B,0.000976562
+174,b1~b11_b23_b33_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia() C,0.000976562
+175,b1~b11_b23_b33_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia() C,0.000976562
+176,b1~b11_b23_b34_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtAl,0.000976562
+177,b1~b11_b23_b34_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() BooreEtAl2014(,0.000976562
+178,b1~b11_b23_b34_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() CampbellBozorg,0.000976562
+179,b1~b11_b23_b34_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() ChiouYoungs201,0.000976562
+180,b1~b11_b23_b34_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonEt,0.000976562
+181,b1~b11_b23_b34_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() BooreEtAl201,0.000976562
+182,b1~b11_b23_b34_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() CampbellBozo,0.000976562
+183,b1~b11_b23_b34_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() ChiouYoungs2,0.000976562
+184,b1~b11_b23_b34_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2014,0.000976562
+185,b1~b11_b23_b34_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() GarciaEtAl2005SSlab() BooreEtAl2014() At,0.000976562
+186,b1~b11_b23_b34_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() GarciaEtAl2005SSlab() CampbellBozorgnia2,0.000976562
+187,b1~b11_b23_b34_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() GarciaEtAl2005SSlab() ChiouYoungs2014() ,0.000976562
+188,b1~b11_b23_b34_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Abraham,0.000976562
+189,b1~b11_b23_b34_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() BooreEt,0.000976562
+190,b1~b11_b23_b34_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Campbel,0.000976562
+191,b1~b11_b23_b34_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() ChiouYo,0.000976562
+192,b1~b11_b24_b31_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() A,0.000976562
+193,b1~b11_b24_b31_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() B,0.000976562
+194,b1~b11_b24_b31_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() C,0.000976562
+195,b1~b11_b24_b31_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() C,0.000976562
+196,b1~b11_b24_b31_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia(),0.000976562
+197,b1~b11_b24_b31_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia(),0.000976562
+198,b1~b11_b24_b31_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia(),0.000976562
+199,b1~b11_b24_b31_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia(),0.000976562
+200,b1~b11_b24_b31_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Abrah,0.000976562
+201,b1~b11_b24_b31_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Boore,0.000976562
+202,b1~b11_b24_b31_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Campb,0.000976562
+203,b1~b11_b24_b31_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Chiou,0.000976562
+204,b1~b11_b24_b31_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCasca,0.000976562
+205,b1~b11_b24_b31_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCasca,0.000976562
+206,b1~b11_b24_b31_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCasca,0.000976562
+207,b1~b11_b24_b31_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCasca,0.000976562
+208,b1~b11_b24_b32_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() Abraha,0.000976562
+209,b1~b11_b24_b32_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() BooreE,0.000976562
+210,b1~b11_b24_b32_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() Campbe,0.000976562
+211,b1~b11_b24_b32_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() ChiouY,0.000976562
+212,b1~b11_b24_b32_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Abra,0.000976562
+213,b1~b11_b24_b32_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Boor,0.000976562
+214,b1~b11_b24_b32_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Camp,0.000976562
+215,b1~b11_b24_b32_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Chio,0.000976562
+216,b1~b11_b24_b32_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() GarciaEtAl2005SSlab() Abrahamson,0.000976562
+217,b1~b11_b24_b32_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() GarciaEtAl2005SSlab() BooreEtAl2,0.000976562
+218,b1~b11_b24_b32_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() GarciaEtAl2005SSlab() CampbellBo,0.000976562
+219,b1~b11_b24_b32_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() GarciaEtAl2005SSlab() ChiouYoung,0.000976562
+220,b1~b11_b24_b32_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia(),0.000976562
+221,b1~b11_b24_b32_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia(),0.000976562
+222,b1~b11_b24_b32_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia(),0.000976562
+223,b1~b11_b24_b32_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia(),0.000976562
+224,b1~b11_b24_b33_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab(,0.000976562
+225,b1~b11_b24_b33_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab(,0.000976562
+226,b1~b11_b24_b33_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab(,0.000976562
+227,b1~b11_b24_b33_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab(,0.000976562
+228,b1~b11_b24_b33_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadi,0.000976562
+229,b1~b11_b24_b33_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadi,0.000976562
+230,b1~b11_b24_b33_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadi,0.000976562
+231,b1~b11_b24_b33_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadi,0.000976562
+232,b1~b11_b24_b33_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Ab,0.000976562
+233,b1~b11_b24_b33_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Bo,0.000976562
+234,b1~b11_b24_b33_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Ca,0.000976562
+235,b1~b11_b24_b33_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Ch,0.000976562
+236,b1~b11_b24_b33_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCa,0.000976562
+237,b1~b11_b24_b33_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCa,0.000976562
+238,b1~b11_b24_b33_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCa,0.000976562
+239,b1~b11_b24_b33_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCa,0.000976562
+240,b1~b11_b24_b34_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Abra,0.000976562
+241,b1~b11_b24_b34_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Boor,0.000976562
+242,b1~b11_b24_b34_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Camp,0.000976562
+243,b1~b11_b24_b34_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Chio,0.000976562
+244,b1~b11_b24_b34_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Ab,0.000976562
+245,b1~b11_b24_b34_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Bo,0.000976562
+246,b1~b11_b24_b34_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Ca,0.000976562
+247,b1~b11_b24_b34_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Ch,0.000976562
+248,b1~b11_b24_b34_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() Abrahams,0.000976562
+249,b1~b11_b24_b34_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() BooreEtA,0.000976562
+250,b1~b11_b24_b34_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() Campbell,0.000976562
+251,b1~b11_b24_b34_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() ChiouYou,0.000976562
+252,b1~b11_b24_b34_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia,0.000976562
+253,b1~b11_b24_b34_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia,0.000976562
+254,b1~b11_b24_b34_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia,0.000976562
+255,b1~b11_b24_b34_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,AbrahamsonEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia,0.000976562
+256,b1~b12_b21_b31_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Abrahamson,0.000976562
+257,b1~b12_b21_b31_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() BooreEtAl2,0.000976562
+258,b1~b12_b21_b31_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() CampbellBo,0.000976562
+259,b1~b12_b21_b31_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() ChiouYoung,0.000976562
+260,b1~b12_b21_b31_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Abrahams,0.000976562
+261,b1~b12_b21_b31_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() BooreEtA,0.000976562
+262,b1~b12_b21_b31_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Campbell,0.000976562
+263,b1~b12_b21_b31_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() ChiouYou,0.000976562
+264,b1~b12_b21_b31_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl,0.000976562
+265,b1~b12_b21_b31_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() BooreEtAl2014(,0.000976562
+266,b1~b12_b21_b31_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() CampbellBozorg,0.000976562
+267,b1~b12_b21_b31_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() ChiouYoungs201,0.000976562
+268,b1~b12_b21_b31_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() Abr,0.000976562
+269,b1~b12_b21_b31_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() Boo,0.000976562
+270,b1~b12_b21_b31_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() Cam,0.000976562
+271,b1~b12_b21_b31_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() Chi,0.000976562
+272,b1~b12_b21_b32_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtAl2,0.000976562
+273,b1~b12_b21_b32_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AbrahamsonEtAl2015SSlab() BooreEtAl2014(),0.000976562
+274,b1~b12_b21_b32_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AbrahamsonEtAl2015SSlab() CampbellBozorgn,0.000976562
+275,b1~b12_b21_b32_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AbrahamsonEtAl2015SSlab() ChiouYoungs2014,0.000976562
+276,b1~b12_b21_b32_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonEtA,0.000976562
+277,b1~b12_b21_b32_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() BooreEtAl2014,0.000976562
+278,b1~b12_b21_b32_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() CampbellBozor,0.000976562
+279,b1~b12_b21_b32_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() ChiouYoungs20,0.000976562
+280,b1~b12_b21_b32_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2014(,0.000976562
+281,b1~b12_b21_b32_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() GarciaEtAl2005SSlab() BooreEtAl2014() Atk,0.000976562
+282,b1~b12_b21_b32_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() GarciaEtAl2005SSlab() CampbellBozorgnia20,0.000976562
+283,b1~b12_b21_b32_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() GarciaEtAl2005SSlab() ChiouYoungs2014() A,0.000976562
+284,b1~b12_b21_b32_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Abrahams,0.000976562
+285,b1~b12_b21_b32_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() BooreEtA,0.000976562
+286,b1~b12_b21_b32_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Campbell,0.000976562
+287,b1~b12_b21_b32_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() ChiouYou,0.000976562
+288,b1~b12_b21_b33_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Abraham,0.000976562
+289,b1~b12_b21_b33_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() BooreEt,0.000976562
+290,b1~b12_b21_b33_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Campbel,0.000976562
+291,b1~b12_b21_b33_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() ChiouYo,0.000976562
+292,b1~b12_b21_b33_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() Abrah,0.000976562
+293,b1~b12_b21_b33_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() Boore,0.000976562
+294,b1~b12_b21_b33_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() Campb,0.000976562
+295,b1~b12_b21_b33_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() Chiou,0.000976562
+296,b1~b12_b21_b33_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() GarciaEtAl2005SSlab() AbrahamsonE,0.000976562
+297,b1~b12_b21_b33_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() GarciaEtAl2005SSlab() BooreEtAl20,0.000976562
+298,b1~b12_b21_b33_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() GarciaEtAl2005SSlab() CampbellBoz,0.000976562
+299,b1~b12_b21_b33_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() GarciaEtAl2005SSlab() ChiouYoungs,0.000976562
+300,b1~b12_b21_b33_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia() ,0.000976562
+301,b1~b12_b21_b33_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia() ,0.000976562
+302,b1~b12_b21_b33_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia() ,0.000976562
+303,b1~b12_b21_b33_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia() ,0.000976562
+304,b1~b12_b21_b34_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtA,0.000976562
+305,b1~b12_b21_b34_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() BooreEtAl2014,0.000976562
+306,b1~b12_b21_b34_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() CampbellBozor,0.000976562
+307,b1~b12_b21_b34_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() ChiouYoungs20,0.000976562
+308,b1~b12_b21_b34_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonE,0.000976562
+309,b1~b12_b21_b34_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() BooreEtAl20,0.000976562
+310,b1~b12_b21_b34_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() CampbellBoz,0.000976562
+311,b1~b12_b21_b34_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() ChiouYoungs,0.000976562
+312,b1~b12_b21_b34_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() GarciaEtAl2005SSlab() AbrahamsonEtAl201,0.000976562
+313,b1~b12_b21_b34_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() GarciaEtAl2005SSlab() BooreEtAl2014() A,0.000976562
+314,b1~b12_b21_b34_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() GarciaEtAl2005SSlab() CampbellBozorgnia,0.000976562
+315,b1~b12_b21_b34_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() GarciaEtAl2005SSlab() ChiouYoungs2014(),0.000976562
+316,b1~b12_b21_b34_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Abraha,0.000976562
+317,b1~b12_b21_b34_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() BooreE,0.000976562
+318,b1~b12_b21_b34_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Campbe,0.000976562
+319,b1~b12_b21_b34_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() ChiouY,0.000976562
+320,b1~b12_b22_b31_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Abrahams,0.000976562
+321,b1~b12_b22_b31_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() BooreEtA,0.000976562
+322,b1~b12_b22_b31_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Campbell,0.000976562
+323,b1~b12_b22_b31_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() ChiouYou,0.000976562
+324,b1~b12_b22_b31_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Abraha,0.000976562
+325,b1~b12_b22_b31_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() BooreE,0.000976562
+326,b1~b12_b22_b31_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Campbe,0.000976562
+327,b1~b12_b22_b31_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() ChiouY,0.000976562
+328,b1~b12_b22_b31_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEt,0.000976562
+329,b1~b12_b22_b31_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() BooreEtAl201,0.000976562
+330,b1~b12_b22_b31_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() CampbellBozo,0.000976562
+331,b1~b12_b22_b31_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() ChiouYoungs2,0.000976562
+332,b1~b12_b22_b31_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() A,0.000976562
+333,b1~b12_b22_b31_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() B,0.000976562
+334,b1~b12_b22_b31_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() C,0.000976562
+335,b1~b12_b22_b31_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() C,0.000976562
+336,b1~b12_b22_b32_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtA,0.000976562
+337,b1~b12_b22_b32_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() BooreEtAl2014,0.000976562
+338,b1~b12_b22_b32_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() CampbellBozor,0.000976562
+339,b1~b12_b22_b32_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() ChiouYoungs20,0.000976562
+340,b1~b12_b22_b32_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonE,0.000976562
+341,b1~b12_b22_b32_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() BooreEtAl20,0.000976562
+342,b1~b12_b22_b32_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() CampbellBoz,0.000976562
+343,b1~b12_b22_b32_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() ChiouYoungs,0.000976562
+344,b1~b12_b22_b32_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl201,0.000976562
+345,b1~b12_b22_b32_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() GarciaEtAl2005SSlab() BooreEtAl2014() A,0.000976562
+346,b1~b12_b22_b32_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() GarciaEtAl2005SSlab() CampbellBozorgnia,0.000976562
+347,b1~b12_b22_b32_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() GarciaEtAl2005SSlab() ChiouYoungs2014(),0.000976562
+348,b1~b12_b22_b32_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Abraha,0.000976562
+349,b1~b12_b22_b32_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() BooreE,0.000976562
+350,b1~b12_b22_b32_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Campbe,0.000976562
+351,b1~b12_b22_b32_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() ChiouY,0.000976562
+352,b1~b12_b22_b33_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Abrah,0.000976562
+353,b1~b12_b22_b33_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Boore,0.000976562
+354,b1~b12_b22_b33_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Campb,0.000976562
+355,b1~b12_b22_b33_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Chiou,0.000976562
+356,b1~b12_b22_b33_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() Abr,0.000976562
+357,b1~b12_b22_b33_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() Boo,0.000976562
+358,b1~b12_b22_b33_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() Cam,0.000976562
+359,b1~b12_b22_b33_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() Chi,0.000976562
+360,b1~b12_b22_b33_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Abrahamso,0.000976562
+361,b1~b12_b22_b33_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() BooreEtAl,0.000976562
+362,b1~b12_b22_b33_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() CampbellB,0.000976562
+363,b1~b12_b22_b33_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() ChiouYoun,0.000976562
+364,b1~b12_b22_b33_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia(,0.000976562
+365,b1~b12_b22_b33_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia(,0.000976562
+366,b1~b12_b22_b33_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia(,0.000976562
+367,b1~b12_b22_b33_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia(,0.000976562
+368,b1~b12_b22_b34_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() AbrahamsonE,0.000976562
+369,b1~b12_b22_b34_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() BooreEtAl20,0.000976562
+370,b1~b12_b22_b34_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() CampbellBoz,0.000976562
+371,b1~b12_b22_b34_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() ChiouYoungs,0.000976562
+372,b1~b12_b22_b34_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Abrahamso,0.000976562
+373,b1~b12_b22_b34_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() BooreEtAl,0.000976562
+374,b1~b12_b22_b34_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() CampbellB,0.000976562
+375,b1~b12_b22_b34_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() ChiouYoun,0.000976562
+376,b1~b12_b22_b34_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2,0.000976562
+377,b1~b12_b22_b34_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() BooreEtAl2014(),0.000976562
+378,b1~b12_b22_b34_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() CampbellBozorgn,0.000976562
+379,b1~b12_b22_b34_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() ChiouYoungs2014,0.000976562
+380,b1~b12_b22_b34_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Abra,0.000976562
+381,b1~b12_b22_b34_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Boor,0.000976562
+382,b1~b12_b22_b34_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Camp,0.000976562
+383,b1~b12_b22_b34_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Chio,0.000976562
+384,b1~b12_b23_b31_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtAl20,0.000976562
+385,b1~b12_b23_b31_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() BooreEtAl2014() ,0.000976562
+386,b1~b12_b23_b31_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() CampbellBozorgni,0.000976562
+387,b1~b12_b23_b31_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() ChiouYoungs2014(,0.000976562
+388,b1~b12_b23_b31_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonEtAl,0.000976562
+389,b1~b12_b23_b31_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() BooreEtAl2014(,0.000976562
+390,b1~b12_b23_b31_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() CampbellBozorg,0.000976562
+391,b1~b12_b23_b31_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() ChiouYoungs201,0.000976562
+392,b1~b12_b23_b31_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2014(),0.000976562
+393,b1~b12_b23_b31_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() BooreEtAl2014() Atki,0.000976562
+394,b1~b12_b23_b31_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() CampbellBozorgnia201,0.000976562
+395,b1~b12_b23_b31_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() ChiouYoungs2014() At,0.000976562
+396,b1~b12_b23_b31_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() Abrahamso,0.000976562
+397,b1~b12_b23_b31_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() BooreEtAl,0.000976562
+398,b1~b12_b23_b31_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() CampbellB,0.000976562
+399,b1~b12_b23_b31_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() ChiouYoun,0.000976562
+400,b1~b12_b23_b32_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() BooreEtAl2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtAl2014() ,0.000976562
+401,b1~b12_b23_b32_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() BooreEtAl2014() AbrahamsonEtAl2015SSlab() BooreEtAl2014() Atkin,0.000976562
+402,b1~b12_b23_b32_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() BooreEtAl2014() AbrahamsonEtAl2015SSlab() CampbellBozorgnia2014,0.000976562
+403,b1~b12_b23_b32_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() BooreEtAl2014() AbrahamsonEtAl2015SSlab() ChiouYoungs2014() Atk,0.000976562
+404,b1~b12_b23_b32_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonEtAl2014(,0.000976562
+405,b1~b12_b23_b32_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() BooreEtAl2014() Atk,0.000976562
+406,b1~b12_b23_b32_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() CampbellBozorgnia20,0.000976562
+407,b1~b12_b23_b32_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() ChiouYoungs2014() A,0.000976562
+408,b1~b12_b23_b32_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2014() Atki,0.000976562
+409,b1~b12_b23_b32_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() BooreEtAl2014() GarciaEtAl2005SSlab() BooreEtAl2014() AtkinsonB,0.000976562
+410,b1~b12_b23_b32_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() BooreEtAl2014() GarciaEtAl2005SSlab() CampbellBozorgnia2014() A,0.000976562
+411,b1~b12_b23_b32_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() BooreEtAl2014() GarciaEtAl2005SSlab() ChiouYoungs2014() Atkinso,0.000976562
+412,b1~b12_b23_b32_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() AbrahamsonEtAl,0.000976562
+413,b1~b12_b23_b32_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() BooreEtAl2014(,0.000976562
+414,b1~b12_b23_b32_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() CampbellBozorg,0.000976562
+415,b1~b12_b23_b32_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() ChiouYoungs201,0.000976562
+416,b1~b12_b23_b33_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtA,0.000976562
+417,b1~b12_b23_b33_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() BooreEtAl2014,0.000976562
+418,b1~b12_b23_b33_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() CampbellBozor,0.000976562
+419,b1~b12_b23_b33_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() ChiouYoungs20,0.000976562
+420,b1~b12_b23_b33_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonE,0.000976562
+421,b1~b12_b23_b33_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() BooreEtAl20,0.000976562
+422,b1~b12_b23_b33_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() CampbellBoz,0.000976562
+423,b1~b12_b23_b33_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() ChiouYoungs,0.000976562
+424,b1~b12_b23_b33_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() GarciaEtAl2005SSlab() AbrahamsonEtAl201,0.000976562
+425,b1~b12_b23_b33_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() GarciaEtAl2005SSlab() BooreEtAl2014() A,0.000976562
+426,b1~b12_b23_b33_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() GarciaEtAl2005SSlab() CampbellBozorgnia,0.000976562
+427,b1~b12_b23_b33_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() GarciaEtAl2005SSlab() ChiouYoungs2014(),0.000976562
+428,b1~b12_b23_b33_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia() Abraha,0.000976562
+429,b1~b12_b23_b33_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia() BooreE,0.000976562
+430,b1~b12_b23_b33_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia() Campbe,0.000976562
+431,b1~b12_b23_b33_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia() ChiouY,0.000976562
+432,b1~b12_b23_b34_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtAl2014(,0.000976562
+433,b1~b12_b23_b34_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() BooreEtAl2014() Atk,0.000976562
+434,b1~b12_b23_b34_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() CampbellBozorgnia20,0.000976562
+435,b1~b12_b23_b34_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() ChiouYoungs2014() A,0.000976562
+436,b1~b12_b23_b34_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonEtAl201,0.000976562
+437,b1~b12_b23_b34_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() BooreEtAl2014() A,0.000976562
+438,b1~b12_b23_b34_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() CampbellBozorgnia,0.000976562
+439,b1~b12_b23_b34_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() ChiouYoungs2014(),0.000976562
+440,b1~b12_b23_b34_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2014() At,0.000976562
+441,b1~b12_b23_b34_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() GarciaEtAl2005SSlab() BooreEtAl2014() Atkinso,0.000976562
+442,b1~b12_b23_b34_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() GarciaEtAl2005SSlab() CampbellBozorgnia2014(),0.000976562
+443,b1~b12_b23_b34_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() GarciaEtAl2005SSlab() ChiouYoungs2014() Atkin,0.000976562
+444,b1~b12_b23_b34_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() AbrahamsonEt,0.000976562
+445,b1~b12_b23_b34_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() BooreEtAl201,0.000976562
+446,b1~b12_b23_b34_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() CampbellBozo,0.000976562
+447,b1~b12_b23_b34_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() AtkinsonMacias2009() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() ChiouYoungs2,0.000976562
+448,b1~b12_b24_b31_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Abraha,0.000976562
+449,b1~b12_b24_b31_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() BooreE,0.000976562
+450,b1~b12_b24_b31_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Campbe,0.000976562
+451,b1~b12_b24_b31_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() ChiouY,0.000976562
+452,b1~b12_b24_b31_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Abra,0.000976562
+453,b1~b12_b24_b31_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Boor,0.000976562
+454,b1~b12_b24_b31_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Camp,0.000976562
+455,b1~b12_b24_b31_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Chio,0.000976562
+456,b1~b12_b24_b31_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Abrahamson,0.000976562
+457,b1~b12_b24_b31_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() BooreEtAl2,0.000976562
+458,b1~b12_b24_b31_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() CampbellBo,0.000976562
+459,b1~b12_b24_b31_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() ChiouYoung,0.000976562
+460,b1~b12_b24_b31_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia(),0.000976562
+461,b1~b12_b24_b31_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia(),0.000976562
+462,b1~b12_b24_b31_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia(),0.000976562
+463,b1~b12_b24_b31_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia(),0.000976562
+464,b1~b12_b24_b32_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() AbrahamsonE,0.000976562
+465,b1~b12_b24_b32_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() BooreEtAl20,0.000976562
+466,b1~b12_b24_b32_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() CampbellBoz,0.000976562
+467,b1~b12_b24_b32_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() ChiouYoungs,0.000976562
+468,b1~b12_b24_b32_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Abrahamso,0.000976562
+469,b1~b12_b24_b32_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() BooreEtAl,0.000976562
+470,b1~b12_b24_b32_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() CampbellB,0.000976562
+471,b1~b12_b24_b32_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() ChiouYoun,0.000976562
+472,b1~b12_b24_b32_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2,0.000976562
+473,b1~b12_b24_b32_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() GarciaEtAl2005SSlab() BooreEtAl2014(),0.000976562
+474,b1~b12_b24_b32_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() GarciaEtAl2005SSlab() CampbellBozorgn,0.000976562
+475,b1~b12_b24_b32_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() GarciaEtAl2005SSlab() ChiouYoungs2014,0.000976562
+476,b1~b12_b24_b32_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Abra,0.000976562
+477,b1~b12_b24_b32_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Boor,0.000976562
+478,b1~b12_b24_b32_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Camp,0.000976562
+479,b1~b12_b24_b32_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Chio,0.000976562
+480,b1~b12_b24_b33_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Abr,0.000976562
+481,b1~b12_b24_b33_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Boo,0.000976562
+482,b1~b12_b24_b33_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Cam,0.000976562
+483,b1~b12_b24_b33_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Chi,0.000976562
+484,b1~b12_b24_b33_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() A,0.000976562
+485,b1~b12_b24_b33_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() B,0.000976562
+486,b1~b12_b24_b33_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() C,0.000976562
+487,b1~b12_b24_b33_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() C,0.000976562
+488,b1~b12_b24_b33_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Abraham,0.000976562
+489,b1~b12_b24_b33_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() BooreEt,0.000976562
+490,b1~b12_b24_b33_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Campbel,0.000976562
+491,b1~b12_b24_b33_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() ChiouYo,0.000976562
+492,b1~b12_b24_b33_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadi,0.000976562
+493,b1~b12_b24_b33_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadi,0.000976562
+494,b1~b12_b24_b33_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadi,0.000976562
+495,b1~b12_b24_b33_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadi,0.000976562
+496,b1~b12_b24_b34_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Abrahamso,0.000976562
+497,b1~b12_b24_b34_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() BooreEtAl,0.000976562
+498,b1~b12_b24_b34_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() CampbellB,0.000976562
+499,b1~b12_b24_b34_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() ChiouYoun,0.000976562
+500,b1~b12_b24_b34_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Abraham,0.000976562
+501,b1~b12_b24_b34_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() BooreEt,0.000976562
+502,b1~b12_b24_b34_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Campbel,0.000976562
+503,b1~b12_b24_b34_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() ChiouYo,0.000976562
+504,b1~b12_b24_b34_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() AbrahamsonEtA,0.000976562
+505,b1~b12_b24_b34_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() BooreEtAl2014,0.000976562
+506,b1~b12_b24_b34_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() CampbellBozor,0.000976562
+507,b1~b12_b24_b34_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() ChiouYoungs20,0.000976562
+508,b1~b12_b24_b34_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Ab,0.000976562
+509,b1~b12_b24_b34_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Bo,0.000976562
+510,b1~b12_b24_b34_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Ca,0.000976562
+511,b1~b12_b24_b34_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,BooreEtAl2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Ch,0.000976562
+512,b1~b13_b21_b31_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Ab,0.000976562
+513,b1~b13_b21_b31_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Bo,0.000976562
+514,b1~b13_b21_b31_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Ca,0.000976562
+515,b1~b13_b21_b31_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Ch,0.000976562
+516,b1~b13_b21_b31_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() ,0.000976562
+517,b1~b13_b21_b31_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() ,0.000976562
+518,b1~b13_b21_b31_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() ,0.000976562
+519,b1~b13_b21_b31_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() ,0.000976562
+520,b1~b13_b21_b31_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Abraha,0.000976562
+521,b1~b13_b21_b31_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() BooreE,0.000976562
+522,b1~b13_b21_b31_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Campbe,0.000976562
+523,b1~b13_b21_b31_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() ChiouY,0.000976562
+524,b1~b13_b21_b31_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascad,0.000976562
+525,b1~b13_b21_b31_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascad,0.000976562
+526,b1~b13_b21_b31_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascad,0.000976562
+527,b1~b13_b21_b31_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascad,0.000976562
+528,b1~b13_b21_b32_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AbrahamsonEtAl2015SSlab() Abraham,0.000976562
+529,b1~b13_b21_b32_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AbrahamsonEtAl2015SSlab() BooreEt,0.000976562
+530,b1~b13_b21_b32_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AbrahamsonEtAl2015SSlab() Campbel,0.000976562
+531,b1~b13_b21_b32_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AbrahamsonEtAl2015SSlab() ChiouYo,0.000976562
+532,b1~b13_b21_b32_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Abrah,0.000976562
+533,b1~b13_b21_b32_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Boore,0.000976562
+534,b1~b13_b21_b32_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Campb,0.000976562
+535,b1~b13_b21_b32_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Chiou,0.000976562
+536,b1~b13_b21_b32_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonE,0.000976562
+537,b1~b13_b21_b32_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() GarciaEtAl2005SSlab() BooreEtAl20,0.000976562
+538,b1~b13_b21_b32_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() GarciaEtAl2005SSlab() CampbellBoz,0.000976562
+539,b1~b13_b21_b32_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() GarciaEtAl2005SSlab() ChiouYoungs,0.000976562
+540,b1~b13_b21_b32_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() ,0.000976562
+541,b1~b13_b21_b32_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() ,0.000976562
+542,b1~b13_b21_b32_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() ,0.000976562
+543,b1~b13_b21_b32_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() ,0.000976562
+544,b1~b13_b21_b33_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab(),0.000976562
+545,b1~b13_b21_b33_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab(),0.000976562
+546,b1~b13_b21_b33_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab(),0.000976562
+547,b1~b13_b21_b33_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab(),0.000976562
+548,b1~b13_b21_b33_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia,0.000976562
+549,b1~b13_b21_b33_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia,0.000976562
+550,b1~b13_b21_b33_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia,0.000976562
+551,b1~b13_b21_b33_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia,0.000976562
+552,b1~b13_b21_b33_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Abr,0.000976562
+553,b1~b13_b21_b33_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Boo,0.000976562
+554,b1~b13_b21_b33_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Cam,0.000976562
+555,b1~b13_b21_b33_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Chi,0.000976562
+556,b1~b13_b21_b33_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCas,0.000976562
+557,b1~b13_b21_b33_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCas,0.000976562
+558,b1~b13_b21_b33_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCas,0.000976562
+559,b1~b13_b21_b33_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCas,0.000976562
+560,b1~b13_b21_b34_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Abrah,0.000976562
+561,b1~b13_b21_b34_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Boore,0.000976562
+562,b1~b13_b21_b34_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Campb,0.000976562
+563,b1~b13_b21_b34_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Chiou,0.000976562
+564,b1~b13_b21_b34_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Abr,0.000976562
+565,b1~b13_b21_b34_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Boo,0.000976562
+566,b1~b13_b21_b34_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Cam,0.000976562
+567,b1~b13_b21_b34_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Chi,0.000976562
+568,b1~b13_b21_b34_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() GarciaEtAl2005SSlab() Abrahamso,0.000976562
+569,b1~b13_b21_b34_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() GarciaEtAl2005SSlab() BooreEtAl,0.000976562
+570,b1~b13_b21_b34_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() GarciaEtAl2005SSlab() CampbellB,0.000976562
+571,b1~b13_b21_b34_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() GarciaEtAl2005SSlab() ChiouYoun,0.000976562
+572,b1~b13_b21_b34_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia(,0.000976562
+573,b1~b13_b21_b34_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia(,0.000976562
+574,b1~b13_b21_b34_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia(,0.000976562
+575,b1~b13_b21_b34_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia(,0.000976562
+576,b1~b13_b22_b31_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() ,0.000976562
+577,b1~b13_b22_b31_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() ,0.000976562
+578,b1~b13_b22_b31_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() ,0.000976562
+579,b1~b13_b22_b31_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() ,0.000976562
+580,b1~b13_b22_b31_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia(,0.000976562
+581,b1~b13_b22_b31_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia(,0.000976562
+582,b1~b13_b22_b31_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia(,0.000976562
+583,b1~b13_b22_b31_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia(,0.000976562
+584,b1~b13_b22_b31_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Abra,0.000976562
+585,b1~b13_b22_b31_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Boor,0.000976562
+586,b1~b13_b22_b31_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Camp,0.000976562
+587,b1~b13_b22_b31_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Chio,0.000976562
+588,b1~b13_b22_b31_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCasc,0.000976562
+589,b1~b13_b22_b31_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCasc,0.000976562
+590,b1~b13_b22_b31_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCasc,0.000976562
+591,b1~b13_b22_b31_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCasc,0.000976562
+592,b1~b13_b22_b32_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() Abrah,0.000976562
+593,b1~b13_b22_b32_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() Boore,0.000976562
+594,b1~b13_b22_b32_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() Campb,0.000976562
+595,b1~b13_b22_b32_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() Chiou,0.000976562
+596,b1~b13_b22_b32_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Abr,0.000976562
+597,b1~b13_b22_b32_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Boo,0.000976562
+598,b1~b13_b22_b32_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Cam,0.000976562
+599,b1~b13_b22_b32_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Chi,0.000976562
+600,b1~b13_b22_b32_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() GarciaEtAl2005SSlab() Abrahamso,0.000976562
+601,b1~b13_b22_b32_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() GarciaEtAl2005SSlab() BooreEtAl,0.000976562
+602,b1~b13_b22_b32_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() GarciaEtAl2005SSlab() CampbellB,0.000976562
+603,b1~b13_b22_b32_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() GarciaEtAl2005SSlab() ChiouYoun,0.000976562
+604,b1~b13_b22_b32_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia(,0.000976562
+605,b1~b13_b22_b32_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia(,0.000976562
+606,b1~b13_b22_b32_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia(,0.000976562
+607,b1~b13_b22_b32_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia(,0.000976562
+608,b1~b13_b22_b33_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab,0.000976562
+609,b1~b13_b22_b33_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab,0.000976562
+610,b1~b13_b22_b33_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab,0.000976562
+611,b1~b13_b22_b33_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab,0.000976562
+612,b1~b13_b22_b33_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascad,0.000976562
+613,b1~b13_b22_b33_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascad,0.000976562
+614,b1~b13_b22_b33_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascad,0.000976562
+615,b1~b13_b22_b33_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascad,0.000976562
+616,b1~b13_b22_b33_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() A,0.000976562
+617,b1~b13_b22_b33_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() B,0.000976562
+618,b1~b13_b22_b33_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() C,0.000976562
+619,b1~b13_b22_b33_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() C,0.000976562
+620,b1~b13_b22_b33_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabC,0.000976562
+621,b1~b13_b22_b33_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabC,0.000976562
+622,b1~b13_b22_b33_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabC,0.000976562
+623,b1~b13_b22_b33_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabC,0.000976562
+624,b1~b13_b22_b34_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Abr,0.000976562
+625,b1~b13_b22_b34_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Boo,0.000976562
+626,b1~b13_b22_b34_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Cam,0.000976562
+627,b1~b13_b22_b34_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Chi,0.000976562
+628,b1~b13_b22_b34_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() A,0.000976562
+629,b1~b13_b22_b34_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() B,0.000976562
+630,b1~b13_b22_b34_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() C,0.000976562
+631,b1~b13_b22_b34_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() C,0.000976562
+632,b1~b13_b22_b34_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() Abraham,0.000976562
+633,b1~b13_b22_b34_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() BooreEt,0.000976562
+634,b1~b13_b22_b34_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() Campbel,0.000976562
+635,b1~b13_b22_b34_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() ChiouYo,0.000976562
+636,b1~b13_b22_b34_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadi,0.000976562
+637,b1~b13_b22_b34_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadi,0.000976562
+638,b1~b13_b22_b34_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadi,0.000976562
+639,b1~b13_b22_b34_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadi,0.000976562
+640,b1~b13_b23_b31_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Abrahams,0.000976562
+641,b1~b13_b23_b31_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() BooreEtA,0.000976562
+642,b1~b13_b23_b31_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Campbell,0.000976562
+643,b1~b13_b23_b31_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() ChiouYou,0.000976562
+644,b1~b13_b23_b31_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Abraha,0.000976562
+645,b1~b13_b23_b31_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() BooreE,0.000976562
+646,b1~b13_b23_b31_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Campbe,0.000976562
+647,b1~b13_b23_b31_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() ChiouY,0.000976562
+648,b1~b13_b23_b31_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEt,0.000976562
+649,b1~b13_b23_b31_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() BooreEtAl201,0.000976562
+650,b1~b13_b23_b31_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() CampbellBozo,0.000976562
+651,b1~b13_b23_b31_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() ChiouYoungs2,0.000976562
+652,b1~b13_b23_b31_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() A,0.000976562
+653,b1~b13_b23_b31_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() B,0.000976562
+654,b1~b13_b23_b31_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() C,0.000976562
+655,b1~b13_b23_b31_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() C,0.000976562
+656,b1~b13_b23_b32_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() BooreEtAl2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtA,0.000976562
+657,b1~b13_b23_b32_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() BooreEtAl2014() AbrahamsonEtAl2015SSlab() BooreEtAl2014,0.000976562
+658,b1~b13_b23_b32_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() BooreEtAl2014() AbrahamsonEtAl2015SSlab() CampbellBozor,0.000976562
+659,b1~b13_b23_b32_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() BooreEtAl2014() AbrahamsonEtAl2015SSlab() ChiouYoungs20,0.000976562
+660,b1~b13_b23_b32_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonE,0.000976562
+661,b1~b13_b23_b32_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() BooreEtAl20,0.000976562
+662,b1~b13_b23_b32_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() CampbellBoz,0.000976562
+663,b1~b13_b23_b32_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() ChiouYoungs,0.000976562
+664,b1~b13_b23_b32_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl201,0.000976562
+665,b1~b13_b23_b32_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() BooreEtAl2014() GarciaEtAl2005SSlab() BooreEtAl2014() A,0.000976562
+666,b1~b13_b23_b32_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() BooreEtAl2014() GarciaEtAl2005SSlab() CampbellBozorgnia,0.000976562
+667,b1~b13_b23_b32_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() BooreEtAl2014() GarciaEtAl2005SSlab() ChiouYoungs2014(),0.000976562
+668,b1~b13_b23_b32_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Abraha,0.000976562
+669,b1~b13_b23_b32_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() BooreE,0.000976562
+670,b1~b13_b23_b32_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Campbe,0.000976562
+671,b1~b13_b23_b32_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() ChiouY,0.000976562
+672,b1~b13_b23_b33_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Abrah,0.000976562
+673,b1~b13_b23_b33_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Boore,0.000976562
+674,b1~b13_b23_b33_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Campb,0.000976562
+675,b1~b13_b23_b33_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Chiou,0.000976562
+676,b1~b13_b23_b33_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() Abr,0.000976562
+677,b1~b13_b23_b33_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() Boo,0.000976562
+678,b1~b13_b23_b33_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() Cam,0.000976562
+679,b1~b13_b23_b33_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() Chi,0.000976562
+680,b1~b13_b23_b33_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Abrahamso,0.000976562
+681,b1~b13_b23_b33_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() CampbellBozorgnia2014() GarciaEtAl2005SSlab() BooreEtAl,0.000976562
+682,b1~b13_b23_b33_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() CampbellBozorgnia2014() GarciaEtAl2005SSlab() CampbellB,0.000976562
+683,b1~b13_b23_b33_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() CampbellBozorgnia2014() GarciaEtAl2005SSlab() ChiouYoun,0.000976562
+684,b1~b13_b23_b33_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia(,0.000976562
+685,b1~b13_b23_b33_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia(,0.000976562
+686,b1~b13_b23_b33_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia(,0.000976562
+687,b1~b13_b23_b33_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia(,0.000976562
+688,b1~b13_b23_b34_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() AbrahamsonE,0.000976562
+689,b1~b13_b23_b34_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() BooreEtAl20,0.000976562
+690,b1~b13_b23_b34_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() CampbellBoz,0.000976562
+691,b1~b13_b23_b34_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() ChiouYoungs,0.000976562
+692,b1~b13_b23_b34_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Abrahamso,0.000976562
+693,b1~b13_b23_b34_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() BooreEtAl,0.000976562
+694,b1~b13_b23_b34_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() CampbellB,0.000976562
+695,b1~b13_b23_b34_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() ChiouYoun,0.000976562
+696,b1~b13_b23_b34_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() ChiouYoungs2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2,0.000976562
+697,b1~b13_b23_b34_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() ChiouYoungs2014() GarciaEtAl2005SSlab() BooreEtAl2014(),0.000976562
+698,b1~b13_b23_b34_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() ChiouYoungs2014() GarciaEtAl2005SSlab() CampbellBozorgn,0.000976562
+699,b1~b13_b23_b34_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() ChiouYoungs2014() GarciaEtAl2005SSlab() ChiouYoungs2014,0.000976562
+700,b1~b13_b23_b34_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Abra,0.000976562
+701,b1~b13_b23_b34_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Boor,0.000976562
+702,b1~b13_b23_b34_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Camp,0.000976562
+703,b1~b13_b23_b34_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() AtkinsonMacias2009() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Chio,0.000976562
+704,b1~b13_b24_b31_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab(,0.000976562
+705,b1~b13_b24_b31_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab(,0.000976562
+706,b1~b13_b24_b31_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab(,0.000976562
+707,b1~b13_b24_b31_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab(,0.000976562
+708,b1~b13_b24_b31_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadi,0.000976562
+709,b1~b13_b24_b31_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadi,0.000976562
+710,b1~b13_b24_b31_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadi,0.000976562
+711,b1~b13_b24_b31_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadi,0.000976562
+712,b1~b13_b24_b31_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Ab,0.000976562
+713,b1~b13_b24_b31_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Bo,0.000976562
+714,b1~b13_b24_b31_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Ca,0.000976562
+715,b1~b13_b24_b31_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Ch,0.000976562
+716,b1~b13_b24_b31_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCa,0.000976562
+717,b1~b13_b24_b31_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCa,0.000976562
+718,b1~b13_b24_b31_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCa,0.000976562
+719,b1~b13_b24_b31_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCa,0.000976562
+720,b1~b13_b24_b32_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() Abr,0.000976562
+721,b1~b13_b24_b32_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() Boo,0.000976562
+722,b1~b13_b24_b32_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() Cam,0.000976562
+723,b1~b13_b24_b32_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() Chi,0.000976562
+724,b1~b13_b24_b32_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() A,0.000976562
+725,b1~b13_b24_b32_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() B,0.000976562
+726,b1~b13_b24_b32_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() C,0.000976562
+727,b1~b13_b24_b32_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() C,0.000976562
+728,b1~b13_b24_b32_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() GarciaEtAl2005SSlab() Abraham,0.000976562
+729,b1~b13_b24_b32_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() GarciaEtAl2005SSlab() BooreEt,0.000976562
+730,b1~b13_b24_b32_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() GarciaEtAl2005SSlab() Campbel,0.000976562
+731,b1~b13_b24_b32_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() GarciaEtAl2005SSlab() ChiouYo,0.000976562
+732,b1~b13_b24_b32_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadi,0.000976562
+733,b1~b13_b24_b32_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadi,0.000976562
+734,b1~b13_b24_b32_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadi,0.000976562
+735,b1~b13_b24_b32_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadi,0.000976562
+736,b1~b13_b24_b33_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSl,0.000976562
+737,b1~b13_b24_b33_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSl,0.000976562
+738,b1~b13_b24_b33_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSl,0.000976562
+739,b1~b13_b24_b33_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSl,0.000976562
+740,b1~b13_b24_b33_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCasc,0.000976562
+741,b1~b13_b24_b33_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCasc,0.000976562
+742,b1~b13_b24_b33_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCasc,0.000976562
+743,b1~b13_b24_b33_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCasc,0.000976562
+744,b1~b13_b24_b33_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab(),0.000976562
+745,b1~b13_b24_b33_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab(),0.000976562
+746,b1~b13_b24_b33_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab(),0.000976562
+747,b1~b13_b24_b33_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab(),0.000976562
+748,b1~b13_b24_b33_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSla,0.000976562
+749,b1~b13_b24_b33_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSla,0.000976562
+750,b1~b13_b24_b33_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSla,0.000976562
+751,b1~b13_b24_b33_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSla,0.000976562
+752,b1~b13_b24_b34_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() A,0.000976562
+753,b1~b13_b24_b34_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() B,0.000976562
+754,b1~b13_b24_b34_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() C,0.000976562
+755,b1~b13_b24_b34_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() C,0.000976562
+756,b1~b13_b24_b34_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia(),0.000976562
+757,b1~b13_b24_b34_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia(),0.000976562
+758,b1~b13_b24_b34_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia(),0.000976562
+759,b1~b13_b24_b34_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia(),0.000976562
+760,b1~b13_b24_b34_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() Abrah,0.000976562
+761,b1~b13_b24_b34_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() Boore,0.000976562
+762,b1~b13_b24_b34_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() Campb,0.000976562
+763,b1~b13_b24_b34_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() Chiou,0.000976562
+764,b1~b13_b24_b34_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCasca,0.000976562
+765,b1~b13_b24_b34_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCasca,0.000976562
+766,b1~b13_b24_b34_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCasca,0.000976562
+767,b1~b13_b24_b34_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,CampbellBozorgnia2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCasca,0.000976562
+768,b1~b14_b21_b31_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Abrahams,0.000976562
+769,b1~b14_b21_b31_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() BooreEtA,0.000976562
+770,b1~b14_b21_b31_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Campbell,0.000976562
+771,b1~b14_b21_b31_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() ChiouYou,0.000976562
+772,b1~b14_b21_b31_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Abraha,0.000976562
+773,b1~b14_b21_b31_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() BooreE,0.000976562
+774,b1~b14_b21_b31_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Campbe,0.000976562
+775,b1~b14_b21_b31_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() ChiouY,0.000976562
+776,b1~b14_b21_b31_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEt,0.000976562
+777,b1~b14_b21_b31_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() BooreEtAl201,0.000976562
+778,b1~b14_b21_b31_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() CampbellBozo,0.000976562
+779,b1~b14_b21_b31_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() ChiouYoungs2,0.000976562
+780,b1~b14_b21_b31_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() A,0.000976562
+781,b1~b14_b21_b31_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() B,0.000976562
+782,b1~b14_b21_b31_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() C,0.000976562
+783,b1~b14_b21_b31_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() C,0.000976562
+784,b1~b14_b21_b32_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtA,0.000976562
+785,b1~b14_b21_b32_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AbrahamsonEtAl2015SSlab() BooreEtAl2014,0.000976562
+786,b1~b14_b21_b32_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AbrahamsonEtAl2015SSlab() CampbellBozor,0.000976562
+787,b1~b14_b21_b32_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AbrahamsonEtAl2015SSlab() ChiouYoungs20,0.000976562
+788,b1~b14_b21_b32_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonE,0.000976562
+789,b1~b14_b21_b32_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() BooreEtAl20,0.000976562
+790,b1~b14_b21_b32_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() CampbellBoz,0.000976562
+791,b1~b14_b21_b32_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() ChiouYoungs,0.000976562
+792,b1~b14_b21_b32_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl201,0.000976562
+793,b1~b14_b21_b32_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() GarciaEtAl2005SSlab() BooreEtAl2014() A,0.000976562
+794,b1~b14_b21_b32_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() GarciaEtAl2005SSlab() CampbellBozorgnia,0.000976562
+795,b1~b14_b21_b32_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() GarciaEtAl2005SSlab() ChiouYoungs2014(),0.000976562
+796,b1~b14_b21_b32_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Abraha,0.000976562
+797,b1~b14_b21_b32_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() BooreE,0.000976562
+798,b1~b14_b21_b32_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Campbe,0.000976562
+799,b1~b14_b21_b32_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() ChiouY,0.000976562
+800,b1~b14_b21_b33_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Abrah,0.000976562
+801,b1~b14_b21_b33_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Boore,0.000976562
+802,b1~b14_b21_b33_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Campb,0.000976562
+803,b1~b14_b21_b33_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Chiou,0.000976562
+804,b1~b14_b21_b33_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() Abr,0.000976562
+805,b1~b14_b21_b33_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() Boo,0.000976562
+806,b1~b14_b21_b33_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() Cam,0.000976562
+807,b1~b14_b21_b33_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() Chi,0.000976562
+808,b1~b14_b21_b33_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Abrahamso,0.000976562
+809,b1~b14_b21_b33_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() GarciaEtAl2005SSlab() BooreEtAl,0.000976562
+810,b1~b14_b21_b33_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() GarciaEtAl2005SSlab() CampbellB,0.000976562
+811,b1~b14_b21_b33_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() GarciaEtAl2005SSlab() ChiouYoun,0.000976562
+812,b1~b14_b21_b33_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia(,0.000976562
+813,b1~b14_b21_b33_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia(,0.000976562
+814,b1~b14_b21_b33_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia(,0.000976562
+815,b1~b14_b21_b33_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia(,0.000976562
+816,b1~b14_b21_b34_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() AbrahamsonE,0.000976562
+817,b1~b14_b21_b34_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() BooreEtAl20,0.000976562
+818,b1~b14_b21_b34_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() CampbellBoz,0.000976562
+819,b1~b14_b21_b34_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() ChiouYoungs,0.000976562
+820,b1~b14_b21_b34_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Abrahamso,0.000976562
+821,b1~b14_b21_b34_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() BooreEtAl,0.000976562
+822,b1~b14_b21_b34_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() CampbellB,0.000976562
+823,b1~b14_b21_b34_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() ChiouYoun,0.000976562
+824,b1~b14_b21_b34_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2,0.000976562
+825,b1~b14_b21_b34_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() GarciaEtAl2005SSlab() BooreEtAl2014(),0.000976562
+826,b1~b14_b21_b34_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() GarciaEtAl2005SSlab() CampbellBozorgn,0.000976562
+827,b1~b14_b21_b34_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() GarciaEtAl2005SSlab() ChiouYoungs2014,0.000976562
+828,b1~b14_b21_b34_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Abra,0.000976562
+829,b1~b14_b21_b34_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Boor,0.000976562
+830,b1~b14_b21_b34_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Camp,0.000976562
+831,b1~b14_b21_b34_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AbrahamsonEtAl2015SInter() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Chio,0.000976562
+832,b1~b14_b22_b31_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Abraha,0.000976562
+833,b1~b14_b22_b31_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() BooreE,0.000976562
+834,b1~b14_b22_b31_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Campbe,0.000976562
+835,b1~b14_b22_b31_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() ChiouY,0.000976562
+836,b1~b14_b22_b31_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Abra,0.000976562
+837,b1~b14_b22_b31_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Boor,0.000976562
+838,b1~b14_b22_b31_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Camp,0.000976562
+839,b1~b14_b22_b31_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Chio,0.000976562
+840,b1~b14_b22_b31_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Abrahamson,0.000976562
+841,b1~b14_b22_b31_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() BooreEtAl2,0.000976562
+842,b1~b14_b22_b31_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() CampbellBo,0.000976562
+843,b1~b14_b22_b31_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() ChiouYoung,0.000976562
+844,b1~b14_b22_b31_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia(),0.000976562
+845,b1~b14_b22_b31_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia(),0.000976562
+846,b1~b14_b22_b31_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia(),0.000976562
+847,b1~b14_b22_b31_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia(),0.000976562
+848,b1~b14_b22_b32_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() AbrahamsonE,0.000976562
+849,b1~b14_b22_b32_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() BooreEtAl20,0.000976562
+850,b1~b14_b22_b32_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() CampbellBoz,0.000976562
+851,b1~b14_b22_b32_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() ChiouYoungs,0.000976562
+852,b1~b14_b22_b32_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Abrahamso,0.000976562
+853,b1~b14_b22_b32_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() BooreEtAl,0.000976562
+854,b1~b14_b22_b32_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() CampbellB,0.000976562
+855,b1~b14_b22_b32_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() ChiouYoun,0.000976562
+856,b1~b14_b22_b32_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2,0.000976562
+857,b1~b14_b22_b32_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() GarciaEtAl2005SSlab() BooreEtAl2014(),0.000976562
+858,b1~b14_b22_b32_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() GarciaEtAl2005SSlab() CampbellBozorgn,0.000976562
+859,b1~b14_b22_b32_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() GarciaEtAl2005SSlab() ChiouYoungs2014,0.000976562
+860,b1~b14_b22_b32_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Abra,0.000976562
+861,b1~b14_b22_b32_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Boor,0.000976562
+862,b1~b14_b22_b32_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Camp,0.000976562
+863,b1~b14_b22_b32_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Chio,0.000976562
+864,b1~b14_b22_b33_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Abr,0.000976562
+865,b1~b14_b22_b33_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Boo,0.000976562
+866,b1~b14_b22_b33_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Cam,0.000976562
+867,b1~b14_b22_b33_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() Chi,0.000976562
+868,b1~b14_b22_b33_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() A,0.000976562
+869,b1~b14_b22_b33_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() B,0.000976562
+870,b1~b14_b22_b33_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() C,0.000976562
+871,b1~b14_b22_b33_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() C,0.000976562
+872,b1~b14_b22_b33_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Abraham,0.000976562
+873,b1~b14_b22_b33_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() BooreEt,0.000976562
+874,b1~b14_b22_b33_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Campbel,0.000976562
+875,b1~b14_b22_b33_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() ChiouYo,0.000976562
+876,b1~b14_b22_b33_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadi,0.000976562
+877,b1~b14_b22_b33_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadi,0.000976562
+878,b1~b14_b22_b33_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadi,0.000976562
+879,b1~b14_b22_b33_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadi,0.000976562
+880,b1~b14_b22_b34_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Abrahamso,0.000976562
+881,b1~b14_b22_b34_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() BooreEtAl,0.000976562
+882,b1~b14_b22_b34_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() CampbellB,0.000976562
+883,b1~b14_b22_b34_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() ChiouYoun,0.000976562
+884,b1~b14_b22_b34_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Abraham,0.000976562
+885,b1~b14_b22_b34_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() BooreEt,0.000976562
+886,b1~b14_b22_b34_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Campbel,0.000976562
+887,b1~b14_b22_b34_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() ChiouYo,0.000976562
+888,b1~b14_b22_b34_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() AbrahamsonEtA,0.000976562
+889,b1~b14_b22_b34_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() BooreEtAl2014,0.000976562
+890,b1~b14_b22_b34_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() CampbellBozor,0.000976562
+891,b1~b14_b22_b34_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() ChiouYoungs20,0.000976562
+892,b1~b14_b22_b34_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Ab,0.000976562
+893,b1~b14_b22_b34_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Bo,0.000976562
+894,b1~b14_b22_b34_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Ca,0.000976562
+895,b1~b14_b22_b34_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() ZhaoEtAl2006SInterCascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Ch,0.000976562
+896,b1~b14_b23_b31_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtAl,0.000976562
+897,b1~b14_b23_b31_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() BooreEtAl2014(,0.000976562
+898,b1~b14_b23_b31_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() CampbellBozorg,0.000976562
+899,b1~b14_b23_b31_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() ChiouYoungs201,0.000976562
+900,b1~b14_b23_b31_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonEt,0.000976562
+901,b1~b14_b23_b31_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() BooreEtAl201,0.000976562
+902,b1~b14_b23_b31_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() CampbellBozo,0.000976562
+903,b1~b14_b23_b31_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() ChiouYoungs2,0.000976562
+904,b1~b14_b23_b31_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2014,0.000976562
+905,b1~b14_b23_b31_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() BooreEtAl2014() At,0.000976562
+906,b1~b14_b23_b31_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() CampbellBozorgnia2,0.000976562
+907,b1~b14_b23_b31_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() ChiouYoungs2014() ,0.000976562
+908,b1~b14_b23_b31_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() Abraham,0.000976562
+909,b1~b14_b23_b31_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() BooreEt,0.000976562
+910,b1~b14_b23_b31_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() Campbel,0.000976562
+911,b1~b14_b23_b31_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia() ChiouYo,0.000976562
+912,b1~b14_b23_b32_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() BooreEtAl2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtAl2014(,0.000976562
+913,b1~b14_b23_b32_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() BooreEtAl2014() AbrahamsonEtAl2015SSlab() BooreEtAl2014() Atk,0.000976562
+914,b1~b14_b23_b32_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() BooreEtAl2014() AbrahamsonEtAl2015SSlab() CampbellBozorgnia20,0.000976562
+915,b1~b14_b23_b32_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() BooreEtAl2014() AbrahamsonEtAl2015SSlab() ChiouYoungs2014() A,0.000976562
+916,b1~b14_b23_b32_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonEtAl201,0.000976562
+917,b1~b14_b23_b32_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() BooreEtAl2014() A,0.000976562
+918,b1~b14_b23_b32_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() CampbellBozorgnia,0.000976562
+919,b1~b14_b23_b32_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() ChiouYoungs2014(),0.000976562
+920,b1~b14_b23_b32_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2014() At,0.000976562
+921,b1~b14_b23_b32_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() BooreEtAl2014() GarciaEtAl2005SSlab() BooreEtAl2014() Atkinso,0.000976562
+922,b1~b14_b23_b32_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() BooreEtAl2014() GarciaEtAl2005SSlab() CampbellBozorgnia2014(),0.000976562
+923,b1~b14_b23_b32_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() BooreEtAl2014() GarciaEtAl2005SSlab() ChiouYoungs2014() Atkin,0.000976562
+924,b1~b14_b23_b32_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() AbrahamsonEt,0.000976562
+925,b1~b14_b23_b32_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() BooreEtAl201,0.000976562
+926,b1~b14_b23_b32_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() CampbellBozo,0.000976562
+927,b1~b14_b23_b32_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() ChiouYoungs2,0.000976562
+928,b1~b14_b23_b33_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() AbrahamsonE,0.000976562
+929,b1~b14_b23_b33_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() BooreEtAl20,0.000976562
+930,b1~b14_b23_b33_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() CampbellBoz,0.000976562
+931,b1~b14_b23_b33_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() ChiouYoungs,0.000976562
+932,b1~b14_b23_b33_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() Abrahamso,0.000976562
+933,b1~b14_b23_b33_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() BooreEtAl,0.000976562
+934,b1~b14_b23_b33_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() CampbellB,0.000976562
+935,b1~b14_b23_b33_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia() ChiouYoun,0.000976562
+936,b1~b14_b23_b33_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() CampbellBozorgnia2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2,0.000976562
+937,b1~b14_b23_b33_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() CampbellBozorgnia2014() GarciaEtAl2005SSlab() BooreEtAl2014(),0.000976562
+938,b1~b14_b23_b33_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() CampbellBozorgnia2014() GarciaEtAl2005SSlab() CampbellBozorgn,0.000976562
+939,b1~b14_b23_b33_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() CampbellBozorgnia2014() GarciaEtAl2005SSlab() ChiouYoungs2014,0.000976562
+940,b1~b14_b23_b33_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia() Abra,0.000976562
+941,b1~b14_b23_b33_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia() Boor,0.000976562
+942,b1~b14_b23_b33_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia() Camp,0.000976562
+943,b1~b14_b23_b33_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCascadia() Chio,0.000976562
+944,b1~b14_b23_b34_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() AbrahamsonEtAl201,0.000976562
+945,b1~b14_b23_b34_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() BooreEtAl2014() A,0.000976562
+946,b1~b14_b23_b34_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() CampbellBozorgnia,0.000976562
+947,b1~b14_b23_b34_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() ChiouYoungs2014(),0.000976562
+948,b1~b14_b23_b34_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() AbrahamsonEtAl2,0.000976562
+949,b1~b14_b23_b34_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() BooreEtAl2014(),0.000976562
+950,b1~b14_b23_b34_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() CampbellBozorgn,0.000976562
+951,b1~b14_b23_b34_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() ChiouYoungs2014,0.000976562
+952,b1~b14_b23_b34_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() ChiouYoungs2014() GarciaEtAl2005SSlab() AbrahamsonEtAl2014() ,0.000976562
+953,b1~b14_b23_b34_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() ChiouYoungs2014() GarciaEtAl2005SSlab() BooreEtAl2014() Atkin,0.000976562
+954,b1~b14_b23_b34_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() ChiouYoungs2014() GarciaEtAl2005SSlab() CampbellBozorgnia2014,0.000976562
+955,b1~b14_b23_b34_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() ChiouYoungs2014() GarciaEtAl2005SSlab() ChiouYoungs2014() Atk,0.000976562
+956,b1~b14_b23_b34_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() Abrahamson,0.000976562
+957,b1~b14_b23_b34_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() BooreEtAl2,0.000976562
+958,b1~b14_b23_b34_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() CampbellBo,0.000976562
+959,b1~b14_b23_b34_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() AtkinsonMacias2009() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() ChiouYoung,0.000976562
+960,b1~b14_b24_b31_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Abra,0.000976562
+961,b1~b14_b24_b31_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Boor,0.000976562
+962,b1~b14_b24_b31_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Camp,0.000976562
+963,b1~b14_b24_b31_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AbrahamsonEtAl2015SSlab() Chio,0.000976562
+964,b1~b14_b24_b31_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Ab,0.000976562
+965,b1~b14_b24_b31_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Bo,0.000976562
+966,b1~b14_b24_b31_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Ca,0.000976562
+967,b1~b14_b24_b31_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() ZhaoEtAl2006SSlabCascadia() Ch,0.000976562
+968,b1~b14_b24_b31_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Abrahams,0.000976562
+969,b1~b14_b24_b31_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() BooreEtA,0.000976562
+970,b1~b14_b24_b31_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() Campbell,0.000976562
+971,b1~b14_b24_b31_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() GarciaEtAl2005SSlab() ChiouYou,0.000976562
+972,b1~b14_b24_b31_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia,0.000976562
+973,b1~b14_b24_b31_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia,0.000976562
+974,b1~b14_b24_b31_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia,0.000976562
+975,b1~b14_b24_b31_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() AbrahamsonEtAl2014() AtkinsonBoore2003SSlabCascadia,0.000976562
+976,b1~b14_b24_b32_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() Abrahamso,0.000976562
+977,b1~b14_b24_b32_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() BooreEtAl,0.000976562
+978,b1~b14_b24_b32_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() CampbellB,0.000976562
+979,b1~b14_b24_b32_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AbrahamsonEtAl2015SSlab() ChiouYoun,0.000976562
+980,b1~b14_b24_b32_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Abraham,0.000976562
+981,b1~b14_b24_b32_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() BooreEt,0.000976562
+982,b1~b14_b24_b32_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() Campbel,0.000976562
+983,b1~b14_b24_b32_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() ZhaoEtAl2006SSlabCascadia() ChiouYo,0.000976562
+984,b1~b14_b24_b32_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() GarciaEtAl2005SSlab() AbrahamsonEtA,0.000976562
+985,b1~b14_b24_b32_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() GarciaEtAl2005SSlab() BooreEtAl2014,0.000976562
+986,b1~b14_b24_b32_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() GarciaEtAl2005SSlab() CampbellBozor,0.000976562
+987,b1~b14_b24_b32_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() GarciaEtAl2005SSlab() ChiouYoungs20,0.000976562
+988,b1~b14_b24_b32_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Ab,0.000976562
+989,b1~b14_b24_b32_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Bo,0.000976562
+990,b1~b14_b24_b32_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Ca,0.000976562
+991,b1~b14_b24_b32_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() BooreEtAl2014() AtkinsonBoore2003SSlabCascadia() Ch,0.000976562
+992,b1~b14_b24_b33_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() A,0.000976562
+993,b1~b14_b24_b33_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() B,0.000976562
+994,b1~b14_b24_b33_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() C,0.000976562
+995,b1~b14_b24_b33_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AbrahamsonEtAl2015SSlab() C,0.000976562
+996,b1~b14_b24_b33_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia(),0.000976562
+997,b1~b14_b24_b33_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia(),0.000976562
+998,b1~b14_b24_b33_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia(),0.000976562
+999,b1~b14_b24_b33_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() ZhaoEtAl2006SSlabCascadia(),0.000976562
+1000,b1~b14_b24_b33_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Abrah,0.000976562
+1001,b1~b14_b24_b33_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Boore,0.000976562
+1002,b1~b14_b24_b33_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Campb,0.000976562
+1003,b1~b14_b24_b33_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() GarciaEtAl2005SSlab() Chiou,0.000976562
+1004,b1~b14_b24_b33_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCasca,0.000976562
+1005,b1~b14_b24_b33_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCasca,0.000976562
+1006,b1~b14_b24_b33_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCasca,0.000976562
+1007,b1~b14_b24_b33_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() CampbellBozorgnia2014() AtkinsonBoore2003SSlabCasca,0.000976562
+1008,b1~b14_b24_b34_b41_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Abraham,0.000976562
+1009,b1~b14_b24_b34_b41_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() BooreEt,0.000976562
+1010,b1~b14_b24_b34_b41_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() Campbel,0.000976562
+1011,b1~b14_b24_b34_b41_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AbrahamsonEtAl2015SSlab() ChiouYo,0.000976562
+1012,b1~b14_b24_b34_b42_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Abrah,0.000976562
+1013,b1~b14_b24_b34_b42_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Boore,0.000976562
+1014,b1~b14_b24_b34_b42_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Campb,0.000976562
+1015,b1~b14_b24_b34_b42_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() ZhaoEtAl2006SSlabCascadia() Chiou,0.000976562
+1016,b1~b14_b24_b34_b43_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() AbrahamsonE,0.000976562
+1017,b1~b14_b24_b34_b43_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() BooreEtAl20,0.000976562
+1018,b1~b14_b24_b34_b43_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() CampbellBoz,0.000976562
+1019,b1~b14_b24_b34_b43_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() GarciaEtAl2005SSlab() ChiouYoungs,0.000976562
+1020,b1~b14_b24_b34_b44_b61_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() ,0.000976562
+1021,b1~b14_b24_b34_b44_b62_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() ,0.000976562
+1022,b1~b14_b24_b34_b44_b63_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() ,0.000976562
+1023,b1~b14_b24_b34_b44_b64_b71,W_CANADA_R2_collapsed_rates_FF.xml,ChiouYoungs2014() GhofraniAtkinson2014Cascadia() ChiouYoungs2014() AtkinsonBoore2003SSlabCascadia() ,0.000976562
