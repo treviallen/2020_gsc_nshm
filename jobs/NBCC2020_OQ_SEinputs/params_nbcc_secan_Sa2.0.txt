@@ -1,9 +1,9 @@
 ncpus = 512 
 mem = 256GB
-walltime = 5:00:00
+walltime = 2:30:00
 jobfs = 100GB
 sandpit_path = /short/w84/NSHA18/sandpit/
-model_rel_path = 2020_gsc_nshm/jobs/SA2.0
+model_rel_path = 2020_gsc_nshm/jobs/NBCC2020_OQ_SEinputs
 shared_rel_path = 2020_gsc_nshm/shared
 gsim_lt_filename = hdf_NBCC2020-E_Sa2.0_450mps_logic_tree.xml
 model_output_base = /short/w84/NSHA18/sandpit/tia547/2020_gsc_nshm/jobs/NBCC2020_OQ_SEinputs/
