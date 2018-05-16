@@ -9,67 +9,67 @@
      <!-- 50/50 weighting on Adams Atkinson 2013 and USGS NGA-East gmpes for PGA -->   
 
                 <logicTreeBranch branchID="b11">
-                    <uncertaintyModel gmpe_table="../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_01.vs450.hdf5">GMPETable</uncertaintyModel>
+                    <uncertaintyModel gmpe_table="../../../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_01.vs450.hdf5">GMPETable</uncertaintyModel>
                     <uncertaintyWeight>0.0757</uncertaintyWeight>
                 </logicTreeBranch>
                 
                 <logicTreeBranch branchID="b12">
-                    <uncertaintyModel gmpe_table="../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_02.vs450.hdf5">GMPETable</uncertaintyModel>
+                    <uncertaintyModel gmpe_table="../../../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_02.vs450.hdf5">GMPETable</uncertaintyModel>
                     <uncertaintyWeight>0.0646</uncertaintyWeight>
                 </logicTreeBranch>
                 
                 <logicTreeBranch branchID="b13">
-                    <uncertaintyModel gmpe_table="../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_03.vs450.hdf5">GMPETable</uncertaintyModel>
+                    <uncertaintyModel gmpe_table="../../../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_03.vs450.hdf5">GMPETable</uncertaintyModel>
                     <uncertaintyWeight>0.0551</uncertaintyWeight>
                 </logicTreeBranch>
 
                 <logicTreeBranch branchID="b14">
-                    <uncertaintyModel gmpe_table="../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_04.vs450.hdf5">GMPETable</uncertaintyModel>
+                    <uncertaintyModel gmpe_table="../../../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_04.vs450.hdf5">GMPETable</uncertaintyModel>
                     <uncertaintyWeight>0.0243</uncertaintyWeight>
                 </logicTreeBranch>
                 
                 <logicTreeBranch branchID="b15">
-                    <uncertaintyModel gmpe_table="../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_05.vs450.hdf5">GMPETable</uncertaintyModel>
+                    <uncertaintyModel gmpe_table="../../../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_05.vs450.hdf5">GMPETable</uncertaintyModel>
                     <uncertaintyWeight>0.0277</uncertaintyWeight>
                 </logicTreeBranch>
                 
                 <logicTreeBranch branchID="b16">
-                    <uncertaintyModel gmpe_table="../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_06.vs450.hdf5">GMPETable</uncertaintyModel>
+                    <uncertaintyModel gmpe_table="../../../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_06.vs450.hdf5">GMPETable</uncertaintyModel>
                     <uncertaintyWeight>0.0489</uncertaintyWeight>
                 </logicTreeBranch>
 
                 <logicTreeBranch branchID="b17">
-                    <uncertaintyModel gmpe_table="../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_07.vs450.hdf5">GMPETable</uncertaintyModel>
+                    <uncertaintyModel gmpe_table="../../../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_07.vs450.hdf5">GMPETable</uncertaintyModel>
                     <uncertaintyWeight>0.03655</uncertaintyWeight>
                 </logicTreeBranch>
                 
                 <logicTreeBranch branchID="b18">
-                    <uncertaintyModel gmpe_table="../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_08.vs450.hdf5">GMPETable</uncertaintyModel>
+                    <uncertaintyModel gmpe_table="../../../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_08.vs450.hdf5">GMPETable</uncertaintyModel>
                     <uncertaintyWeight>0.0349</uncertaintyWeight>
                 </logicTreeBranch>
                 
                 <logicTreeBranch branchID="b19">
-                    <uncertaintyModel gmpe_table="../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_09.vs450.hdf5">GMPETable</uncertaintyModel>
+                    <uncertaintyModel gmpe_table="../../../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_09.vs450.hdf5">GMPETable</uncertaintyModel>
                     <uncertaintyWeight>0.0333</uncertaintyWeight>
                 </logicTreeBranch>
 
                 <logicTreeBranch branchID="b110">
-                    <uncertaintyModel gmpe_table="../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_10.vs450.hdf5">GMPETable</uncertaintyModel>
+                    <uncertaintyModel gmpe_table="../../../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_10.vs450.hdf5">GMPETable</uncertaintyModel>
                     <uncertaintyWeight>0.0172</uncertaintyWeight>
                 </logicTreeBranch>
                 
                 <logicTreeBranch branchID="b111">
-                    <uncertaintyModel gmpe_table="../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_11.vs450.hdf5">GMPETable</uncertaintyModel>
+                    <uncertaintyModel gmpe_table="../../../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_11.vs450.hdf5">GMPETable</uncertaintyModel>
                     <uncertaintyWeight>0.03695</uncertaintyWeight>
                 </logicTreeBranch>
                 
                 <logicTreeBranch branchID="b112">
-                    <uncertaintyModel gmpe_table="../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_12.vs450.hdf5">GMPETable</uncertaintyModel>
+                    <uncertaintyModel gmpe_table="../../../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_12.vs450.hdf5">GMPETable</uncertaintyModel>
                     <uncertaintyWeight>0.0264</uncertaintyWeight>
                 </logicTreeBranch>
 
                 <logicTreeBranch branchID="b113">
-                    <uncertaintyModel gmpe_table="../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_13.vs450.hdf5">GMPETable</uncertaintyModel>
+                    <uncertaintyModel gmpe_table="../../../../gmm_tables/ngae_usgs_hdf5_tables/NGA-East_Model_13.vs450.hdf5">GMPETable</uncertaintyModel>
                     <uncertaintyWeight>0.0184</uncertaintyWeight>
                 </logicTreeBranch>
 
