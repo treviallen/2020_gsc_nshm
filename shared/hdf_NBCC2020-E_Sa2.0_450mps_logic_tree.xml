@@ -75,17 +75,17 @@
                 </logicTreeBranch>
 
                 <logicTreeBranch branchID="b114">
-                    <uncertaintyModel gmpe_table="../../gmm_tables/nbcc2015_tables/ENA_high_clC.hdf5">GMPETable</uncertaintyModel>
+                    <uncertaintyModel gmpe_table="../../../../gmm_tables/nbcc2015_tables/ENA_high_clC.hdf5">GMPETable</uncertaintyModel>
                     <uncertaintyWeight>0.15</uncertaintyWeight>
                 </logicTreeBranch>
 
                 <logicTreeBranch branchID="b115">
-                    <uncertaintyModel gmpe_table="../../gmm_tables/nbcc2015_tables/ENA_med_clC.hdf5">GMPETable</uncertaintyModel>
+                    <uncertaintyModel gmpe_table="../../../../gmm_tables/nbcc2015_tables/ENA_med_clC.hdf5">GMPETable</uncertaintyModel>
                     <uncertaintyWeight>0.25</uncertaintyWeight>
                 </logicTreeBranch>
 
                 <logicTreeBranch branchID="b116">
-                    <uncertaintyModel gmpe_table="../../gmm_tables/nbcc2015_tables/ENA_low_clC.hdf5">GMPETable</uncertaintyModel>
+                    <uncertaintyModel gmpe_table="../../../../gmm_tables/nbcc2015_tables/ENA_low_clC.hdf5">GMPETable</uncertaintyModel>
                     <uncertaintyWeight>0.10</uncertaintyWeight>
                 </logicTreeBranch>
 
