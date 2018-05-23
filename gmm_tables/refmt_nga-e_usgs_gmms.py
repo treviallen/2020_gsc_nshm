@@ -5,9 +5,9 @@ from numpy import array, hstack, ones_like, interp, unique, loadtxt, savetxt, lo
 from scipy.constants import g
 from misc_tools import listdir_extension
 
-vsAdjust = False # adjust from 3000 - 450
+vsAdjust = True # adjust from 3000 - 450
 weightTab = False # output weighted tables
-altSigma = True # do TA alternative sigma - see ngae_working/ngae_test_sigma.png
+altSigma = False # do TA alternative sigma - see ngae_working/ngae_test_sigma.png
 
 '''
 params for VS30 adjustments
@@ -185,12 +185,18 @@ for xls in xlstables:
         
         if weightTab == True:
             outfile_wt = path.join('weighted_usgs_ngae_tables', basename+'_weighted.450mps.txt')
+            
+        if altSigma == False:
+            outfile = path.join('ngae_usgs_txt_tables', basename+'_AA13_sigma.vs450.txt')
         
     else:
         outfile = path.join('ngae_usgs_txt_tables', basename+'.vs3000.txt')
         
         if weightTab == True:
             outfile_wt = path.join('weighted_usgs_ngae_tables', basename+'_weighted.txt')
+            
+        if altSigma == False:
+            outfile = path.join('ngae_usgs_txt_tables', basename+'_AA13_sigma.vs3000.txt')
         #outfile_wt = basename+'_weighted.txt'
     
     # now append numpy array
