@@ -139,7 +139,7 @@ def write_oq_sourcefile(model, meta, mx_dict):
     # set wieghts
     bval_wt    = [0.68, 0.16, 0.16]
     max_mag_wt = [0.60, 0.10, 0.30]
-    
+    binwid = 0.1
     
     # set rupture aspect ratio
     aspectratio = '1.5' # balance between L14 and Cea14 surface rupture lengths
@@ -238,7 +238,6 @@ def write_oq_sourcefile(model, meta, mx_dict):
             newxml += '            <ruptAspectRatio>'+aspectratio+'</ruptAspectRatio>\n'
             
             # get weighted rates
-            binwid = 0.1
             octxt = make_collapse_occurrence_text(m, binwid, meta, mx_dict)
                                  
             newxml += '            <incrementalMFD minMag="'+str('%0.2f' % (m['min_mag']+0.5*binwid))+'" binWidth="'+str(binwid)+'">\n'
