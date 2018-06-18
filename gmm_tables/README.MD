@@ -9,7 +9,7 @@ Steps for generating hdf5 tables
 	- Converts text tables to hdf5 format for use with the oq-engine
 	- Outputs to the folder "gmm_hdf5_tables"
 	- Useage:
-		 python gmpe_txt2hdf5.py <in folder> <out folder>
+		> python gmpe_txt2hdf5.py [in folder] [out folder]
 		
 * Test hdf5 tables by running "plt_interface_hdf5_tables.py":
 	- calls hazardlib function "openquake.hazardlib.gsim.gmpe_table.GMPETable"
