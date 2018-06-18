@@ -8,7 +8,7 @@ mpl.style.use('classic')
 
 
 mag  = 8.
-dep = 15.
+dep = 30.
 ztor = 10. 
 rake = 90. 
 dip  = 30.
@@ -28,31 +28,31 @@ wdir = getcwd()
 # do Site Class C
 ##########################################################################
 
-ax = plt.subplot(121)    
+ax = plt.subplot(121)
 vs30 = 450.
 
 # plt ZhaoEtAl2006SInterCascadia
-hdf5file = path.join(wdir, 'gmm_hdf5_tables', 'ZhaoEtAl2006SInterCascadia.vs450.h15.hdf5')
+hdf5file = path.join(wdir, 'gmm_hdf5_tables', 'ZhaoEtAl2006SInterCascadia.vs450.h30.hdf5')
 table_hdf5imt = hdf5_gsim(mag, dep, ztor, dip, rake, rrup[1], rjb[1], rhypo[1], vs30, hdf5file)
 plt.loglog(array(table_hdf5imt['per']), exp(table_hdf5imt['sa']), 'g-', lw=2, label='Zhao et al (2006)')
 
 # plt AtkinsonMacias2009
-hdf5file = path.join(wdir, 'gmm_hdf5_tables', 'AtkinsonMacias2009.vs450.h15.hdf5')
+hdf5file = path.join(wdir, 'gmm_hdf5_tables', 'AtkinsonMacias2009.vs450.h30.hdf5')
 table_hdf5imt = hdf5_gsim(mag, dep, ztor, dip, rake, rrup[1], rjb[1], rhypo[1], vs30, hdf5file)
 plt.loglog(array(table_hdf5imt['per']), exp(table_hdf5imt['sa']), 'b-', lw=2, label='Atkinson & Macias (2009)')
 
 # plt GhofraniAtkinson2014Cascadia
-hdf5file = path.join(wdir, 'gmm_hdf5_tables', 'GhofraniAtkinson2014Cascadia.vs450.h15.hdf5')
+hdf5file = path.join(wdir, 'gmm_hdf5_tables', 'GhofraniAtkinson2014Cascadia.vs450.h30.hdf5')
 table_hdf5imt = hdf5_gsim(mag, dep, ztor, dip, rake, rrup[1], rjb[1], rhypo[1], vs30, hdf5file)
 plt.loglog(array(table_hdf5imt['per']), exp(table_hdf5imt['sa']), '-', c='orange', lw=2, label='Ghofrani & Atkinson (2014)')
 
 # plot AbrahamsonEtAl2015SInter
-hdf5file = path.join(wdir, 'gmm_hdf5_tables', 'AbrahamsonEtAl2015SInter.vs450.h15.hdf5')
+hdf5file = path.join(wdir, 'gmm_hdf5_tables', 'AbrahamsonEtAl2015SInter.vs450.h30.hdf5')
 table_hdf5imt = hdf5_gsim(mag, dep, ztor, dip, rake, rrup[1], rjb[1], rhypo[1], vs30, hdf5file)
 plt.loglog(array(table_hdf5imt['per']), exp(table_hdf5imt['sa']), 'r-', lw=2, label='Abrahamson et al (2015)')
 
 # plot 2015 NBCC
-#hdf5file = path.join(wdir,'..', '..', '..', '2015_National_Hazard', '2015_gsc_nshm', 'gm_tables', 'WinterfaceCombo_medclC.h15.hdf5')
+#hdf5file = path.join(wdir,'..', '..', '..', '2015_National_Hazard', '2015_gsc_nshm', 'gm_tables', 'WinterfaceCombo_medclC.h30.hdf5')
 hdf5file = '/Users/tallen/Documents/2015_National_Hazard/2015_gsc_nshm/gm_tables/WinterfaceCombo_medclC.hdf5'
 table_hdf5imt = hdf5_gsim(mag, dep, ztor, dip, rake, rrup[1], rjb[1], rhypo[1], vs30, hdf5file)
 plt.loglog(array(table_hdf5imt['per']), exp(table_hdf5imt['sa']), 'k-', lw=2, label='2015 NBCC')
@@ -81,27 +81,27 @@ ax = plt.subplot(122)
 vs30 = 760.
 
 # plt ZhaoEtAl2006SInterCascadia
-hdf5file = path.join(wdir, 'gmm_hdf5_tables', 'ZhaoEtAl2006SInterCascadia.vs760.h15.hdf5')
+hdf5file = path.join(wdir, 'gmm_hdf5_tables', 'ZhaoEtAl2006SInterCascadia.vs760.h30.hdf5')
 table_hdf5imt = hdf5_gsim(mag, dep, ztor, dip, rake, rrup[1], rjb[1], rhypo[1], vs30, hdf5file)
 plt.loglog(array(table_hdf5imt['per']), exp(table_hdf5imt['sa']), 'g-', lw=2, label='Zhao et al (2006)')
 
 # plt AtkinsonMacias2009
-hdf5file = path.join(wdir, 'gmm_hdf5_tables', 'AtkinsonMacias2009.vs760.h15.hdf5')
+hdf5file = path.join(wdir, 'gmm_hdf5_tables', 'AtkinsonMacias2009.vs760.h30.hdf5')
 table_hdf5imt = hdf5_gsim(mag, dep, ztor, dip, rake, rrup[1], rjb[1], rhypo[1], vs30, hdf5file)
 plt.loglog(array(table_hdf5imt['per']), exp(table_hdf5imt['sa']), 'b-', lw=2, label='Atkinson & Macias (2009)')
 
 # plt GhofraniAtkinson2014Cascadia
-hdf5file = path.join(wdir, 'gmm_hdf5_tables', 'GhofraniAtkinson2014Cascadia.vs760.h15.hdf5')
+hdf5file = path.join(wdir, 'gmm_hdf5_tables', 'GhofraniAtkinson2014Cascadia.vs760.h30.hdf5')
 table_hdf5imt = hdf5_gsim(mag, dep, ztor, dip, rake, rrup[1], rjb[1], rhypo[1], vs30, hdf5file)
 plt.loglog(array(table_hdf5imt['per']), exp(table_hdf5imt['sa']), '-', c='orange', lw=2, label='Ghofrani & Atkinson (2014)')
 
 # plot AbrahamsonEtAl2015SInter
-hdf5file = path.join(wdir, 'gmm_hdf5_tables', 'AbrahamsonEtAl2015SInter.vs760.h15.hdf5')
+hdf5file = path.join(wdir, 'gmm_hdf5_tables', 'AbrahamsonEtAl2015SInter.vs760.h30.hdf5')
 table_hdf5imt = hdf5_gsim(mag, dep, ztor, dip, rake, rrup[1], rjb[1], rhypo[1], vs30, hdf5file)
 plt.loglog(array(table_hdf5imt['per']), exp(table_hdf5imt['sa']), 'r-', lw=2, label='Abrahamson et al (2015)')
 
 # plot 2015 NBCC
-#hdf5file = path.join(wdir,'..', '..', '..', '2015_National_Hazard', '2015_gsc_nshm', 'gm_tables', 'WinterfaceCombo_medclC.h15.hdf5')
+#hdf5file = path.join(wdir,'..', '..', '..', '2015_National_Hazard', '2015_gsc_nshm', 'gm_tables', 'WinterfaceCombo_medclC.h30.hdf5')
 hdf5file = '/Users/tallen/Documents/2015_National_Hazard/2015_gsc_nshm/gm_tables/WinterfaceCombo_medclC.hdf5'
 table_hdf5imt = hdf5_gsim(mag, dep, ztor, dip, rake, rrup[1], rjb[1], rhypo[1], vs30, hdf5file)
 plt.loglog(array(table_hdf5imt['per']), exp(table_hdf5imt['sa']), 'k-', lw=2, label='2015 NBCC')

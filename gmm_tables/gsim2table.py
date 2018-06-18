@@ -91,17 +91,18 @@ make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeriods)
 # make interface models
 '''
 mags = arange(4.75, 9.3, 0.25) # go to 9.25
-"""
+
 from openquake.hazardlib.gsim.atkinson_macias_2009 import AtkinsonMacias2009
 gmmClass = AtkinsonMacias2009()
 gmmName = 'AtkinsonMacias2009'
 rtype = 'rrup'
-modVs30 = True
+modVs30 = False
 vs30ref = 760.
 depths = [30.]
 interpPeriods = False
 make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeriods)
 
+"""
 
 from openquake.hazardlib.gsim.ghofrani_atkinson_2014 import GhofraniAtkinson2014, GhofraniAtkinson2014Cascadia
 gmmClass = GhofraniAtkinson2014Cascadia()
@@ -110,7 +111,7 @@ modVs30 = True
 vs30ref = 760.
 rtype = 'rrup'
 depths = [30.]
-interpPeriods = True
+interpPeriods = False
 make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeriods)
 
 
@@ -123,7 +124,6 @@ depths = [30.]
 rtype = 'rrup'
 interpPeriods = False
 make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeriods)
-"""
 
 from openquake.hazardlib.gsim.abrahamson_2015 import AbrahamsonEtAl2015SInter
 gmmClass = AbrahamsonEtAl2015SInter()
@@ -136,3 +136,4 @@ interpPeriods = False
 make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeriods)
 
 
+"""
