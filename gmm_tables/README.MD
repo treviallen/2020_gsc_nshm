@@ -6,7 +6,7 @@ Steps for generating hdf5 tables
 	- Outputs to the folder "gmm_txt_tables"
 
 * Run "gmpe_txt2hdf5.py":
-	- Converts text tables to hdf5 format for use with the oq-engine
+	- Converts text tables to hdf5 format for use with the [oq-engine](https://github.com/gem/oq-engine)
 	- Outputs to the folder "gmm_hdf5_tables"
 	- Useage:
 		> python gmpe_txt2hdf5.py [in folder] [out folder]
