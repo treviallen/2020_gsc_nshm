@@ -8,7 +8,7 @@ Steps for generating hdf5 tables
 * Run "gmpe_txt2hdf5.py":
 	- Converts text tables to hdf5 format for use with the [oq-engine](https://github.com/gem/oq-engine)
 	- Outputs to the folder "gmm_hdf5_tables"
-	- Useage:
+	- Usage:
 		> python gmpe_txt2hdf5.py [in folder] [out folder]
 		
 * Test hdf5 tables by running "plt_interface_hdf5_tables.py":
