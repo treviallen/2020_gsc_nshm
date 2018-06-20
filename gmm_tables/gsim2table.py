@@ -42,7 +42,7 @@ def make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeri
 # make slab models
 '''
 mags = arange(4.75, 8.1, 0.25)
-
+"""
 from openquake.hazardlib.gsim.garcia_2005 import GarciaEtAl2005SSlab
 gmmClass = GarciaEtAl2005SSlab()
 gmmName = 'GarciaEtAl2005SSlab'
@@ -85,7 +85,7 @@ depths = [20., 30., 50.]
 rtype = 'rhypo'
 interpPeriods = False
 make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeriods)
-"""
+
 
 '''
 # make interface models
