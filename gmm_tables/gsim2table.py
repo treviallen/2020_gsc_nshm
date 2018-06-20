@@ -37,7 +37,7 @@ def make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeri
             tabtxt = gsim2table(gmmClass, gmmName, mags, dists, depth, vs30, vs30refPass, extrapPeriod, interpPeriods, rtype, folder)
 
 
-"""
+
 '''
 # make slab models
 '''
@@ -53,7 +53,7 @@ depths = [20., 30., 50.]
 #depths = [50.]
 interpPeriods = False
 make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeriods)
-
+"""
 # no PGV
 from openquake.hazardlib.gsim.atkinson_boore_2003 import AtkinsonBoore2003SSlabCascadia
 gmmClass = AtkinsonBoore2003SSlabCascadia()
@@ -91,7 +91,7 @@ make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeriods)
 # make interface models
 '''
 mags = arange(4.75, 9.3, 0.25) # go to 9.25
-
+"""
 from openquake.hazardlib.gsim.atkinson_macias_2009 import AtkinsonMacias2009
 gmmClass = AtkinsonMacias2009()
 gmmName = 'AtkinsonMacias2009'
@@ -102,7 +102,7 @@ depths = [30.]
 interpPeriods = False
 make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeriods)
 
-"""
+
 
 from openquake.hazardlib.gsim.ghofrani_atkinson_2014 import GhofraniAtkinson2014, GhofraniAtkinson2014Cascadia
 gmmClass = GhofraniAtkinson2014Cascadia()
