@@ -18,7 +18,7 @@ extrapPeriod = [5., 10.]
 folder = 'gmm_txt_tables' # output folder
 
 # function to make table
-def make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeriods):
+def make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeriods, rtype):
     for vs30 in vs30rng:
         for depth in depths:
             
@@ -42,7 +42,7 @@ def make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeri
 # make slab models
 '''
 mags = arange(4.75, 8.1, 0.25)
-"""
+
 from openquake.hazardlib.gsim.garcia_2005 import GarciaEtAl2005SSlab
 gmmClass = GarciaEtAl2005SSlab()
 gmmName = 'GarciaEtAl2005SSlab'
@@ -52,7 +52,7 @@ vs30ref = 1100.
 depths = [20., 30., 50.]
 #depths = [50.]
 interpPeriods = False
-make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeriods)
+make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeriods, rtype)
 """
 # no PGV
 from openquake.hazardlib.gsim.atkinson_boore_2003 import AtkinsonBoore2003SSlabCascadia
@@ -85,7 +85,7 @@ depths = [20., 30., 50.]
 rtype = 'rhypo'
 interpPeriods = False
 make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeriods)
-
+"""
 
 '''
 # make interface models
@@ -100,7 +100,7 @@ modVs30 = False
 vs30ref = 760.
 depths = [30.]
 interpPeriods = False
-make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeriods)
+make_tables(gmmClass, gmmName, vs30rng, depths, modVs30, vs30ref, interpPeriods, rtype)
 
 
 
