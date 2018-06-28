@@ -28,7 +28,7 @@ for i, dep in enumerate(depths):
     # get ground motion estimates from GMPEs
     #for i in range(0, len(rrup)):
     #Yea97imt, AB03imt, AB03CISimt, Gea05imt, Zea06imt, Zea06CISimt, MP10imt, AA13imt, Aea15imt, Zea16imt \
-    Yea97imt, AB03imt, AB03CISimt, Gea05imt, Zea06imt, Zea06CISimt, MP10imt \
+    Yea97imt, AB03imt, AB03CISimt, Gea05imt, Zea06imt, Zea06CISimt, MP10imt, Aea15imt \
         = inslab_gsims(mag, dep, ztor, dip, rake, rrup[1], rjb[1], vs30)
     
     # plot Garcia
