@@ -33,7 +33,7 @@ for i, dep in enumerate(depths):
     
     # plot Garcia
     plt.subplot(1,2,i+1)    
-    hdf5file = path.join(wdir, 'gmm_hdf5_tables', 'GarciaEtAl2005SSlab.vs1100.h50.hdf5')
+    hdf5file = path.join(wdir, 'gmm_hdf5_tables', 'GarciaEtAl2005SSlab.vs1100.h50.hdf5') # OQ will not adjust using VS30, so default use VS30 table
     Geahdf5imt = hdf5_gsim(mag, dep, ztor, dip, rake, rrup[1], rjb[1], rhypo[1], vs30, hdf5file)
     # M6
     
