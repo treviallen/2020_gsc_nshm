@@ -14,7 +14,7 @@ rake = 90. # USGS CMT
 dip  = 30.
 
 # set site details
-vs30 = 1100.
+vs30 = 760.
 rjb = logspace(1,2.7,10)
 rjb = array([55, 65])
 rrup = rjb #sqrt(rjb**2 + dep**2) # assume point source; i.e. repi = rjb
@@ -37,8 +37,16 @@ for i, dep in enumerate(depths):
     Geahdf5imt = hdf5_gsim(mag, dep, ztor, dip, rake, rrup[1], rjb[1], rhypo[1], vs30, hdf5file)
     # M6
     
-    plt.loglog(array(Geahdf5imt['per']), exp(Geahdf5imt['sa']), 'r-', lw=2, label='GSIM Table')
-    plt.loglog(array(Gea05imt['per']), exp(Gea05imt['sa']), 'b-', lw=2, label='Parametric')
+    plt.loglog(array(Geahdf5imt['per']), exp(Geahdf5imt['sa']), 'r-', lw=3, label='G05 GSIM Table')
+    plt.loglog(array(Gea05imt['per']), exp(Gea05imt['sa']), 'b-', lw=1.5, label='G05 Parametric')
+    
+    # plt AB03imt
+    hdf5file = path.join(wdir, 'gmm_hdf5_tables', 'AtkinsonBoore2003SSlabCascadia.vs760.h50.hdf5')
+    AB03hdf5imt = hdf5_gsim(mag, dep, ztor, dip, rake, rrup[1], rjb[1], rhypo[1], vs30, hdf5file)
+    # M6
+    
+    plt.loglog(array(AB03hdf5imt['per']), exp(AB03hdf5imt['sa']), 'g-', lw=3, label='AB03 GSIM Table')
+    plt.loglog(array(AB03CISimt['per']), exp(AB03CISimt['sa']), 'k-', lw=1.5, label='AB03 Parametric')
     
     # plot from table
     '''
