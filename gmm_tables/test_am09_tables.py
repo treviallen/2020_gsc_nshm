@@ -7,7 +7,6 @@ import matplotlib as mpl
 mpl.style.use('classic')
 
 
-mag  = 8.
 dep = 15.
 ztor = 10. 
 rake = 90. 
