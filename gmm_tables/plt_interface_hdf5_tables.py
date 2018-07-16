@@ -14,7 +14,7 @@ rake = 90.
 dip  = 30.
 
 # set site details
-rjb = array([50, 100])
+rjb = array([25, 20]) # only use dist 1
 rrup = sqrt(rjb**2 + dep**2) # assume point source; i.e. repi = rjb
 rhypo = rrup
 
@@ -29,7 +29,7 @@ wdir = getcwd()
 ##########################################################################
 
 ax = plt.subplot(121)
-vs30 = 450.
+vs30 = 760.
 
 # plt ZhaoEtAl2006SInterCascadia
 hdf5file = path.join(wdir, 'gmm_hdf5_tables', 'ZhaoEtAl2006SInterCascadia.vs450.h30.hdf5')
@@ -123,8 +123,7 @@ plt.xlim([0.01, 10.])
 #plt.legend(loc=3, fontsize=11)
 
 
-plt.savefig('interface_hdf5_test.png', fmt='png', bbox_inches='tight')
-
+plt.savefig('interface_hdf5_test.rrup_'+str('%0.1f' % rrup[1])+'.png', fmt='png', bbox_inches='tight')
 
 
 plt.show()
