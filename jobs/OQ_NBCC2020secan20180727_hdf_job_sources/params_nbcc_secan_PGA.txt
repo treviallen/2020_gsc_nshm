@@ -1,0 +1,11 @@
+ncpus = 512 
+mem = 256GB
+walltime = 5:30:00
+jobfs = 100GB
+sandpit_path = /short/w84/NSHA18/sandpit/
+model_rel_path = 2020_gsc_nshm/jobs/OQ_NBCC2020secan20180727_hdf_job_sources
+shared_rel_path = 2020_gsc_nshm/shared
+gsim_lt_filename = hdf_NBCC2020-E_PGA_450mps_logic_tree.xml
+model_output_base = /short/w84/NSHA18/sandpit/tia547/2020_gsc_nshm/jobs/OQ_NBCC2020secan20180727_hdf_job_sources/
+job_file = jobNBCC2020-SE_PGA_450mps.ini
+job_type = hazcurvePGA
